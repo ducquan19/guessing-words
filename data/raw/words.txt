@@ -1,0 +1,5630 @@
+font word
+semaphore
+hub
+robotics
+abstract
+heuristic
+underline
+namespace
+exhaustive search
+relational algebra
+information system
+extends -> extension
+terminal
+subscript
+segmentation
+classification
+computer science
+entity data model
+internet of things
+cable
+deadlock
+subclass
+font size
+interface
+neural network
+krutt moriss prath
+integrity constraint
+software engineer
+artificial intelligence
+race condition
+assembler
+outliner
+race condition
+extended reality
+open sesame’
+google brain
+Trivial File Transfer Protocol
+tweet
+encryption
+worksheet
+keylogger
+waterfall model
+parallel processing
+open-source software
+hypertext markup language
+gigabyte
+VirtualBox
+Javascript
+safe mode
+digital signal
+sequence diagram
+bug
+icon
+dashboard
+backdoor
+memory access
+deployment diagram
+single page application
+disk-based operating system
+struct
+SIFT
+DJANGO
+USB TYPE C
+REACT JS
+AGILE:
+WEEKDAY
+DEGREE
+ARM
+ISOLATION VERTEX
+CLASS
+B-TREE
+HASH TABLE
+PLAYSTATION
+GOOGLE GLASS
+KERNEL MODE
+JOHN VON NEUMANN
+stackoverflow.com
+video graphics arrray
+array
+apple
+webcam
+234 tree
+motherboard
+decision tree
+Huffman coding
+Application layer
+lambda expression
+assembly
+merge sort
+Raspberry Pi
+bootstrapping
+memory stick
+Mysql
+debug
+textedit
+router
+srand
+optimus
+pixel
+spanning tree
+queue
+server
+prototype
+google now
+radix sort
+complexity
+Euler
+monitor
+sockets
+projector
+heap sort
+galaxy fold
+feature matching
+operating system
+deep first search
+breadth first search
+access point
+access network
+base station
+broadband
+client / server
+circuit switching
+coaxial cable: cáp đồng
+twisted pair copper wire
+unshielded twisted pair
+protocol
+congestion control
+malware
+circuit switching
+dial-up
+edge router
+end system
+forwarding table
+header
+host
+network edge
+packet
+repeater  - router -bridge - switch - hub
+Internet Service Provider (ISP)
+peer to peer
+spyware
+Application Programing Interface
+connection-oriented (TCP)
+connectionless (UDP)
+datacenter
+distributed hash table
+domain name service (DNS)
+FTP (file transfer protocal)
+SMTP (Simple Mail Transfer Protocol)
+stateless - stateful ->
+process
+socket
+loss-tolerant
+Universal Resource Locator
+MSS Maximum segment size
+MTU Maximum transmission Unit
+IP: Internet Protocol
+RTT (Round Trip Time) :
+TCP Transmission Control Protocol
+UDP User Datagram Protocol
+Internet Message Access Protocol (IMAP)
+Post Office Protocol (POP)
+Acknowledgement number
+Unicast
+broadcast
+Anycast
+Multicast
+multiplexing
+demultiplexing
+flow control
+Application
+Transport
+Network
+Data Link
+Physical
+Messages
+Segment
+Datagram
+Frames
+Bits
+Port
+IP address
+media access control address
+CIDR Classless  InterDomain Routing
+DHCP : Dynamic host configuration protocol
+ICMP : Internet Control Message Protocol
+NAT: Network address translation
+VPN: Virtual Private Network
+TTL: time to live
+RIP: routing information protocol
+Distance Vector algorithm
+Link state algorithm
+Open shortest path first.
+ARP : Address Resolution Protocol
+FDM Frequency Division Multiplexing
+TDM Time Division Multiplexing
+token passing
+checksum - Parity check
+LLC: Logical Link Control
+MAC: Media Access Control
+Ethernet
+collision
+modem = Modulate and Demodulate
+collision domain
+broadcast domain
+DATABASE MANAGEMENT SYSTEM
+METADATA
+CATALOG
+DATABASE ADMINISTRATOR
+DATABASE DESIGNER
+DATABASE PROGRAMER
+END USER
+INTEGRITY CONSTRAINTS
+DATABASE SCHEMA:
+DATABASE INSTANCE:
+ENTITY RELATIONSHIP  MODEL-
+ENTITY SET :
+ATTRIBUTE
+RELATIONSHIP SET: HINH THOI
+WEAK ENTITY
+RELATION MODEL:
+RELATION
+ATTRIBUTE
+TUPLE (HANG)
+DOMAIN
+SCHEMA
+ATOMIC VALUE
+SUPER KEY
+PRIMARY KEY
+FOREIGN KEY
+RELATIONAL ALGEBRA
+Relational calculus
+structured language query
+operator operand
+Union Compatibility
+pseudo code
+card
+functional dependency
+normal form:
+conceptual design
+logical design
+physical design
+spyware
+gnome
+firebase
+source code
+broken link
+genetic algorithm
+integrated circuit
+communication diagram
+communication: nhiều người nói chuyện với nhau)
+Wireless Access Point
+Ajax
+Malware
+Registry
+Boot Disk
+Private Key
+Micro Computer
+Repeatable Read
+Extreme Programming
+Tag
+Sizeof
+Unicode (ASCII)
+Clock Speed
+Syntax Error
+Hill Climbing
+Search Engine
+Virtual Memory
+Wide Area Network
+Cocos
+Stack
+Ubuntu
+Trigger
+Marketplace
+ActionScript
+Wireless Mouse
+Interchange Sort
+Viterbi Algorithm
+Binary Search Tree
+Graph
+Xcode
+Tablet
+Switch
+Ethernet
+Define
+Process
+Stored procedure
+Transmission Control Protocol
+Constant
+Touchpad
+Antenna
+Data Encryption Standard
+Hidden layer
+Fortran
+Pragma
+Layout
+Address Resolution Protocol
+Temporal Data
+Variable
+Smartcar
+Message Authentication Code
+Raspberry Pi
+Log likelihood
+Linux
+Macro
+Cable
+Relational Tables
+Radio
+Function
+Request for Comments
+Embedded System
+Back Propagation
+Message Digest Algorithms
+Unity
+Loop
+Unreal Engine
+Trigger
+Message Digest
+Parity Bit
+Scanner
+Deep Learning
+Shortest Job First
+Captcha
+Recurrent Neural Network
+Return
+Attribute
+Playstation
+Semantic web
+Projector
+Secure shell
+Artificial Intelligence
+Human-Computer Interaction
+Padding
+Least Recent Used
+Code
+Flappy bird
+Packet switching
+Pointer
+Stream Cipher
+Calculator
+Arithmetic Logic Unit
+Game theory
+Semaphore
+Content management system
+Interface
+Default gateway
+Hardware
+Smart home
+Hyperlink
+Steganography
+Relational Algebra
+Software Development kit
+Overwatch
+Rectified Linear Unit
+Condition
+Memory
+Internet protocol
+Order by
+Graphic card
+Reinforcement Learning
+Cryptology
+Integrated Development Environment
+Query
+Assembly
+Foreig key
+Domain name
+Hologram
+Buffer overflow
+Stored procedure
+Application Programming Interface
+Nintendo switch
+Static huffman compression
+Cross-site scripting
+Ping
+Null
+Strategy
+Converter
+Retrieval
+Code Reuse
+Cooling Fan
+Confidentiality
+Relational Algebra
+Breadth First Search
+Ruby
+Kindle
+Operand
+Password
+Relation
+Bootstrap
+Address Bar
+Linear Search
+Wireless Router
+Master Boot Record
+Hub
+Laptop
+Output
+Cluster
+Top Down
+Induction
+Consistency
+Trojan Horse
+Cloning Pattern
+Remote Access Control
+Vim
+Cookie
+Platform
+Drive Bay
+Terminate
+Heuristics
+Javascript
+Radix sort
+Rainbow table
+Data Manipulation Language
+Array
+Cygwin ()
+Bluetooth ()
+Smart City ()
+Overfitting ()
+Modem (thiết bị kết nối mạng internet)
+DropBox (dịch vụ lưu trữ đám mây)
+WhatsApp (phần mềm liên lạc phổ biến ở nước ngoài *china)
+Dijkstra (tìm đường đi ngắn nhất)
+Heuristic ()
+Reflection ()
+Firebase ()
+Generic Type ()
+Natural Language Processing ()
+Safari ()
+Oracle ()
+Adapter ()
+Kruskal
+Panaroma
+Recursion
+Video Card
+Memory Card
+Artificial Intelligence
+Enterprise Resource Planning
+Pascal
+Bitmap
+NodeJS
+Hibernate
+Bubble Sort
+Lazy Loading
+Android Wear
+Shortest Job First
+Structured Query Language
+Internet
+Twitter
+Steve Job*
+Fibonacci
+Memory Leak
+RedBlackTree
+Avatar
+Network Security
+Shortest path
+Rational Unified Process
+Keras
+Bluetooth low energy
+Hash Tree
+Isolation level
+Recommendation System
+Data structure diagram
+HashTag
+Antivirus Software
+Graph Coloring
+Pair Programing
+TensorFlow
+Raspberry PI
+Priority Queue
+Database Schema
+Emoji
+Privacy Policy
+Adjacency Matrix
+Scrum Master
+Huffman
+KMP
+Incognito
+Edge Computing
+Digital Twin
+Google colab
+Yanlecun*
+Roadster
+Siamese Network
+NSLookup
+Poisson
+Fractal
+Manhattan
+IDE
+Keylogger
+Encrypted Media Extensions
+Client-side scripting
+Cluster Index
+Machine Learning
+Unified Modeling Language
+Web config
+Gradient
+Software requirements specification
+Sudo
+Botnet
+Scalable Vector Graphics
+Character Encoding
+Isolation Level
+Image processing
+Transmission Control Protocol
+OpenSSL
+Subclass
+Holography
+Github
+Resource Description Framework
+Abstract Class
+Perl
+Zero day attack
+Sequence Diagram
+License Key
+Login
+3D printing
+Python
+Web Ontology Language
+Design Pattern
+Interpreter
+SQL Injection
+User Story
+General Public License
+Password
+Virtual reality
+Serializable
+Document Object Model
+Multiple inheritance
+Polymorphism
+Web service
+Rainbow table
+Activity Diagram
+Shareware Software
+Boot Disk
+insert into
+distinct
+Java Runtime Environment
+Weak Entity
+Static
+Computer Science
+Brute Force Search
+Lisp
+Candidate key
+Relational Algebra
+Spyware
+order by
+Common language runtime
+NoSQL
+Throw
+Computer network
+Pseudocode
+COBOL
+Commit
+Polymorphism
+Clock Speed
+alter table
+cross-platform software
+Outer join
+Enum
+Software Engineering
+Transaction Isolation
+Ada
+Rollback
+Unsupervised Learning
+SpaceX
+AWS
+deep learning
+ARM
+OpenGL
+SHA
+Markup Language
+Binary
+MIDI
+Central Processing Unit
+yum
+OpenCV
+outsourcing
+Ipconfig
+Tag
+Greedy Algorithm
+Association Rule Learning
+Class
+TCP/IP
+Search engine
+Lspci
+Hotspot
+Parameter
+Network Access Point
+E-book
+Character map
+Server
+RGB
+Microcomputer
+apt-get
+Matlab
+Database
+Icon
+Dynamic Programming
+Multilinear subspace learning
+chromebook
+doodles
+wlan
+snapdragon
+redhat
+chmod
+kinect
+switch
+bioinformatics
+FAT
+domain name
+pascal
+quick sort
+having
+digital signal
+gigabyte
+namespace
+NP-hard
+Symmetric key
+ADSL
+primary key
+queue
+stored procedure
+exception
+source code
+HDD
+Thread
+Polynomial time
+authentication
+DVD
+query language
+firewall
+big data
+hash
+whols
+resolution
+optimization
+key generation
+worm
+deadlock
+rsa
+sudo
+rgb
+runtime error
+wireless access point
+bug
+java virtual machine
+c++
+broken link
+speech recognition
+composite structure diagram
+RAID
+Notepad++
+Typedef
+Data flow diagram
+Data warehouse
+null
+subfolder
+robotics
+hypertext markup language
+vlookup
+pentium
+NFC
+Adapter
+Onedrive
+void
+VBScript
+Repeatable Read
+Object Oriented Programming
+spam email
+transport layer
+moderm
+ascii
+encryption
+rounded robin
+FIFO
+Ubuntu
+Laser Printer
+touchscreen
+hill climbing
+linux
+hamilton
+thread
+breadth first search
+compiler
+E-learning
+sound card
+adapter
+integrated circuit
+overload
+buffer
+resolution
+cloud computing
+bubble sort
+safe mode
+insertion sort
+domain
+alphago
+assembly
+swift
+data structure
+ZIP
+foreign key
+doubly linked list
+B Tree
+HTTPS
+Physical layer
+Wireless mouse
+memory address
+discrete fourier transform
+Big-o
+Merge sort
+compiler
+debug
+panaroma
+Alan turing
+FTP/ File Transfer Protocol
+near-field communication
+over the top
+HSV - hue, saturation, lightness
+ActionScript
+Pureview
+mainframe
+projector
+radio button
+information retrieval
+AA Tree
+Shortest job first
+tomcat
+Operator
+WordArt
+CRT monitor
+SATA
+combo box
+pattern recognition
+linear search
+Hadoop
+overriding
+Slide master
+Youtube
+Haskell
+abstract
+shell
+null
+input textbox
+powerpoint
+macbook
+segment
+floating point
+embedded
+Palm
+Gaussian
+subnet
+Gadget
+Multicore
+startup
+Digital Signature
+Hibernate
+Kaspersky
+packet
+gateway
+sync
+table
+Magnifier
+Moodle
+Internet Service Provider
+Checksum
+hacker
+domain
+Benchmark
+privacy
+mainboard
+world wide web
+JavaScript
+docker
+Pinterest
+Expert System
+Framework
+Debugger
+Argument
+Caps lock
+Dreamweaver
+Validation
+padding
+bookmark
+proxy
+certificate
+Single sign-on
+taskbar
+keylogger
+icon
+portable network graphic
+Cylinder
+Nintendo
+cache
+cookie
+Cortana
+Scrum
+spam
+Denial of Service
+Steam
+Coursera
+common language runtime
+Garena
+workstation
+Big endian
+battery
+League of Legend
+token
+Master boot record
+Udemy
+Zalo
+Euclid
+Cross Platform
+Near field communication
+Fermat
+Recycle bin
+Universal serial bus
+observer
+Microsoft surface
+Spark
+Authorization
+User Datagram protocol
+listview
+tinder
+apple watch
+Hadoop
+privacy
+random forest
+Open system interconnection
+tiktok
+samsung gear
+ZooKeeper
+Integrity
+MapReduce
+Decision Tree
+network address translation
+sidebar
+kotlin
+wikipedia
+throughput
+software requirement specification
+Swing
+Swift
+Ipad air
+google cardboard
+node-red
+product owner
+object-relational mapping
+mouse
+bandwidth
+Arduino
+augmented reality
+risk management
+optical character recognition
+supervised
+prediction
+Regression
+Logistic regression,
+Support vector machine
+Naive Bayes
+estimate
+Discriminative
+Generative
+distributions
+Hypothesis
+function
+Linear
+Cost function
+Gradient descent
+Likelihood
+Sigmoid
+softmax
+Optimal margin classifier
+Kernel
+Random forest
+Boosting
+k-nearest neighbors
+Unsupervised
+k-means clustering
+Hierarchical clustering
+converge
+coefficient
+Principal component analysis
+Eigenvalue
+Eigenvector
+Independent component analysis
+Convolution
+Pooling
+Fully Connected
+Tuning hyperparameters
+Stride
+Zero-padding
+activation functions
+detection
+localization
+Anchor
+recognition
+Residual Network architecture
+Recurrent Neural Networks
+timestep
+Weights
+Vanishing gradient
+exploding gradient
+Bidirectional
+Representation
+embedding
+Attention
+Reinforcement Learning
+Backpropagation
+Optimizers
+Datasets
+Regularization
+lidarr
+sensor
+Internet of thing
+pointcloud
+depthmap
+blockchain
+bitcoin
+token
+Cryptojacking
+Digital coin
+Encryption
+Key Pair
+Miner
+Signature
+Wallet
+Multimedia databases
+Geographic information system
+Data warehouse
+Online analytical processing
+Meta-data
+Data definition language
+Storage definition language
+View definition language
+Data manipulation language
+Oracle
+Microsoft SQL
+Entity Relationship Diagram
+Entity
+Entity set
+Relation scheme
+Relation
+Null
+Tuple
+Attribute
+Domain
+Super key
+Key
+Candidate key
+Primary key
+Database schema
+Database instance
+abstract data types
+access paths
+Active Server Pages
+Advanced Encryption Standard
+agglomerative clustering
+aggregate functions
+Aggregation
+Entity-relationship
+query optimization
+query processing
+view maintenance
+American National Standards
+analysis pass
+analytic workspaces
+Apache
+application design
+application migration
+application program interface
+apply operator
+Arpanet
+array types
+asc expression
+Assertions
+assignment operation,
+Associations
+asymmetric-key encryption
+atomic domains
+Atomicity
+attribute inheritance
+attribute-value skew
+audit trails
+augmentation rule
+Authentication
+Authorization
+average response time
+average seek time
+avg expression
+Backup
+backup coordinator,
+balanced range-partitioning
+balanced tree
+batch scaleup
+batch update
+Bayesian classifiers
+Bayes’ theorem
+Boyce-Codd normal form
+biased protocol
+big-bang approach,
+Bigtable
+binary splits
+bit-interleaved parity organization
+bit-level striping
+bitmap indices
+blind writes
+block-interleaved parity organization
+block-level striping,
+block nested-loop join
+Boolean operations
+Bottlenecks
+broadcast data
+B-trees
+buffer manager
+buffer pools
+Buffers
+Bugs
+bulk export/import/search
+bully algorithm
+business-logic layer
+bus system
+Byte-code
+callable statements
+call back
+Call Level Interface (CLI) standards
+candidate keys
+canonical cover
+Cartesian products
+cascadeless schedules
+cascading stylesheet (CSS) standard
+case construct
+Catalogs
+centralized architectures
+Categories
+centralized deadlock detection
+challenge-response system
+change isolation level
+checkpoint log record
+Checksums
+classification hierarchy,
+client-server systems
+client-side scripting
+cloud computing
+Clusters
+code breaking
+ColdFusion Markup Language (CFML)
+collect function
+column-oriented storage
+commit protocols
+common gateway interface (CGI) standard
+Common Language Runtime (CLR),
+Common Object Request Broker Architecture (CORBA)
+common subexpression elimination
+compatibility function,
+compensation log records (CLRs)
+complex data types
+component object model (COM)
+computer-aided design (CAD)
+conceptual design
+concurrency control
+condition-defined entity sets
+conformance levels,
+Constraints
+contains
+context switch
+conversation group
+Cookies
+correlated subqueries
+correlation variables
+Count-distinct
+create assertion
+create distinct type
+cross-site request forgery (XSRF),
+cross-site scripting (XSS)
+data access layer
+database graph
+database instance
+databases administrator (DBA),
+database schemas
+Database Task Group
+database writer process
+data cleansing
+data-definition language (DDL),
+Data Encryption Standard (DES),
+DataGrid control
+data-manipulation language (DML)
+DATAllegro
+Datalog
+data-manipulation language (DML)
+data mining
+data models
+data parallelism
+data server systems
+data storage and definition language
+data-transfer rate
+data warehouses
+Data Encryption Standard (DES)
+Datetime
+Deadlines
+Deadlocks
+decision-support systems
+decision-tree classifiers
+Declare
+Decode
+Decomposition
+decomposition rule
+Deduplication
+Deep Web crawlers
+default value
+deferred integrity constraints
+degree-two consistency
+delta relation
+demand-driven pipelining
+Denormalization
+dependency preservation
+descriptive attributes
+descriptive patterns
+dictionary attacks
+digital certificates
+digital signatures
+direct-access storage
+Directories
+directory information tree (DIT)
+directory systems
+dirty blocks
+dirty page table
+dirty read
+dirty writes
+disable trigger,
+disconnected operation
+disjoint entity set
+disjoint specialization
+Disjunction,
+Disk-arm-scheduling
+disk controller
+distinct types
+distinguished name (DN)
+distributed databases
+distributed-lock manager
+distributed systems
+Distributor
+divisive clustering
+Document Object Model (DOM),
+document type definition (DTD),
+Domain
+domain constraints
+domain-key normal form (DKNF),
+domain relational calculus
+double-pipelined hash-join
+drill down
+Driver-Manager class
+drop trigger
+Dumping
+duplicate elimination
+dynamic SQL,
+Eclipse
+E-commerce
+Efficiency
+election algorithms
+embedded SQL,
+empty relations
+Encryption
+end-user information,
+enterprise information
+Entity Data Model
+entity-relationship (E-R) diagram,
+entity-relationship (E-R) model
+entity sets
+enterprise resource planning (ERP) systems
+Equi-joins,
+entropy measure
+error-correcting code (ECC) organization
+evaluation primitive
+except clause
+exchange system
+exclusive-mode locks
+existence bitmap
+exists clause
+extensibility contracts
+external language routines,
+external sort-merge algorithm
+Facebook
+Factorials
+fact tables
+fail-stop assumption
+false cycles
+Fibre Channel interface,
+file header,
+file manager,
+file organization
+file scan
+final/not final expressions
+fine-granularity parallelism
+FireWire interface
+first committer wins
+first updater wins
+flash storage
+flash translation layer
+floppy disks,
+Flow-distinct
+forced output
+force policy
+foreign keys
+Fragmentation
+free space control record (FSCR)
+full outer joins
+functional dependencies
+functionally determined attributes
+function-based indices
+fuzzy checkpoints,
+Generalization
+Generalized Inverted Index (GIN),
+Generalized-projection
+Generalized Search Tree (GiST),
+geographic data,
+GET method
+Gini measure
+Glassfish
+global class identifier,
+global company identifier,
+Global Positioning System (GPS),
+global product identifier
+global wait-for graph
+graph-based protocols
+Greenplum
+group by
+growing phase
+Hackers
+Handoff
+hard disks
+hardware tuning
+harmonic mean
+hash cluster access,
+hash functions,
+hash join
+hash-table overflow
+heap file
+Heuristics
+Hibernate system,
+hierarchical architecture
+hierarchical classification,
+hierarchical clustering
+hierarchical data model
+Histograms
+home processor
+horizontal fragmentation
+hot-spare configuration,
+Householding
+hybrid disk drives
+hybrid hash join,
+hybrid merge join
+hypercube architecture
+Hyperlinks
+HyperText Markup Language (HTML)
+HyperText Transfer Protocol (HTTP)
+Illustra Information Technologies
+immediate-modification technique
+inconsistent state
+independent parallelism
+indexed nested-loop join
+index entry,
+indexing strings,
+index-organized tables (IOTs)
+index record
+information-extraction systems
+information gain
+information retrieval
+Ingres
+Inheritance
+initially deferred integrity constraints
+inner joins,
+inner relation
+Insertion,
+Instances
+integrated development environment (IDE),
+integrity constraints
+integrity manager
+intention-exclusive (IX) mode
+intention-shard (IS) mode
+interconnection networks,
+interesting sort order
+Interface Description Language (IDL),
+Interference
+internal nodes,
+International Organization for Standardization (ISO),
+Internet
+interoperation parallelism
+interquery parallelism
+intersection set,
+Intervals
+intraoperation parallelism
+intraquery parallelism
+invalidation reports
+inverse document frequency (IDF),
+I/O parallelism
+Isolation
+Iteration
+Jakarta Projec
+Java 2 Enterprise Edition (J2EE),
+Java Database Objects (JDO)
+JavaScript
+JavaScript Object Notation (JSON)
+JavaServer Faces (JSF) framework
+Java Server Pages (JSP)
+JBoss
+JDBC (Java Database Connectivity),
+join dependencies
+journaling file systems
+JPEG (Joint Picture Experts Group)
+jukebox systems
+k-d trees
+kernel functions,
+Keys
+Keywords
+language constructs
+Language Integrated Querying (LINQ)
+large-object types
+lazy propagation
+Lazywriter
+LDAP Data Interchange Format (LDIF),
+least recently used (LRU) scheme
+left outer join
+legacy systems
+lightweight directory access protocol (LDAP)
+linear regression,
+linear search,
+Linux
+local-area networks (LANs)
+Localtimestamp
+local wait-for graph
+location-dependent queries
+locking protocols,
+lock manager
+log disk
+logical clock
+logical logging
+logical undo operation
+log records
+log sequence number (LSN)
+log writer process
+long-duration transactions
+Lookup
+lossless-join decomposition
+lossy decomposition,
+machine learning,
+magnetic disks
+main-memory database systems
+majority protocol
+man-in-the-middle attacks
+many-to-many mapping
+mapping cardinalities
+markup languages
+master-slave replication
+master table
+materialized query tables (MQTs),
+materialized views
+mean time to failure (MTTF),
+Media Access Control (MAC)
+Mediators,
+Memory
+Merge-join
+merge-purge operation
+mesh system
+message delivery process
+Metadata
+Microsoft
+Microsoft Active Server Pages (ASP),
+Microsoft Database Tuning Assistant,
+Microsoft Distributed Transaction Coordinator (MS DTC)
+Microsoft Office,
+Microsoft Transaction Server
+Microsoft Windows
+Model-View-Control design
+most recently used (MRU) scheme,
+most-specific type
+MPEG (Moving Picture Experts Group),
+multicore processors
+multidatabase system
+multidimensional data
+multimaster replication
+multimedia data
+multimedia databases
+multiple-key access
+multiquery optimization
+multiset relational algebra
+multiset types
+multisystem applications,
+multitable cluster file organization
+Multitasking
+Multithreading
+multivalued attributes
+multivalued dependencies
+multiversion concurrency control (MVCC)
+multiway splits
+Na¨ıve Bayesian classifiers
+na¨ıve user
+name servers,
+natural joins
+nearest-neighbor query,
+nested-loop join,
+nested subqueries
+NetBeans
+Common Language Runtime (CLR)
+Netezza
+Networks
+Nodes
+no-force policy
+nonacceptable termination states
+Nonclustering
+nondeclarative actions
+nonprocedural languagesexport/import/search
+nonrepeatable read
+nonunique search keys
+nonvolatile random-access memory (NVRAM)
+nonvolatile storage
+nonvolatile write buffers
+NOR flash memory
+normal forms
+Normalization
+no-steal policy
+null bitmap
+null values,
+Nvarchar
+N-way merge
+object-based databases
+Object Database Management Group (ODMG)
+object-oriented databases
+object-oriented data model,
+object-relational data model
+object-relational mapping
+observable external writes
+ODBC (Open Database Connectivity),
+OLAP (online analytical processing),
+OLTP (online transaction processing)
+one-to-many mapping
+one-to-one mapping
+Open Document Format (ODF)
+open statement
+operator tree
+optical storage
+Oracle
+Application Development Framework (ADF),
+Automatic Storage Manager
+ Automatic Workload Repository (AWR)
+Business Intelligence Suite (OBI),
+Database Resource Management
+Oracle Enterprise Manager (OEM),
+Oracle Tuxedo
+order by
+organize by dimensions
+Outer-join
+outer relation
+Overfitting
+overflow buckets
+overflow resolution
+overlapping entity sets,
+overlapping specialization,
+Overloading
+PageRank
+page shipping,
+parallel databases
+parallel external sort-merge
+parallel joins
+parallel processing
+parallel systems
+parameter style general
+parametric query optimization
+parity bits
+Parsing
+participation constraints
+partitioning vector
+Partitions
+Partner Interface Processes (PIPs)
+Passwords
+performance benchmarks
+performance tuning
+persistent programming
+person-in-the-middle attacks
+phantom phenomenon
+phantom read
+physical data independence
+physical-design phase
+pinned blocks
+Pointers
+polymorphic types
+popularity ranking
+PostgreSQL
+precedence graph
+prepared statements
+presentation facilities
+presentation layer
+prestige ranking
+primary copy
+primary keys,
+primary site
+Privacy
+Privileges
+procedural languages,
+Procedures
+producer-driven pipeline
+program global area (PGA)
+programming languages
+project-join normal form (PJNF)
+project operation
+pseudotransitivity rule
+public-key encryption
+pulling data,
+Purity
+Python
+quadratic split,
+Quadtrees,
+query cost
+query evaluation engine
+query-evaluation plans
+query-execution engine,
+query-execution plan
+query languages
+query optimization
+query processing
+question answering,
+queueing systems,
+quorum consensus protocol
+random access
+random samples,
+random walk model
+range-partitioning sort
+range-partitioning vector
+rapid application development (RAD)
+raster data,
+Rational Rose,
+read only queries
+read quorum
+read uncommitted
+read-write contention
+real, double precision
+real-time transaction systems
+Recall
+recovery interval
+recovery time
+recursive queries
+recursive relationship sets
+Redo
+Redundancy
+redundant arrays of independent disks (RAID)
+referencing relation
+referential integrity
+Referrals
+reflexivity rule
+region quadtrees
+Regression
+relational algebra
+relational database design
+relational databases
+relation instance
+relationship sets
+relative distinguished names (RDNs)
+Relevance
+relevance feedback
+remote backup systems
+remote-procedure-call (RPC) mechanism
+rename operation
+repeatable read
+repeat loop
+Replication
+report generators
+Representation State Transfer (REST)
+request forgery
+request operation
+resource managers
+response time
+Restriction
+ResultSet object
+Revoke
+right outer join
+Rijndael algorithm
+Roles
+Rollback
+rollback work
+Rollup
+RosettaNet
+row triggers
+R-trees
+Ruby on Rails
+Runstats
+SAS (Serial attached SCSI),
+Sarbanes-Oxley Act
+Savepoints
+scalar subqueries
+Scaleup
+Scheduling
+schema definition
+schema diagrams,
+Schemas
+scripting languages
+search engine spamming
+search keys
+secondary site,
+second normal form,
+Secure Electronic Transaction (SET) protocol,
+Security
+Security Assertion Markup Language (SAML)
+seek times
+Select
+Semantic Web
+semistructured data models
+sequence associations
+sequence counter
+sequential-access storage
+sequential files
+sequential scans
+serializable schedules
+server programming interface (SPI)
+server-side scripting
+server systems
+set transactions isolation level serializable,
+shadow-copy scheme
+Shadow-paging
+shared and intention-exclusive (SIX) mode
+shared-disk architecture
+shared-memory architecture
+shared-mode locks
+shared-nothing architecture
+shared scans,
+similarity-based retrieval,
+Simple Object Access Protocol (SOAP),
+single lock-manager
+single-server model,
+single-valued attributes
+site reintegration
+small-computer-system interconnect (SCSI),
+snapshot isolation
+snapshot replication
+Solaris
+sold-state drives
+space overhead
+spatial data
+specialty databases
+specification of functional requirements,
+SQL (Structured Query Language)
+Server Management Studio
+SQL Server Reporting Services (SSRS),
+Transparent Data Encryption
+Standard Generalized Markup Language (SGML)
+Starburst
+start-up costs,
+Starvation
+Statement object
+statement triggers
+state transition,
+state value
+Statistics
+steal policy
+Storage
+storage area network (SAN)
+storage manager
+string operations
+striping data
+structured types
+Stylesheets
+sublinear speedup
+Submultiset
+Suffix
+superclass-subclass relationship
+Superkeys
+Superuser
+Support Vector Machine (SVM)
+swap space
+Swing
+Sybase
+symmetric multiprocessors (SMPs),
+system architecture
+system catalogs
+system change number (SCN),
+system error
+table inheritance
+Tablespaces
+tag library
+tape storage
+task flow.
+temporal data
+temporal relation
+Teradata Purpose-Built Platform Family
+term frequency (TF),
+termination states,
+tertiary storage
+theta join
+third normal form (3NF)
+Thomas’ write rule
+three-phase commit (3PC) protocol
+three-tier architecture
+Timestamps
+time to completion
+time with time zone
+Timezone
+Tomcat
+top-down design
+top-K optimization
+topographic information
+topological sorting
+training instances
+transactional replication
+transaction coordinator
+transaction-processing monitors
+Transaction Processing Performance Council (TPC)
+transactions-consistent snapshot,
+transaction-server systems
+transactions per second (TPS)
+transfer of control,
+transfer of prestige,
+Transformations
+transitive closure
+transition tables
+transitivity rule
+Triggers
+true negatives
+true predicate,
+true relation
+tuple relational calculus
+two-factor authentication
+two-phase commit (2PC) protocol
+two-tier architecture
+Ultrium format
+undo pass
+Unified Modeling Language (UML),
+uniform resource locators (URLs)
+Unique
+union rule
+Uniquifier
+Universal Coordinated Time (UTC)
+Universal Description, Discovery, and Integration (UDDI)
+Universal Serial Bus (USB)
+universal Turing machine
+Unix
+updatable result sets,
+update-anywhere replication
+user-defined entity sets
+user-defined functions (UDFs)
+user interfaces
+user requirements
+Vacuum
+Validation
+Utilization
+valid time,
+Varchar
+vector data
+vector space model,
+version-numbering schemas
+version-vector scheme
+vertical fragmentation,
+video servers
+view definition
+view maintenance
+virtual machines
+virtual processor
+Virtual Reality Markup Language (VRML)
+Visual Basic,
+VisualWeb
+volatile storage
+wait-for graph
+Web crawler
+Weblogic
+WebObjects
+Web services
+Web servers
+Web Services Description Language (WSDL
+WebSphere
+wide-area networks (WANs),
+Wi-Max,
+Windows Mobile
+Wireless application protocol (WAP),
+wireless communications
+WordNet
+Workflows
+workload compression
+World Wide Web
+World Wide Web Consortium (W3C),
+write-ahead logging (WAL),
+write once, read-many (WORM)
+write quorum
+write-write contention
+XML (Extensible Markup Language),
+XOR operation
+Yahoo,
+Yahoo,
+access control
+access control lists
+access delay
+access networks
+dial-up access
+digital subscriber line
+Ethernet
+fiber to the home
+home access
+link-layer switches
+Long-Term Evolution
+optical distribution network
+satellite links
+wireless networks
+access points
+access routers
+Accounting Management
+Acknowledgments
+Transmission Control Protocol
+Telnet
+positive acknowledgments
+active optical networks
+Adapters
+adaptive congestion control
+adaptive playout delay
+adaptive streaming
+address aggregation
+address indirection
+Address Resolution Protocol
+ad hoc networks
+Advanced Audio Coding
+Advanced Encryption Standard
+Advanced Research Projects Agency
+agent advertisement
+agent discovery
+agent solicitation
+aging time
+alias hostname
+alternating-bit protocols
+Amazon cloud
+analog audio
+anchor foreign agent
+Anonymity
+Anycast
+Apache Web server
+Application Programming Interface
+application architecture
+application gateways
+application-layer messages
+application-layer protocols
+domain name system
+electronic mail
+File Transfer Protocol
+HyperText Transfer Protocol
+Simple Mail Transfer Protocol
+active queue management algorithms
+asynchronous transfer mode
+Glitches
+Authentication key
+autonomous system number
+available bit-rate
+backbone area
+Bandwidth
+bandwidth flooding
+bandwidth provisioning
+bandwidth-sensitive applications
+base station controller
+base station system
+base transceiver station
+Basic Encoding Rules
+basic service set
+beacon frames
+Bellman-Ford equation
+bit error rate
+best-effort delivery service
+Border Gateway Protocol
+distance-vector algorithm
+elimination rules for routes
+Peers
+prefix bits
+bidirectional data transfer
+binary exponential backoff algorithm
+Berkeley Internet Name Domain
+BitTorrent
+trading algorithm
+block ciphers
+Bluetooth
+bottleneck link
+Broadcasting
+Frame
+channel propagation delay
+broadcast routing algorithms
+broadcast storm
+spanning-tree broadcast
+Browsers
+buffered distributors
+Buffering
+burst size
+cable Internet access
+cable modem termination system
+Certification Authority
+call admission
+call setup protocol
+canonical hostnames
+cipher-block chaining
+constant bit rate
+code division multiple access
+Content Distribution Networks
+Internet Service Providers
+cluster selection strategy
+cell phones
+cellular networks
+Channels
+Checksums
+User Datagram Protocol
+Cisco Systems
+Classless Interdomain Routing
+client application buffer
+client-server application
+client socket
+cluster selection strategy
+cable modem termination system
+collision detection
+computer networking
+Configuration Management
+congestion avoidance
+congestion indication bit
+connection-establishment request
+connection-oriented service
+content provider networks
+conversational applications
+control plane software
+controlled flooding
+Cookies
+cyclic redundancy check codes
+cryptographic hash functions
+crossbar switch
+carrier sense multiple access
+computer science network
+cumulative acknowledgments
+customer-provider relationship
+Dynamic Adaptive Streaming over HTTP
+data center networks
+data definition language
+data encryption algorithm
+Wired Equivalent Privacy
+Data Encryption Standard
+datagram networks
+Data-Over-Cable Service Interface Specifications
+data transfer
+distributed denial-of-service
+decentralized routing algorithm
+deep packet inspection
+default name server
+default router
+Delay-sensitive
+destination port numbers
+destination route
+Dynamic Host Configuration Protocol
+distributed hash tables
+dial-up access
+Diffie-Hellman algorithm
+Distributed Interframe Space
+digital signatures
+digital subscriber line
+Dijkstra’s least-cost path algorithm
+dimensioning best-effort networks
+directory service
+direct routing
+Direct Sequence Wideband
+distance-vector algorithm
+Distance-Vector Multicast Routing Protocol
+distributed applications
+host aliasing
+client-server paradigm
+attacks and vulnerabilities
+secure communication
+top-level domain
+dotted-decimal notation
+dual-stack approach
+dynamic routing algorithm
+Extensible Authentication Protocol
+edge router
+explicit forward congestion indication bit
+elastic applications
+electromagnetic noise
+Encapsulation
+Encryption
+end-point authentication
+end-to-end congestion control
+end-to-end delay
+end-to-end principle
+end-to-end throughput
+enterprises and access networks
+Evolved Packet Core
+explicit rate
+error checking
+error concealment
+error detection
+Automatic Repeat reQuest protocols
+Encapsulation Security Payload
+maximum segment size
+maximum transmission unit
+multiplexing network-layer protocols
+physical-layer protocols
+Standardized
+exponential weighted moving average
+expedited forwarding
+explicit rate field
+Extended finite-state machine
+Fault Management
+first-come-first-served scheduling
+fiber distributed data interface
+frequency-division multiplexing
+forward error correction
+frequency-hopping spread spectrum
+fiber distributed data interface protocol
+First-in-first-out
+file sharing
+file transfer
+Firewalls
+malicious packet attacks
+fixed-length labels
+fixed playout delay
+flag field
+flow control
+foreign address
+forwarding function
+forwarding plane
+fourth-generation of wide-area wireless networks
+fragmentation of datagrams
+frequency-hopping spread spectrum
+full-duplex service
+full-table block ciphers
+fully connected topology
+gateway routers
+Go-Back-N protocol
+Generalized Packet Radio Service
+Gigabit Ethernet
+global routing algorithm
+Global System for Mobile
+Gateway Mobile services Switching Center
+Global System for Mobile Communications
+Handoff
+Handshake
+hard guarantee
+hardware data plane
+hash functions
+high-level data link control
+header checksum
+hybrid fiber coax
+hidden terminals
+hierarchical routing
+home location register
+head-of-the-line blocking
+home location register
+Hostnames
+High Speed Packet Access
+Hubs
+Internet Corporation for Assigned Names and Numbers
+Internet Control Message Protocol
+intrusion detection systems
+Internet Engineering Task Force
+Internet Group Management Protocol
+Internet Key Exchange
+Internet Mail Access Protocol
+indirect routing
+instant messaging
+Interfaces
+International Organization for Standardization
+Internet
+Internet exchange points
+Internet Key Exchange
+Internet phone application
+Internet Service Providers
+Internet-Standard Management Framework
+Internet telephony
+International Telecommunication Union
+Internet exchange points
+label-switched routers
+local area networks
+layered architecture
+leaky bucket mechanism
+least-cost path
+limited-scope flooding
+link-layer protocols
+link-scheduling disciplines
+link-state advertisements
+message authentication code
+virtual local area networks
+mail access protocols
+main-in-the-middle attack
+Malware
+Management Information Base
+mobile ad hoc networks
+Master Key
+modular data centers
+metering function
+multicast routing
+Multicast Source Discovery Protocol
+Multimedia
+Multiprotocol Label Switching
+negative acknowledgments
+network address translation
+network-control protocol
+Netflix
+Netscape Communications Corporation
+neighbor-to-neighbor communication
+network adapter
+network cache servers
+network-control protocol
+network interface card
+network-layer components
+Service Level Agreements
+network operations center
+optical network terminator
+Open-Shortest Path First
+Open Systems Interconnection model
+Optical Carrier standard link
+Out-of-band
+output buffers
+overlapping fragments
+overlay network
+packet classification
+packet-radio networks
+peak rate
+prefix destination address
+priority queuing
+round-robin queuing
+round-trip time
+weighted fair queuing
+Packet Satellite
+packet sniffers
+parity checks
+Paging
+passive optical networks
+Passwords
+private branch exchanges
+pulse code modulation
+Performance Management
+permanent address
+personal area networks
+Per-hop behavior
+Pretty Good Privacy
+physical address
+Protocol-Independent Multicast
+ping program
+plug-and-play protocol
+playback attacks
+Pre-Master Secret
+Point-to-Point Protocol
+poisoning attack
+policing disciplines
+policing mechanisms
+polling protocols
+polyalphabetic encryption
+polynomial codes
+passive optical networks
+Post Office Protocol
+points of presence
+port numbers
+peer to peer
+Privacy
+Internet Protocol
+real-time interactive applications
+Query
+Quantization
+Quality-of-Service
+Radio Network Controller
+random access protocols
+Random Early Detection algorithm
+rarest first
+Routing Control Platform
+reliable data transfer protocol
+real-time applications
+requests for comments
+Routing Information Protocol
+reverse path forwarding
+Security Association Database
+Software Defined Networking
+Secure Hash Algorithm
+Secure Network Programming
+Secure Sockets Layer
+Shorter Inter-frame Spacing
+Simple Gateway Monitoring Protocol
+Session Initiation Protocol
+Structure of Management Information
+Ternary Content Address Memories
+Transport Layer Security
+Time-to-live
+twisted-pair copper wire
+Universal Mobile Telecommunications Service
+virtual local area networks
+virtual private networks
+Web applications
+wireless personal area network
+Wireshark labs
+World Wide Web
+aborted transactions
+absolute code
+absolute path names
+abstract data type
+access:
+anonymous
+controlled, 452
+File
+access control,
+access-control list (ACL)
+access latency
+access lists
+access matrix
+Accreditation
+access-control list
+acyclic graph, 441
+acyclic-graph directories, 440-443
+adaptive mutex, 254
+additional-reference-bits algorithm
+address binding
+address resolution protocol
+address resolution protocol
+address-space identifiers
+administrative complexity
+admission-control algorithms
+advanced encryption standard
+advanced technology attachment
+anomaly detection
+asynchronous procedure calls
+application layer
+Apple Computers
+arbitrated loop
+Architecture
+asymmetric multiprocessing
+assignment edge
+asynchronous thread cancellation
+atomic transactions
+attributes
+Authentication
+automatic job sequencing
+back door
+Bandwidth
+Backups
+background processes
+base register
+banker's algorithm
+Bayes' theorem
+biased protocol
+binary semaphore
+biometrics
+bit-interleaved parity organization
+black-box transformations
+blocking (synchronous) message passing
+block-interleaved distributed parity
+block-level striping
+boot control block, 464
+boot disk
+system disk
+boot partition
+boot sector
+bootstrap programs
+Bottlenecks
+Broadcasting
+Buffer cache
+buffer-overflow attacks
+bus architecture
+busy waiting
+Bytecode
+Nonvolatile
+cache-consistency problem
+cache coherency
+Callbacks
+cascading termination
+collision detection
+central processing unit
+certificate authorities
+Checksums
+child processes
+cipher-block chaining
+circuit switching
+Circular scheduling
+Algorithm
+command-line interface
+client-server model
+second-chance
+page-replacement algorithm
+Clone
+closed-source operating systems
+cluster remapping
+component object model
+common internet file system
+interprocess communication
+communications sessions
+communication system calls
+compression ratio
+compression units
+computation migration
+computer environments
+real-time embedded systems
+concurrency control
+concurrency-control algorithms
+conflict resolution module
+connectionless sockets
+connection-oriented  sockets
+consistency checking
+Consumers
+context switches
+contiguous memory allocation
+control-card interpreter
+control register
+cooperating processes
+core dump
+counting-based page replacement
+algorithm
+central processing unit
+crackers
+crash dump
+critical-section problem
+Cryptography
+cylinder groups
+cycle stealing
+non-preemptive  != preemptive
+database systems
+data capability
+data-encryption standard
+Datagrams
+data migration
+deadlock
+deadlock-detection coordinator
+default signal handlers
+debuggers
+delay-write policy
+delegation
+demand paging
+denial-of-service attacks
+deterministic modeling
+distributed file system
+device-management system calls
+digital signatures
+dining-philosophers problem
+direct access
+direct-memory-access controller
+direct virtual memory access
+dirty bit
+disk striping
+dispatch latency
+dynamic link libraries
+Domain name system
+dynamic random-access memory
+dual-booted systems
+dynamic storage-allocation problem
+dynamic storage-allocation problem
+effective bandwidth
+efficiency
+electronic disk
+election algorithms
+elevator algorithm
+embedded systems
+emulators
+encrypted viruses
+event latency
+exclusive locks
+executable files
+exponential average
+external fragmentation
+file-allocation table
+first-come first-served scheduling algorithm
+firewalls
+floppy disks
+folders
+foreground processes
+front-end processors
+free-space management
+Gantt chart
+garbage collection
+gateways
+global descriptor table
+General Public License
+graphical user interfaces
+group identifiers
+handshaking
+hardware-abstraction layer
+hardware objects
+hashed page tables
+hierarchical storage management
+host adapter
+host-attached storage
+hyperspace
+idle threads
+inode
+Interlock
+interprocess communication
+interrupt-request line
+Java Virtual Machine
+just-in-time (JIT) compiler
+kernel
+kernel threads
+local-area networks
+local replacement algorithm
+log files
+lossless compression
+lossy compression
+message-authentication code
+media access control
+magic number
+mailboxes
+mainframes
+metropolitan-area networks
+maskable interrupts
+mass-storage management
+media players
+memory-address register
+Memory-mapped
+memory transactions
+message digest
+message modification
+Metadata
+Mounting
+Multicasting
+multicore processors
+multilevel feedback-queue
+Multitasking
+time sharing
+mutex locks
+mutual-exclusion condition
+network information service
+network virtual memory
+nonpreemptive scheduling
+nonvolatile
+owner rights
+packet switching
+page allocator
+page-buffering algorithms
+page-fault rate
+page cache,
+page offset
+page replacement
+path-name translation
+process control block
+page-directory entries
+permissions
+personal identification number
+plug-and-play
+pluggable authentication modules
+ports
+portability
+preemptive scheduling
+process manager
+process synchronization
+process termination
+Profiles
+random-access memory
+read-only memory
+redundant arrays of inexpensive disks
+register
+remote file access
+reverse engineering
+round-robin scheduling algorithm
+semaphore
+shared-memory model
+shortest-job-first
+socket interface
+solid-state disks
+spyware
+symmetric multiprocessing
+system boot
+system calls
+telnet
+thrashing
+throughput
+translation look-aside buffer
+token passing
+traps
+Trojan horses
+turnaround time
+uniform memory access
+user mobility
+virtual file system
+Workstations
+Operator
+Assignment
+Overloading
+String
+Bitwise operator
+Pointer
+dereferencing operator
+modulus operator
+Semicolon
+abstract base classes
+Abstract data types
+Access control
+Actual arguments
+Algorithms
+Aliases
+Allocating memory
+Allocators
+addresses
+American National Standards Institute
+American Standard Code for Information Interchange.
+scope resolution operator: Toán tử ::
+dynamic memory allocation
+anonymous unions
+source code
+command-line
+default arguments
+arithmetic operators
+static binding != dynamic binding - oop
+enumerator
+auto declarations
+automatic type conversion
+badbit stream state
+Exceptions
+Big Endian
+bidirectional iterators
+branching statements
+bottom-up programming
+bound template friend functions
+Buffers
+Flushing
+Initializing
+Constructors
+unordered associative containers
+exception specifications
+scoped enumerations,
+structure initialization
+Concatenating
+case sensitivity
+casting data types
+downcasting
+upcasting
+catching exceptions
+explicit specializations
+explicit instantiations
+implicit instantiations
+versatility
+const member functions
+constant time complexity
+constructors
+copy constructors
+deep copying / shallow copying
+default constructors
+converting data types
+data hiding
+declarative region
+unions
+decrement operator
+deep copying
+Destructors
+preprocessor directives
+displacement vectors
+divide-and-conquer strategy
+double-ended queue
+dynamic storage duration
+dynamic cast operators
+early binding
+exception handlers
+exclamation point
+external linkage
+file extensions
+flushing buffers
+friend functions
+function prototype scope
+function wrapper
+Functors
+generic programming
+harmonic mean
+heap
+integrated development environments
+include directive
+inline functions
+Interfaces
+International Standards Organization
+internal manipulator
+lambda functions
+machine language
+macro: cụ thể của directive
+manipulators
+memberwise copying
+memory leaks
+Mutable
+Namespace
+naming conventions
+nested classes
+newline character
+null pointers
+numeric operations
+Operands
+operator overloading
+overload resolution
+Ownership
+passing by reference
+parameters
+polar coordinates
+potential scope
+Predicates: mệnh đề
+Precedence: quyền ưu tiên
+Preprocessors
+private inheritance
+procedural programming
+trailing zeros
+compound statements
+composition
+coordinates
+functional polymorphism
+global namespaces
+program portability
+local variables
+multiple library linking
+navigating files
+null pointers
+polar coordinates
+private inheritance
+pseudorandom numbers
+recursion
+pass by reference
+singly linked lists
+sort
+source code
+Standard Template Library
+stream states
+subroutines
+symbolic constants
+Technical Report
+random access
+terminate
+uncaught exceptions
+unbound template friend functions
+uppercase manipulator
+virtual destructors
+vector containers
+all-pairs shortest paths
+Ancestor
+Knuth–Morris–Pratt
+ISOLATION VERTEX
+B-TREE
+HASH TABLE
+(minimum) spanning tree
+complexity
+Euler
+Sizeof
+Hill Climbing
+Syntax Error
+Binary Search Tree
+Interchange Sort
+Disjoint Set (Union)
+Skip List
+Suffix Array
+Suffix Tree
+Aho Corasick
+Trie
+Bipartite Graph
+Critical Node
+Component
+Self-Loop
+Directed Acyclic Graph
+Centroid Decomposition
+Balance Tree
+Red-Black Tree
+Convex Hull
+Shaker Sort
+Bubble Sort
+Insertion Sort
+Selection Sort
+Cocktail Sort: đoán từ Sort rồi nói nó là cải tiến của Shaker
+Intro Sort (Hàm sort trong C++).
+Max Flow Min Cost
+Mo Algorithm
+Square-Root Decomposition
+Inclusion-Exclusion
+Ternary Search
+Sweep line
+strongly connected component
+isomorphic graphs
+isolated vertex
+invertible matrix
+B-Tree
+bipartite matching
+linear equations
+weighted bipartite
+divide-and-conquer method
+Fibonacci heap
+MILLER-RABIN
+minimum-weight vertex cover
+Multiset
+longest common subsequences
+Paralell binary search
+perfect hashing
+Prim’s algorithm
+simple cycle
+simple graph
+source vertex
+Destination vertex
+suffix function
+diameter of tree
+biconnected component
+weighted-union heuristic
+unmatched vertex
+singly connected graph
+nondeterministic polynomial (viết tắt của NP trong bài toán NP hoặc NP Hard).
+Self-loop
+linear search
+traveling-salesman problem
+preorder tree walk
+prime number
+disjoint-set data structure
+Josephus
+path compression
+order-statistic tree
+Huffman codes
+ordered pair
+double hashing
+naive algorithm
+Fourier transform
+MODULAR EXPONENTIATION
+Manhattan distance
+last-in, first-out
+open-address hash tables
+Gaussian elimination
+floating-point data type
+Factorization
+factorial function (n!)
+knapsack problem
+priority queues
+rooted trees
+cross product
+counting sort
+parallel computing
+Chinese remainder theorem
+binomial tree
+breadth-first search
+Persistent Data Structures
+Palindrome Tree
+Range Tree
+Multiplicative Function
+Mobius Function
+Database Management System
+Network Address Translation
+Queue
+Stack
+Heap
+Priority Queue
+Double-ended Queue
+Double-ended Priority Queue
+Hamilton Cycle
+Abstract
+Role-based access control
+Operator
+Prototype
+Database
+Thread
+Graph
+Edge
+Vertex
+Degree
+Walk
+Trail
+Path
+Integrated Circuit
+Cycle
+Connectivity
+Component
+Outsourcing
+Crowdsourcing
+Toolbox
+Windows Phone
+Kitkat
+Ginger Bread
+Jelly Bean
+Alan Turing
+Gameloft
+Round Trip Time
+Wrapping
+Union
+Intersect
+Oracle
+NoSQL
+NetBean
+Flash Sort
+Zend Framework
+DB2
+Javascript Object Notation
+Google API
+Solid State Drive
+Streaming
+Opera
+Safari
+Optical Disk
+Sector
+Global Variable
+First In First Out
+Last In First Out
+Fragmentation
+Master Boot Record
+Hub
+Switch
+Router
+Wireless Router
+Abstract Class
+Deadlock
+Microsoft Foundation Class
+Windows Presentation Foundation
+Cache
+Semaphore
+NVIDIA
+Laptop
+Register
+Registry
+Local Host
+Agile
+Digital
+Fibonacci
+Fibonacci Number
+Fibonacci Sequence
+New Technology File System
+Interface
+Vim
+Emacs
+WHOIS
+Programming Language
+R
+C
+C++
+C#
+F#
+Pascal
+Prolog
+Java
+Octave
+Python
+Ruby
+Objective-C
+Ruby on Rail
+"PHP: Hypertext Preprocessor
+Personal Home Page"
+Scala
+Perl
+Haskell
+LISP
+Functional Programming
+Object-oriented Programming
+Imperative Programming
+Procedural Programming
+Programming Paradigm
+Dictionaries
+Mutable
+Immuatable
+Tuple
+LUA
+Scripting Language
+SmallTalk
+Windows Communication Foundation
+.NET Framework
+Entropy
+Rivest - Shamir - Adleman
+Advanced Encryption Standard
+Data Encryption Standard
+Hash Function
+Message Digest 5
+Secure Hash Algorithm
+Stream Cipher
+Block Cipher
+Turing Award
+Alan Turing
+Donald Knuth
+Silicon Valley
+Application Programming Interface
+Coursera
+edX
+IntelliJ IDEA
+Anjuta
+BitDefender
+Avast
+Norton Commander
+Total Commander
+Netscape
+Unreal
+Shortcut
+Eclipse
+Portable Operating System Interface
+Extensible Markup Language
+Cascading Style Sheets
+Kaspersky
+CRT Monitor
+Serial Advanced Technology Attachment
+WhatsApp
+Natural Language Processing
+Big-O
+Merge Sort
+Laser Printer
+Touchscreen
+Siri
+Optical Character Recognition
+Dijkstra Algorithm
+Linear Search
+Hue Saturation
+ActionScript
+PostScript
+Wireless Mouse
+Video Card
+Bluetooth
+Euler
+Breadth First Search
+Quicksort
+Google Glass
+John Von Neumann
+Schema
+Big Data
+Cloud Computing
+Data Definition Language
+Data Manipulation Language
+Data Control Language
+Instance
+NULL
+Primary Key
+Relational Database
+Relational Algebra
+Tag
+Hashtag
+Parser
+NTT Data
+Adobe
+Converter
+International Business Machines
+Institute of Electrical and Electronics Engineers
+Automaton
+File Allocation Table
+Peer-to-peer
+Dynamic Programming
+Linear Programming
+Integer Programming
+Constraint Programming
+Polymorphism
+Lotus Software
+Encapsulation
+Delete
+Nondeterministic Polynomial time
+Algorithm
+Taskbar
+Internet Protocol
+Navigate
+Extract
+Fingerprint
+Radio button
+Extreme Programming
+Worm
+Trojan
+Malware
+Reinforcement Learning
+Code Block
+Redundant Array of Independent Disks
+Bootstrap
+Spiral Model
+Enterprise
+Image Processing
+Infrastructure
+Integrated
+Scrash
+Hard coding
+Context Menu
+Debugging
+Validation
+SCRUM
+Compiler
+Visualization
+Quantum Computer
+Automotive Engineering
+Cryptography
+Cryptanalysis
+Cryptology
+Information Security
+Biometric
+Bioinformatics
+Optical Flow
+Widget
+Business Intelligent
+Saigon Hi Tech Park
+Strategy
+Topology
+Combinatoric
+Massachusetts Institute of Technology
+Asynchronus
+Lambda Expression
+Import
+Security
+Graph API
+Controller
+Fsoft
+Reference
+Domain Name System
+Location
+Floating Point
+Language-Integrated Query
+Statement
+Macro
+Administrator
+IEnumerable
+Modeling
+Terrain
+Retrieval
+Galaxy 4S
+Polling
+Association for Computing Machinery
+International Collegiate Programming Contest
+Imagine Cup
+Onedrive
+Skydrive
+Google Drive
+iCloud
+Dropbox
+Google Instant
+Pentium
+Intel x86
+Near Field Communication
+eXtensible Application Markup Language
+DirectX
+Data Structure
+Double Data Rate
+Human Computer Interaction
+Notification
+Hadoop
+Enigma
+Secure Socket Layer
+Transport Layer Secure
+OpenSSL
+Heartbleed
+Vsphere
+Boolean
+iTunes
+Website
+Parallel Computing
+Computer Science
+Heuristics
+Unified Modeling Language
+Database
+Application Programming Interface
+Statistic
+Linear Algebra
+Calculus
+Discrete Mathematics
+Probability
+Markov Chain
+Markov Process
+Markov Model
+Hidden Markov Model
+Naïve Bayes
+Artificial Intelligent
+Information Gain
+Red Green Blue Alpha
+File Trasfer Protocol
+Structured Query Language
+Cookie
+Open System Interconnection
+Encryption
+Ping
+Socket
+ACK
+Assembly Language
+Backpropagation
+Constructor
+Data Warehouse
+Foreign Key
+Genetic Algorithm
+Hash Table
+Memory Allocation
+Neural Network
+Pseudocode
+Recursion
+Supervised Learning
+Specification
+Overriding
+Dynamic Link Library
+Javascript
+Graphic User Interface
+Broadcast
+Uniform Resource Locator
+Uniform Resource Indetifier
+Uniform Resource Name
+Venn Diagram
+Euler Diagram
+Ethernet
+Application Layer
+Presentation Layer
+Session Layer
+Transport Layer
+Network Layer
+Datalink Layer
+Physical Layer
+Data
+Segment
+Datagram
+Packet
+Frame
+Bit
+Pixel
+Support Vector Machine
+Virtual Method
+Casting
+Wide Area Network
+Local Area Network
+Metropolitan Ared Network
+American Standard Code for Information Interchange
+Character
+Wide Character
+Constant
+Data Type
+Function Library
+Input
+Operator
+Bitmask
+Overflow
+Variable
+Output
+Logical Operator
+Boolean Operator
+Variable Declaration
+Block
+Conditional Expression
+Control Structure
+Control Flows
+Loop Structure
+Local Variable
+Namespace
+Process
+Scope
+Branch Statements
+Loop Invariant
+Argument
+Parameter
+Function Declaration
+Function Overloading
+Function Polymorphism
+Function Template
+Integrated Development Enviroment
+Formal Parameter
+Formal Variable
+Effective Variable
+Static Local Variable
+Procedure
+Sub-program
+Sub-routine
+Source code
+Algorithmic Complexity
+Algorithm Implementation
+Flow chart
+Code Duplication
+Code Reuse
+Decision Table
+Test Case
+Array
+Static Array
+Dynamic Array
+Composite Number
+Coprime
+Greatest Common Divisor
+Prime
+Search Algorithm
+Sort Algorithm
+Data Type Definition
+Implementation
+Operand
+Structured Data
+Binary File
+Hypertext Markup Language
+Extensible HyperText Markup Language
+Random Access
+Read Only
+Sequentially Access
+Stream
+Plain Text
+End of File
+Mantissa
+Class
+Default Constructor
+Destructor
+Dynamic Memory
+Exponent
+Heap Memory
+Index Operator
+Keyword
+Memory Address
+Physical Memory Address
+Logical Memory Address
+Memory Fragment
+Memory Leak
+Memory Mapping
+Object
+Pointer
+Programming Interface
+Programming Tip
+Reference Parameter
+Reference Variable
+Sign
+Stack Memory
+Stack Overflow
+Standard Template Library
+String
+Vulnerability
+Control Abstraction
+Data Abstraction
+Dynamic Allocation of Memory
+Linked List
+Pointer Variable
+Queue
+Single Linked List
+Function Pointer
+Circular Linked List
+Doubly Linear Linked List
+Singly Linear Linked List
+Tree
+Graph
+American National Standards Institute
+Capital Letter
+Compare
+Concatenation
+Copy
+Decryption
+Lexicographical Order
+String Matching
+Normalize
+Delimiter
+Shift Cipher
+Caesar Cipher
+Sub String
+Word Processing
+Binary Search
+Hierachical Structure
+Sentinel
+Sequential Search
+Binary Insertion Sort
+Insertion sort
+Bubble Sort
+Computational Geometry
+Convex Hull
+Media
+Mutimedia
+Minimum Spanning Tree
+Backtracking
+Binary Recursion
+Divide and Conquer
+File system
+Folder
+Directory
+Linear Recursion
+Mutual Recursion
+Nested Recursion
+Tail Recursion
+Optimal
+Bottom-up
+Top-down
+Thread
+Single Thread
+Multiple Thread
+Attribute
+Behaviour
+Class Declaration
+Class Implementation
+Class Name
+Data Member
+Private Data Member
+Functional Overloading
+Method Overloading
+Method Overriding
+Insertion Operator
+Extraction Operator
+Basic Data Type
+Built-in Class
+Built-in Data Type
+Access Modifier
+Actual Argument
+Bitwise Copy
+Const Casting
+Copy Constructor
+C-style casting
+Deep Copy
+Dynamic Casting
+Explicit Casting
+Implicit Casting
+Intializers
+Member-wise Copy
+Reinterprest Casting
+Shallow Copy
+Static Constructor
+Static Member
+Class-level Member
+Static Method
+Class-level Method
+Abstract Method
+Base Class
+Superclass
+Parent class
+Cloning
+Concrete Class
+Concrete subclass
+Framework Application
+Friend Function
+Friend Class
+Generalization
+Generic Code
+Inheritance Relationship
+Inheritance
+Pure Virtual Method
+Root Class
+Selection Sort
+Specialization
+Virtual Destructor
+Abstract Data Type
+Container
+Dequeue
+Enqueue
+Pop
+Push
+Association
+Aggregation
+Compositon
+Dependent
+Friend
+HAS-A
+IS-A
+Multiple Inheritance
+Virtual Inheriatance
+Fatal Error
+Binary File
+Input Device
+Blank
+Header
+Interpreter
+Template
+Iterator
+Try Catch
+Resource Acquisition Is Initialization
+Stack Unwinding
+Throw
+Terminate
+IPv6
+IPv4
+Relation
+Induction
+Formal Language
+Regular Expression
+Regular Language
+Automata
+Deterministic finite automaton
+Nondeterministic finite automaton
+Finite State Machine
+Project Operator
+Cross-product
+Cartesian Product
+Natural Join
+Theta Join
+SQLite
+MySQL
+Microsoft SQL Server
+Normal Form
+Functional Dependency
+Boyce-Codd Normal Form
+XPath
+XQuery
+Extensible Stylesheet Language Transformations
+Transaction
+"Atomicity
+Consistency
+Isolation
+Durability"
+Constraint
+Integrity Constraint
+Trigger
+Referential Integrity
+PostgreSQL
+View
+Authorization
+Grant
+Revoke
+Privilege
+Online Transaction Processing
+Onine Analytical Processing
+MapReduce
+OculusVR
+Motorola
+Integrated Electronics
+Advanced Micro Devices
+Oracle
+Sun Microsystem
+Fedora
+Ubuntu
+Windows
+Windows NT
+Windows CE
+Windows XP
+Windows Me
+Windows Server
+Windows 3.1
+Windows 7
+Windows 8
+Linux
+Linux Kernel
+Linux Distribution
+Unix
+Mac OS
+Red Hat Enterprise
+Turing Machine
+Turing Test
+Completely Automated Public Turing test to tell Computers and Humans Apart
+Swing
+Spring
+Abstract Window Toolkit
+Java Foundation Classes
+Information Theory
+Coding Theory
+Matrix Laboratory
+Gordon Moore
+Moore Law
+Transistor
+Robert Noyce
+Larry Page
+Sergey Brin
+Larry Ellison
+Jeff Bezos
+LibreOffice
+VMWare
+VirtualBox
+Hyper-V
+Access Point
+Wireless Access Point
+Java Virtual Machine
+Openoffice
+Apache
+Internet Information Services
+Hypertext Transfer Protocol
+Hypertext Transfer Protocol Secure
+Simple Mail Transfer Protocol
+Network News Transfer Protocol
+"Rich Site Summary
+RDF Site Summary
+Really Simple Syndication"
+Playstation
+Playstation Vita
+Playstation Portable
+Nintendo
+Xbox
+Xbox One
+Xbox 360
+Kinect
+Leap Motion
+Wii
+Cursor
+Computer Vision
+Robotics
+Operating System
+Anonymous
+Confidentiality
+Integrity
+Nonrepudiation
+Software as a Service
+Platform as a Service
+Infrastructure as a Service
+Machine Learning
+Statistical Learning
+Computer Network
+Linear Regression
+HipHop Virtual Machine
+Hack
+Ivy Bridge
+Sandy Bridge
+Haswell
+Nahalem Architecture
+Internet Explorer
+Mozila Firefox
+Google Chrome
+ASUS
+Acer
+Dell
+Hewlett-Packard
+Software development kit
+Face Detection
+XCode
+Speech Recognition
+Windows Azure
+Elastic Compute Cloud
+Joomla
+Wordpress
+World Cyber Game
+Starcraft
+World of Warcraft
+Counter Strike
+Half Life
+Minesweeper
+Binary Search Tree
+AVL Tree
+Balanced Binary Search Tree
+B-Tree
+Optimal Binary Search Tree
+Red-Black Tree
+Quality Assurance
+Quality Control
+Logistic Regression
+Bag of Words
+Bag of Features
+OpenCV
+OpenGL
+OpenGL ES
+High-level Shader Language
+OpenGL Shading Language
+Computer Graphics
+Eyetracking
+Silverlight
+Graphics Device Interface
+Postfix notation
+Reverse Polish notation
+Polish notation
+Polish prefix notation
+Infix notation
+Computational complexity theory
+Analysis of Algorithm
+Analytic Combinatorics
+Generating Function
+P vs NP
+The Art of Computer Programming
+NP Complete
+NP Hard
+Average case Complexity
+Best case Complexity
+Worst case Complexity
+Probability Distribution
+Uniform Distribution
+Normal Distribution
+Decision Tree
+Decision Problem
+Linear Time
+Quadratic Time
+Logarithm Time
+Exponential Time
+Polynomial Time
+Optimization Problem
+Microsoft Visual Studio
+Team Foundation
+Hungarian Notation
+Dennis Ritchie
+Ken Thompson
+UTF-8
+Unicode
+Unikey
+Vietkey
+National Security Agency
+Sparse Coding
+Deep Blue
+Kruskal Algorithm
+Prim Algorithm
+Boruvska Algorithm
+Ford-Bellman Algorithm
+Floyd Algorithm
+Graph Coloring
+Four Color Theorem
+Planar Graph
+Euler's Formula
+Network Topology
+Brute Force
+Knight's Tour Problem
+Halt Problem
+Eight Queens Puzzle
+Network flow
+Maximum flow problem
+Bridge (cut-edge, cut arc or an isthmus)
+Connected Component
+Articulation Point (Cut Vertex)
+Pattern Matching
+Data Mining
+Object Recognition
+Virtual Reality
+EmguCV
+Google App Engine
+Github
+Asynchronous JavaScript and XML
+Mobile Application
+Google Play
+Windows Phone Store
+Apple App Store
+BlackBerry World
+Bing
+Google Maps
+Alexa
+Paypal
+Bitcoin
+Twitter
+MySpace
+Tumblr
+Flickr
+Image Segmentation
+Upper Case
+Collision Domain
+Broadcast Domain
+Affine Transformation
+Global Positioning System
+GLONASS
+Preprocessing
+Google Web Toolkit
+Platform
+Reusability
+Recognition
+Gang of Four
+Design Pattern
+Creational pattern
+Structural pattern
+Concurrency pattern
+Behavioral pattern
+Architectural Patterns
+Abstract Factory Pattern
+Builder Pattern
+Factory Method Pattern
+Prototype Pattern
+Cloning Pattern
+Singleton Pattern
+Adapter Pattern
+Bridge Pattern
+Composite Pattern
+Decorator Pattern
+Facade Pattern
+Flyweight Pattern
+Proxy Patern
+Chain of Responsibility Pattern
+Command Pattern
+Interpreter Pattern
+Iterator Pattern
+Mediator Pattern
+Memento Pattern
+Observer Pattern
+State Pattern
+Strategy Pattern
+Template Method Pattern
+Visitor Pattern
+File Allocation Table
+Digital Signal Processing
+Binary Code
+Document Object Model
+Java Database Connectivity
+Histogram
+Histogram Equalization
+Histogram Specification
+Histogram Matching
+Microsoft Developer Network
+Metro
+Recommender System
+Mozila Thunderbird
+Supercomputer
+High-Performance Computer
+Mainframe Computer
+Microprocessor
+Nanocomputer
+Adruino
+Raspberry Pi
+Kindle
+Kindle Fire
+Chromebook
+Google Now
+Siri
+Microsoft Cortana
+Intelligent Personal Assitant
+Foursquare
+Microsoft Build
+Integer Factorization
+MongoDB
+Android Developer Tools
+ATI Technologies
+Raedon
+Peripheral Component Interconnect
+PCI Express
+Euclidean Algorithm
+Extended Euclidean Algorithm
+Euclidean Distance
+Hamming Distance
+Manhattan Distance
+Metric Space
+Nokia City Lens
+Nokia Lumia
+Augmented Reality
+Compaq
+iMac
+Macintosh
+Macbook Air
+Macbook Pro
+Microsoft Build
+Consumer Electronics Show
+Google I/O
+Google+
+Google Nexus
+Googleplex
+Most Significant Bit
+Least Significant Bit
+"Endian
+Endianess"
+Big-endian
+Little-endian
+Multitasking
+Text Editor
+Novell
+Authentication
+Hackathon
+Steganography
+Digital Watermarking
+Instagram
+Google Doodle
+Picasa
+Search Engine Optimization
+Central Processing Unit
+Arithmetic Logic Unit
+Viber
+Zalo
+Voice over Internet Protocol
+BTalk
+LATEX
+FLoating-point Operations Per Second
+Greedy Algorithm
+Responsive Web
+Bit per second
+Scrolling
+Polling
+Interrupt
+Classification
+PageRank
+Google Panda
+Google Penguin
+Google Hummingbird
+Dimension
+Fourier Transform
+Model View ViewModel
+External Storage
+Cloud Storage
+Software Architecture
+Bitmap Header
+Google Street View
+Intellectual property rights
+Bayesian Network
+Naïve Bayes
+Candy Crush
+Cisco System
+Password
+Username
+Case Study
+Local Features
+Clock Rate
+Embedded System
+Batch
+Patch
+Dispatch
+Enterprise Resource Planning
+Certificate Authority
+Geographic Information System
+Data Management
+Predictive Analytics
+Statistical Analysis System
+SPSS Statistics
+Octave
+Mathematica
+Maple
+Project Manager
+Visual Basic
+Googlecode
+Sourceforge
+Apache Subversion
+Bash
+Dalvik Virtual Machine
+Adobe Flash Player
+Portable Document Format
+Shockwave Flash
+Technical Support
+Call of Duty
+AOL
+Bluray
+Tim Cook
+Cryptocurrency
+Lenovo
+Thinkpad
+Eric Schmidt
+Rich Text Format
+3D Printer
+Tim Berners-Lee
+Battlefield
+Steve Ballmer
+Arcade Game
+APARNET
+HTC
+LinkedIn
+LulzSec
+Microsoft Surface
+Megaupload
+Mediafire
+Mobile World Congress
+The Pirate Bay
+Torrent
+Need For Speed
+TED
+Skype
+Smartphone
+Smartwatch
+Symbian
+Tablet Computer
+Wearable Device
+Web Browser
+Wikipedia
+Y2K bug
+Yahoo
+Youtube
+Mark Zuckerberg
+Research & Development
+Pixar
+Sony Picture
+Deep Learning
+CUDA
+JavaFX
+Java Applet
+Java Platform Standard Edition
+Java Platform Enterprise Edition
+Java Development Kit
+Metadata
+Metaprogramming
+Principal component analysis
+Event-driven Programming
+Data Center
+Microsoft Silverlight
+What You See is What You Get
+Paul Allen
+Wikileaks
+Database Management System
+Network Address Translation
+Checkpointing
+Network Address Translation
+Recovering
+Network Address Translation
+Botnet
+Slammer
+Distributed Denial of Service
+Trojan Horse
+Slammer - (ten rieng 1 loai worm may tinh)
+Network Address Translation
+Man in the middle
+User identity
+Network Address Translation
+IP Spoofing
+ARPANET
+BITNET
+CSNET
+Netscape
+Peer-To-Peer
+Host-to-Host
+Files Transfer Protocol
+Broadband
+OSI
+Presentation Layer
+Datalink Layer
+Transport Layer
+Link Layer
+Application Layer
+Physical Layer
+Session Layer
+Coaxial cable
+Fiber To The Home - FTTH - Ket noi truc tiep nha mang voi ho gia dinh bang cap quang
+Datagram
+Dial-up
+Internet Service Provider
+Packet-Switched Network
+Segment - goi tin
+Throughput - Tho^ng luo.ng
+Transmission rate
+Bandwidth
+bit per second
+Transmission Control Protocol - TCP
+User Datagram Protocol - UDP
+Switch
+Router
+Repeater
+Hub
+Cisco
+Linksys
+Server
+Client
+Datacenter
+Process
+Buffer
+Socket
+Loss-tolerant
+Realtime
+Connection-Oriented Service
+Connectionless - Phi ket noi, vi du UDP
+Privacy
+Secure Socket Layer - SSL
+Simple Mail Transfer Protocol - SMTP
+Telnet
+IP Address
+Request
+Response
+Apache Tomcat
+HyperText Transfer Protocol
+HyperText Transfer Protocol Secure
+Persistent Connections
+Non-Persistent Connections
+Round Trip Time - RTT - thoi gian ngan nhat goi tin tien trinh khach -> chu
+Version
+Method
+User-Agent
+Cookies
+Web Cache = Proxy Server
+Local Area Network - LAN - te^n lo't em
+Virtual Local Area Network - VLAN
+Attachment
+Hyperlink
+Graphic User Interface
+Mail box
+POP3 - Giao thuc truy cap thu don gian
+IMAP - Giao thuc truy cap thu, xin hon POP3
+Domain Name System
+DNS Caching
+Host Aliasing
+Distant Centralized Databases
+Distributed Databases
+BitTorrent
+Distributed Hash Tables - ky thuat su dung trong torrent
+Circular Distributed Hash Tables - ky thuat su dung trong torrent
+Stateless - neu khong dung Cookies
+Stateful - luu giu trang thai, vi du dung Cookies
+TCP Packet -- UDP Segment
+Multiplexing -- Demultiplexing
+Pipeline
+Finite-State-Machine - FSM
+Automatic Repeat Request
+Go-Back N - giao thuc quay lui, ben gui duoc phep gui nhieu goi tin ma khong can cho bao nhan
+Time out
+Flow Control
+Asynchronous Transfer Mode - ATM
+Constant Bit Rate - thuoc ATM - dam bao toc do khong doi
+Available Bit Rate - thuoc ATM
+end-to-end
+Packet
+Resource-Management Cells
+Congestion Avoidance
+Congestion Control
+Fast Recovery
+Maximum Segment Size
+Maximum Transmission Unit
+Multicast
+Unicast
+Forwarding
+Receiver
+jitter - dam bao nguong toi da su sai khac
+Internet Protocol
+Time-to-live, dam bao packet data trong mang khong lap vo tan
+Fragmentation Offset
+Offset
+IPv4
+IPv6
+Dotted Decimal Notation - vidu 192.168.1.1
+Subnet
+Subnet Mask
+Classless Interdomain Routing :((
+Classfull Adressing
+Dynamic Host Configuration Protocol - DHCP
+Plug-and-Play Protocol
+Client-Server Protocol
+Network Address Translation
+Internet Group Management Protocol - IGMP
+Virtual Private Network
+IPSec, giao thuc bao mat IP
+Gateway
+Gateway Routers
+Routing Information Protocol
+Open Shortest Path First, dinh tuyen noi vung
+Border Gateway Protocol, dinh tuyen ngoai vung
+Message Digest 5
+Backbone
+Spanning-Tree Broadcast
+Distance Vector Algorithm
+Protocol Independent Multicast - PIM
+Rendezvous Point
+Node
+Frame
+Packet
+Media Access Control - MAC
+retransmission
+Internet Checksum
+Full Duplex
+Half Duplex
+Network Interface Card - NIC
+Link-Layer Controller
+Interrupts
+Error Detection-Correction - EDC
+parity
+bit parity
+checksum, kiem tong
+Cyclic Redundancy Check - CRC, kiem du vong
+Forward Error Correction - FEC
+Point-to-Point
+Time-division Multiplexing
+Frequency-division Multiplexing
+ALOHA
+Carrier Sense Multiple Access - CSMA
+CSMA/CD, trien khai CSMA la Carrier Sense Multiple Access
+CSMA/CA, trien khai CSMA la Carrier Sense Multiple Access
+polling
+token-passing
+Fiber Distribute Data Interface - FDDI
+Address Resolution Protocol - ARP
+Ethernet, loai mang LAN thong dung nhat
+Novell IPX
+Apple Talk
+Maximum Transmission Unit - MTU
+Byte Stuffing, ky thuat trong PeertoPeer
+Multiprotocol Label Switching - MPLS
+Wireless
+Wi-Fi
+Bluetooth
+hand off
+Single-hop
+Multi-hop
+infrastructure mode
+adhoc mode
+Cellular Network
+Signal to Noise Ratio - SNR
+802.11
+Access Point
+Basic Service Set - BSS
+Beacon
+Beacon frame, qua trinh quet, do song di dong
+diameter
+Collission Avoidance
+Clear to Send
+Request to Send
+backoff
+payload
+Rate adaptation
+Power Management
+polling messages
+base station
+Bit error rate - BRE
+Home network
+Hidden Terminal Problem
+thrasing
+batch processing
+symetric multiprocessing
+asymetric multiprocessing
+spooling
+shell
+Ken Thompson
+VLSI - Very Large Scale Integrated
+Program Status Word
+Program counter - instruction pointer
+Direct Memory Access - DMA
+nonvolatine memory
+Process Control Block - PCB
+Stub
+PreEmtive
+Remote Procedure Call
+Race Condition
+Busy Waiting
+Critical Section
+Peterson
+Test and set
+Mutexes
+Thread-yield
+Software interrupt
+Method
+Unicast
+Vsphere
+Block Cipher
+Laser Printer
+Data Structure
+Data Management
+Implicit Casting
+Functional Overloading
+Graphic User Interface
+Cloning
+Creational pattern
+Variable Declaration
+Operator
+Function Declaration
+Markov Process
+Reference Variable
+IPSec, giao thuc bao mat IP
+Enterprise
+Very large-scale integration
+LISP
+Toolbox
+Merge Sort
+Reusability
+Recognition
+gamification
+GPS longtitude
+Tablet Computer
+C-style casting
+Database Security
+Simple Mail Transfer Protocol
+Attachment
+Logistic Regression
+Local Features
+Google API
+System R
+Function Polymorphism
+Tumblr
+Tim Berners-Lee
+Template Method Pattern
+Cisco
+VMWare
+Torrent
+Dongatory
+Coaxial cable
+Branch Statements
+Function Template
+Solid State Drive
+Program Status Word
+Optimal Binary Search Tree
+Business Logic Layer
+Formal Language
+Ping
+Common Runtime Language
+Gateway Routers
+Const Casting
+hexadecimal
+Half Life
+Hewlett-Packard
+NVIDIA
+Starcraft
+Apple Talk
+Flash Sort
+Playstation
+Request to Send
+Wearable Device
+Portable Document Format
+Web Cache = Proxy Server
+Bridge (cut-edge, cut arc or an isthmus)
+American Standard Code for Information Interchange
+Bluray
+Registry
+DenseNet
+Prototype
+Case Study
+Race Condition
+File Signature
+Internet Checksum
+Infomation Security
+Metropolitan Ared Network
+Router
+Algorithm Implementation
+Google Nexus
+Compaq
+Windows
+Multiple Thread
+Visualization
+AlphaFord
+LUA
+Optical Character Recognition
+Sector
+Jeopardy
+Windows CE
+Candy Crush
+Inheritance
+Naive Bayes
+Formal Variable
+Flyweight Pattern
+Congestion Control
+Four Color Theorem
+PostScript
+Web Exploitation
+Dennis Ritchie
+Regular Expression
+Intergrity
+Delete
+Method Overloading
+Swing
+Google Web Toolkit
+Iterator Pattern
+Emacs
+Unicode
+hand off
+Blob detection
+Mark Zuckerberg
+Built-in Data Type
+Business Logic Tier
+Predictive Analytics
+Network Address Translation
+VLSI - Very Large Scale Integrated
+Broadband
+Kaspersky
+Metric Space
+Digital Transformation
+Pseudocode
+Realtime
+Explicit Casting
+WHOIS
+Deadlock
+Haswell
+Subnet
+Biometric
+Code Reuse
+Plain Text
+Visual Basic
+RDF Site Summary
+Presentation Layer
+Data Encryption Standard
+Digital image processing
+Internet Information Services
+Alexa
+Apache
+Function Library
+Fibonacci
+JavaFX
+Structural pattern
+Loss Function
+LibreOffice
+The Art of Computer Programming
+Raspberry Pi
+Website
+NTT Data
+Bitlocker
+Stack canary
+Generic Code
+Need For Speed
+Collision Domain
+Wireless Access Point
+Extended Euclidean Algorithm
+Extensible Stylesheet Language Transformations
+Procedure Linkage Table
+Scrolling
+Network Topology
+Actual Argument
+Segment
+Filename Date Modified (MFT)
+Abstract Data Type
+Data Execution Prevention
+Durability
+Local Variable
+Edge
+Linux
+Botnet
+Github
+totient
+Relational Algebra
+Entry Date Changed
+Automatic Repeat Request
+Open System Interconnection
+Constant Bit Rate - thuoc ATM - dam bao toc do khong doi
+Head Puppetry
+iMac
+Alan Turing
+Combinatoric
+Statistical Analysis System
+Metadata
+source IP address
+Data Mining
+Trojan Horse
+Software interrupt
+Endian
+Operand
+Automata
+Jelly Bean
+Probability
+Touchscreen
+Cryptography
+Data tampering
+Fourier Transform
+HyperText Transfer Protocol
+Sentinel
+Statement
+Host-to-Host
+Nonrepudiation
+Bing
+Mutable
+Augmented Reality
+BITNET
+Scripting Language
+Filename Date Created (MFT)
+Dropbox
+Mantissa
+end-to-end
+Hard coding
+Digitization
+Context Menu
+Notable language
+Data Access Layer
+Class-level Member
+Directory Traversal
+Entry Date Modified
+
+Eight Queens Puzzle
+disassembler
+Dijkstra Algorithm
+Digitalization
+Stereoscopic 3D
+Digital Watermarking
+Source code
+Solid State Driver
+Nokia City Lens
+Dell
+Blank
+Version
+Mutexes
+AVL Tree
+Chromebook
+Cloud Computing
+Prewitt Operator
+BlackBerry World
+power on self test
+Trojan
+Distinguished Encoding Rules
+Deep Reinforcement Learning
+Stream Cipher
+Cache hit
+Multilayer Perceptrons
+Compiler
+File Magic Number
+Hackathon
+Virtual Private Network
+Cursor
+polling
+Javascript
+Brute Force
+Mozila Firefox
+Confidentiality
+Referential Integrity
+Doubly Linear Linked List
+Filename Date Accessed (MFT)
+Articulation Point (Cut Vertex)
+Project Loon
+Authorization  (AuthZ)
+Blockchain
+Wikileaks
+base pointer
+Nondeterministic finite automaton
+Hash Function
+Long Short Term Memory
+Data-link Layer
+Programming Paradigm
+Adapter Pattern
+Media Access Control - MAC
+Backtracking
+BitTorrent
+Intel x86
+Platform
+Argument
+Normalize
+Sub-program
+Discrete Mathematics
+Sequentially Access
+Graph
+Effective Variable
+Pointer
+Data
+Netscape - Nha phat trien JavaScript
+HipHop Virtual Machine
+Schema
+CUDA
+Tuple
+Undefined behavior
+Physical Layer
+Windows 8
+program launcher
+Upper Case
+Knight Tour
+BitDefender
+Macbook Air
+Host Aliasing
+Wide Area Network
+Buffer
+Java Development Kit
+Raedon
+Interpolation search
+Uniform Resource Indetifier
+Twitter
+Username
+Copy
+Dictionaries
+Motorola
+Balanced Binary Search Tree
+Stateful - luu giu trang thai, vi du dung Cookies
+Sign
+Data Type Definition
+Scale invarient feature transform
+Optimal
+Optical Flow
+Database
+Memory Fragment
+Entropy
+Data Access Tier
+Dispatch
+Recursion
+Padding Oracle Attack
+Component
+Busy Waiting
+edX
+Preprocessing
+Cache
+Serial Advanced Technology Attachment
+Pipeline
+Elsevier
+Cartesian Product
+Computer Vision
+TCP Packet -- UDP Segment
+Bit
+Graphics Device Interface
+Error Detection-Correction - EDC
+Selection Sort
+Data Access Sevices
+Digital identity
+Mail box
+National Security Agency
+Offset
+Asynchronous JavaScript and XML
+Induction
+PageRank
+Assembly Language
+Hamming Distance
+Adversarial Attack
+Wireless Router
+Class Declaration
+Hard disk drive
+Formal Parameter
+Data Center
+Behavioral pattern
+Routing Information Protocol
+Galaxy 4S
+Caesar Cipher
+Exponential Time
+Virtual Inheriatance
+Markov Chain
+Quadratic Time
+Machine Learning
+Business Logic Sevices
+Fingerprint
+Notification
+Delimiter
+TED
+Message Digest 5
+Multiple Inheritance
+Output
+CSMA/CA, trien khai CSMA la Carrier Sense Multiple Access
+Eyetracking
+Internet Explorer
+Magic Leap
+Fragmentation Offset
+Process Control Block - PCB
+B-Tree
+Pixar
+Hierachical Structure
+parallelizable
+Pattern Matching
+Electronic Codebook
+MapReduce
+Wikipedia
+Grant
+Decision Problem
+ASUS
+Propogating Cipher Block Chaining
+Ethernet
+Skydrive
+spooling
+Fsoft
+Overriding
+Socket
+Markov Model
+Transport Layer Secure
+Laptop
+Sub-routine
+timestamp
+Pop
+Parallel Computing
+Red Hat Enterprise
+Symbian
+Entry Date Created
+Deterministic finite automaton
+Convex Hull
+Dalvik Virtual Machine
+Redis
+Tree
+Voice over Internet Protocol
+Linear Time
+Data Control Language
+Intrusion Detection System
+Replay Attach
+Infrastructure as a Service
+Vigenere Cipher
+Procedural Programming
+Integrated Development Enviroment
+Import
+Round Trip Time
+Circular Linked List
+IntelliJ IDEA
+Built-in Class
+Adobe
+Return Oriented Programming
+.NET Framework
+Distributed Denial of Service
+Cryptology
+Hololens
+Peripheral Component Interconnect Express
+Request
+Flow Control
+Converter
+Intelligent Personal Assitant
+Input Device
+Institute of Electrical and Electronics Engineers
+3DES
+Onine Analytical Processing
+Nanocomputer
+Canny Edge Detector
+Bidirectional Encoder Representations from Transformers
+Bit error rate - BRE
+Last In First Out
+Dynamic Host Configuration Protocol - DHCP
+Files Transfer Protocol
+Distributed Databases
+OpenSSL
+Access Point
+Non Fungible Token
+Steganography
+Local Aread Network
+Opera
+Forwarding
+Boolean Operator
+Objective-C
+Call of Duty
+Observer Pattern
+Procedure
+SQLite
+Facade Pattern
+Computational complexity theory
+Heap
+Quality Assurance
+Static Local Variable
+Datagram
+Rectified Linear Unit
+Yahoo
+Complex Instruction Set Computing
+A* Search Algorithm
+Zalo
+First In First Out
+Code Block
+Nondeterministic Polynomial time
+Google Drive
+Hypertext Transfer Protocol Secure
+Resource Acquisition Is Initialization
+Histogram Specification
+Infrastructure
+Advanced Encryption Standard (AES)
+Heartbleed
+Information Gain
+Skype
+Cycle
+Online Transaction Processing
+IS-A
+Euler's Formula
+Wordpress
+Function Overloading
+Integrity Constraint
+Stack Memory
+Novell
+Control Structure
+Superclass
+Artificial Intelligent
+Greedy Algorithm
+Reduced Instruction Set Computing
+NP Complete
+Earliest Deadline First scheduling
+Polish prefix notation
+bit per second
+adhoc mode
+Command Pattern
+Sciencedirect
+Relational Database
+Access Modifier
+Smart contract
+String Matching
+Lowest Common Ancestor
+Worst case Complexity
+Greatest Common Divisor
+Method Overriding
+Insertion sort
+Big-endian
+Wrapping
+Server Side Request Forgery
+Information Security
+Binary Insertion Sort
+Model View View Model
+ARPANET
+Dynamic Casting
+Ethernet, loai mang LAN thong dung nhat
+Netscape
+Fedora
+Data Definition Language
+Hashtag
+PreEmptive
+Shielded Twisted Pair
+Controller
+Google Doodle
+least-significant bit
+Unix
+Retrieval
+Fiber To The Home - FTTH
+bitstream file
+Strategy Pattern
+Generative Adversarial Network
+Uniform Distribution
+Alpha Go
+OSI - Open Systems Interconnection model
+basic input output system
+Andrey Markov
+Clique
+Zend Framework
+Julia
+Ivy Bridge
+NetBean
+Computer Network
+Linear Regression
+Mathematica
+Matrix Laboratory
+Planar Graph
+Classful addressing
+Degree
+Wide Character
+Primary Key
+Telnet
+Tag
+stack pointer
+Local Host
+Playstation Vita
+calling convention
+forking repo
+Fiber Distribute Data Interface - FDDI
+Topology
+NULL
+Hadoop
+Spiral Model
+Object-oriented Programming
+CRT Monitor
+Content delivery network
+Multicast
+Turing Test
+Robotic Process Automation
+Run-length encoding
+Dependent
+Supplementary specification
+Kinect
+MongoDB
+Process
+DeepFake Detection
+Packet
+deep fake
+Secret Key
+Supervised Learning
+Terrain
+session hijacking
+Minimum Spanning Tree
+Google Hummingbird
+OpenGL
+Windows Presentation Foundation
+Switch
+DeepFake
+File system
+Association for Computing Machinery
+Lip-syncing
+Presentation Tier
+Container Orchestration
+Root Class
+Byte Stuffing, ky thuat trong PeertoPeer
+The Pirate Bay
+Sequence diagram
+Register
+Nokia Lumia
+Specification
+thrasing
+XQuery
+exclusive OR
+Face swapping
+Turing Machine
+Friend Function
+Media
+Packet-Switched Network
+Rate adaptation
+Hologram
+Paypal
+Concrete Class
+Extract
+maximum likelihood estimation
+Cloning Pattern
+Beacon frame, qua trinh quet, do song di dong
+Playstation Portable
+User Datagram Protocol - UDP
+Nintendo
+F#
+Extraction Operator
+Abstract Class
+C
+Single-hop
+Moore Law
+Memory Allocation
+SQL injection payload
+ATI Technologies
+Total Commander
+Logical Memory Address
+Keyword
+CSNET
+Top-down
+Maple
+shared library
+K-nearest neighbor
+verbose instruction
+Cookie
+Tail Recursion
+Crowdfunding
+Memory Leak
+Framework Application
+Really Simple Syndication
+Gang of Four
+Nonvolatile memory express
+Checkpointing
+Windows NT
+Handshake
+OpenGL ES
+Constraint
+destination IP address
+gadget
+DNS Caching
+Multi-hop
+Extreme Programming
+Remote Procedure Call
+Virtual Destructor
+Instance
+Prim Algorithm
+Cache-friendly
+Header
+Bluetooth
+Widget
+Test Case
+Microprocessor
+Resource-Management Cells
+Block
+Availability
+plug-in
+SPSS Statistics
+Network News Transfer Protocol
+Foursquare
+Authentication
+Eric Schmidt
+Behaviour
+nonvolatine memory
+Functional Dependency
+Privacy
+Ford-Bellman Algorithm
+Massachusetts Institute of Technology
+Openoffice
+Google Maps
+Data Encryption Standard (DES)
+Spanning tree
+Backpropagation
+diameter
+Zero Day Exploit
+Thread
+Double-ended Queue
+Windows Me
+LATEX
+Home network
+HyperText Transfer Protocol Secure
+Fibonacci Sequence
+Pycharm
+ChatGPT
+Maximum Transmission Unit - MTU
+Security
+Java Database Connectivity
+String
+Visitor Pattern
+High-Performance Computer
+Dynamic Array
+Coursera
+Overflow
+Instagram
+Network Address Translation Overload
+Ruby on Rail
+Euler
+Geographic Information System
+Association
+Activation Function
+Graph Coloring
+Quality Control
+Java Applet
+Programming Language
+Android Developer Tools
+Integrity
+Pascal
+CSMA/CD, trien khai CSMA la Carrier Sense Multiple Access
+Laplacian
+privilege escalation
+polling messages
+C#
+Function Pointer
+Initialization Vector
+Floating Point
+Graph API
+instruction pointer
+Rich Site Summary
+Polynomial Time
+Authorization
+Array
+Container
+cryptosystem
+Eclipse
+Document Object Model
+Project Manager
+Chain of Responsibility Pattern
+Bioinformatics
+Google App Engine
+P vs NP
+Web Browser
+Character Frequency Analysis
+Cross entropy
+Google Play
+Peer-to-peer
+Child process
+dereference operator
+Imagine Cup
+Finite-State-Machine - FSM
+Address Space Layout Randomization
+Normal Distribution
+Principal Component Analysis
+Wireless
+Dynamic allocation
+Cloud Storage
+Linear Search
+Cascading Style Sheets
+Enigma
+Triplet loss
+Abstract Window Toolkit
+Object
+Global Offset Table
+Data Warehouse
+Research & Development
+Deep Blue
+Radio button
+Port
+Y2K bug
+Connectivity
+Encryption scheme
+Euclidean Algorithm
+Transmission Control Protocol - TCP
+Event-driven Programming
+Software Architecture
+Little-endian
+Rivest - Shamir - Adleman
+Collission Avoidance
+Halt Problem
+User-Agent
+Responsive Web
+Administrator
+Linear Programming
+Repeater
+Macintosh
+Car-to-car Communication
+Queue
+PCI Express
+Client
+Red Green Blue Alpha
+Substitution Cipher
+Master Boot Record
+Double Data Rate
+Alias
+Memory Address
+Forward Declaration
+Private Key
+Memory Mapping
+Floyd Algorithm
+rijndael
+Logical Operator
+GLONASS
+Adversarial Network
+Arithmetic Logic Unit
+DB2
+Database Replica
+Binary Search
+Windows 3.1
+Extensible Markup Language
+Optimization Problem
+Google Instant
+Statistical Learning
+Lenovo
+Directory
+Embedded System
+Shortcut
+asymmetric encryption
+Bitmap Header
+Support Vector Machine
+Windows Azure
+Response
+Steve Ballmer
+Integer Factorization
+Platform as a Service
+Search Algorithm
+View
+Anonymity
+Worm
+Half Duplex
+Argument control
+Isolation
+Slammer
+Relocation Read-Only
+Class Implementation
+Digital
+Symmectric Cryptosystem
+Interpolation Search
+Master-slave relationship
+OpenGL Shading Language
+Computer Security
+Pixel
+distributed ledger
+Pentium
+metadata
+Rich Text Format
+Namespace
+Knight's Tour Problem
+Arcade Game
+Pointer Variable
+Mobile Application
+Frequency-division Multiplexing
+Symmetric Cryptosystem
+SmallTalk
+Logarithm Time
+LinkedIn
+Windows 7
+Cellular Network
+Casting
+asymetric multiprocessing
+Histogram
+Digital signature
+Haskell
+Debugging
+Microsoft Cortana
+Joomla
+Walk
+Hypertext Markup Language
+Border Gateway Protocol, dinh tuyen ngoai vung
+Operating System
+Bootstrap
+Random Access
+Genetic Algorithm
+Megaupload
+Stack Unwinding
+Dynamic Memory
+Cyclic Redundancy Check - CRC, kiem du vong
+Public Key
+Clock Rate
+Open Shortest Path First, dinh tuyen noi vung
+Sergey Brin
+Hack
+Manhattan Distance
+Video Card
+Static Array
+Single Linked List
+Integrated Circuit
+Certificate Authority
+Structured Data
+Internet Service Provider
+State Pattern
+Multitasking
+Friend Class
+infrastructure mode
+sigmoid
+Google Panda
+Man in the middle
+Cryptocurrency
+Critical Section
+First come first server
+Virtual Local Area Network - VLAN
+Robert Noyce
+Advanced Micro Devices
+backoff
+Algorithmic Complexity
+Circular Distributed Hash Tables - ky thuat su dung trong torrent
+Point-to-Point
+Battlefield
+Dequeue
+Bit mask
+Virtual Method
+iCloud
+CIA Triad
+Hidden Terminal Problem
+Safari
+Encapsulation
+Congestion Avoidance
+Power Management
+Red-Black Tree
+Parent class
+Time-division Multiplexing
+floppy disk
+Folder
+Turing Award
+Builder Pattern
+Apache Subversion
+Distant Centralized Databases
+Class diagram
+Use-case diagram
+Euler Diagram
+Yahoo Messenger
+Oracle
+Google I/O
+Spanning-Tree Broadcast
+Client-Server Protocol
+Authentication (AuthN)
+Prime
+Compare
+Rony Abovitz
+MySpace
+Adobe Flash Player
+Polymorphism
+Union
+Streaming
+Multiplexing -- Demultiplexing
+Validation
+Attacker
+Coprime
+Sourceforge
+Programming Tip
+Python
+Octave
+Histogram Equalization
+retransmission
+Binary Search Tree
+Connected Component
+XPath
+Computer Graphics
+Google Chrome
+Information Theory
+Youtube
+Available Bit Rate - thuoc ATM
+Enterprise Resource Planning
+Windows XP
+Macbook Pro
+Flow chart
+token-passing
+Endianess
+Database Management System
+Most Significant Bit
+Test and set
+Normal Form
+Anonymous
+Input
+Larry Page
+AngularJS
+Linked List
+diophantine equation
+Packet Capture
+Digital Forensics
+Immuatable
+EmguCV
+Uniform Resource Name
+Internet Protocol
+Cross Site Scripting
+Variable
+Class
+Maximum flow problem
+Semantic
+SCRUM
+Process Mapping
+Landmark recognition
+Programming Interface
+pandas
+File Trasfer Protocol
+Shallow Copy
+Decision Table
+Bridge Pattern
+Gameloft
+Network Security
+bit parity
+Google Glass
+Prolog
+List Comprehension
+Windows Phone
+Divide and Conquer
+Classification
+Leap Motion
+clang
+Plug-and-Play Protocol
+Team Foundation
+Intersect
+Trigger
+Basic Data Type
+Lexicographical Order
+Interrupts
+Digital Signal Processing
+Avast
+Prototype Pattern
+Abstract
+Extensible HyperText Markup Language
+Receiver
+File Allocation Table
+Regular Language
+Abstract Factory Pattern
+Gordon Moore
+Dimension
+Session Layer
+Metro
+Polling
+Hungarian Notation
+Primitive
+Secure Socket Layer - SSL
+Calculus
+Distributed Hash Tables - ky thuat su dung trong torrent
+ActionScript
+Euclidean Distance
+Singleton Pattern
+Unreal
+Reinterprest Casting
+Analysis of Algorithm
+Double-ended Priority Queue
+Google Street View
+General Data Protection Regulation
+Constant
+Software as a Service
+Factory Method Pattern
+Location
+Shift Cipher
+What You See is What You Get
+Inception v3
+Scrash
+Shortest seek time first
+Perfectly Secure
+Googlecode
+Abstract Method
+Xbox One
+Wii
+Control Flows
+Universal Coordinated Time
+Natural Join
+Reverse Engineering
+Ternary Search
+Fragmentation
+World of Warcraft
+Firewall
+kubernetes
+Data Member
+Privilege
+Time out
+repository
+Hypertext Transfer Protocol
+Metric learning
+Amazon web services
+Singular Value Decomposition
+Asynchronus
+Java Platform Enterprise Edition
+Java Foundation Classes
+Elastic Compute Cloud
+Link Layer
+Spring
+Round Trip Time - RTT
+NP Hard
+Recommender System
+Histogram Matching
+Hyperlink
+disk image
+Reference Parameter
+Dial-up - Phuong thuc truy cap internet qua <quay so dien thoai>
+Backbone
+Mac OS
+NoSQL
+Completely Automated Public Turing test to tell Computers and Humans Apart
+Analytic Combinatorics
+Crowdsourcing
+Template
+Mako Surgical
+Generative Adversarial Network Modeling
+Theta Join
+Game Designer
+Friend
+HAS-A
+Infix notation
+Terminate
+Onedrive
+Character
+Apache Tomcat
+Connectionless - Phi ket noi, vi du UDP
+High-level Shader Language
+checksum, kiem tong
+git fork
+Siamese network
+Bitcoin
+Eastern Standard Time
+Vim
+Reinforcement Learning
+Abstract Syntax Notation One
+Scala
+Encryption
+Data Type
+Siri
+Network Layer
+Hidden Markov Model
+Wireless Mouse
+Viber
+Interrupt
+Outsourcing
+Priority Queue
+Reverse Polish notation
+Bit per second
+Image Segmentation
+Donald Knuth
+Dynamic Link Library
+E-signature
+Flickr
+Uncentainty
+Member-wise Copy
+Mediator Pattern
+Generalization
+Natural Language Processing
+Springer
+eXtensible Application Markup Language
+Java Virtual Machine
+qubit
+Push
+Microsoft Foundation Class
+Marshmallow
+Hacker
+softmax
+Data Abstraction
+Windows Communication Foundation
+Postfix notation
+Support Vector Regression
+Role-based access control
+Binary File
+Lip-syncing
+Strategy
+IMAP - Giao thuc truy cap thu, xin hon POP3
+Lambda Expression
+Java Platform Standard Edition
+Cookies
+Sequential Search
+Deepfake
+Application Layer
+Ubuntu
+Data access object
+Linear Algebra
+Clear to Send
+Java
+Blowfish
+Maximum Segment Size
+Cryptanalysis
+Navigate
+Macro
+Server
+network protocol analyzer
+Pure Virtual Method
+Bash
+Shockwave Flash
+Secure Hash Algorithm
+Deep Copy
+HaNoi Tower
+Beacon
+Binary Exploitation
+Standard Template Library
+Digitized
+private exponent
+Parameter
+PostgreSQL
+Dynamic Programming
+Mainframe Computer
+SQL Injection
+Xbox
+Direct Memory Access - DMA
+Intellectual property rights
+Silverlight
+Search Engine Optimization
+Negative cycle
+Dynamic Allocation of Memory
+Cyber-Physical Production Systems
+Hyper-V
+C++
+Cisco System
+Obfuscation
+OculusVR
+Address Resolution Protocol - ARP
+Ginger Bread
+End of File
+Word Processing
+Polish notation
+AOL
+Decompiler
+Hash Table
+Face Detection
+Content Delivery Network
+Microsoft Developer Network
+Learning rate
+Connection-Oriented Service
+Google+
+Fast Fourier Transform
+Deep Learning
+Linear Recursion
+Distance Vector Algorithm
+Naïve Bayes
+Larry Ellison
+traffic history
+Fatal Error
+Euler's totient function
+Stack Overflow
+Generating Function
+Thinkpad
+Multiprotocol Label Switching - MPLS
+Control Abstraction
+Technical Support
+Loop Invariant
+Image Processing
+802.11
+Side Channel
+Mutimedia
+Subnet Mask
+Architectural Patterns
+WhatsApp
+Frequency Attach
+Path
+Bubble Sort
+parity
+Design Pattern
+Trail
+IP Spoofing
+Broadcast
+Transmission rate
+Interpreter Pattern
+Attaching Processe
+Text Editor
+Gateway
+Sparse Coding
+Novell IPX
+Full Duplex
+IP Address
+Froyo
+Stream
+Copy Constructor
+Reference
+Batch
+FLoating-point Operations Per Second
+Physical Memory Address
+stack frame
+Functional Programming
+3D Printer
+Portable Operating System Interface
+Algorithm
+Kindle Fire
+Command Injection
+Personal Home Page
+Google Penguin
+Segment - goi tin
+American National Standards Institute
+Hub
+Binary Recursion
+Peer-To-Peer
+Sub String
+Capital Letter
+Best case Complexity
+Signal to Noise Ratio - SNR
+Compositon
+payload
+Structured Query Language
+Quicksort
+ALOHA
+Binary Code
+Frame
+Cyber crime investigation
+Knapsack
+Port Address Translation
+Contrastive learning
+Smartwatch
+Semaphore
+Throughput
+Iterator
+Xbox 360
+Time-to-live
+Loop Structure
+Microsoft Build
+APARNET
+jitter - dam bao nguong toi da su sai khac
+Unified Modeling Language
+Intializers
+Apple App Store
+Sobel Operator
+Sort Algorithm
+Ruby
+snippet
+Malware
+Imperative Programming
+Anjuta
+Automotive Engineering
+Network Interface Card - NIC
+Adruino
+Central Processing Unit
+Datalink Layer
+Secrecy
+International Collegiate Programming Contest
+Class-level Method
+Kickstarter
+Interpreter
+Parser
+XCode
+Venn Diagram
+Probability Distribution
+Mediafire
+Peterson
+Thread-yield
+numpy
+Minesweeper
+Sony Picture
+Advanced Encryption Standard
+Exponent
+Computer Science
+Relation
+OpenCV
+Composite Number
+Heap Memory
+Enqueue
+Conditional Expression
+Honeycomb
+Destructor
+Thrashing
+Broadcast Domain
+Insertion Operator
+John Von Neumann
+New Technology File System
+Least Significant Bit
+Computational Geometry
+VirtualBox
+Model View Controller
+Kindle
+Bag of Words
+POP3 - Giao thuc truy cap thu don gian
+HTC
+Vulnerability
+Intel 4004
+memory dumping
+Go-Back N
+IPv6
+shell
+Static Member
+Secure Socket Layer
+Javascript Object Notation
+Supercomputer
+base station
+Memoization
+Decision Tree
+Threat modeling
+Rational Unified Process
+Agile
+Attribute
+Carrier Sense Multiple Access - CSMA
+Lotus Software
+Non-Persistent Connections
+data payload
+Modeling
+DirectX
+Revoke
+Saigon Hi Tech Park
+Program counter - instruction pointer
+Non-repudiation
+Domain Name System
+Adjacency Matrix
+Z function
+Windows Server
+Loss-tolerant
+Raw data
+Interface
+Constructor
+Coding Theory
+Quantum Computer
+Cipher Block Chaining
+Classless Inter-domain Routing
+Linksys
+User identity
+Suffix Array
+Speech Recognition
+Sun Microsystem
+Proxy Patern
+Redundant Array of Independent Disks
+Paul Allen
+Affine Transformation
+Consistency
+Specialization
+Mode of Operation
+Dotted Decimal Notation - vidu 192.168.1.1
+Information retrieval
+Information Leak
+Consumer Electronics Show
+Conventional Cryptosystem
+Wi-Fi
+Basic Service Set - BSS
+Bitwise Copy
+Singly Linear Linked List
+Jeff Bezos
+Mozila Thunderbird
+Foreign Key
+Decorator Pattern
+Composite Pattern
+Nested Recursion
+Simple Mail Transfer Protocol - SMTP
+Boruvska Algorithm
+public exponent
+Language-Integrated Query
+Finite State Machine
+Symbol
+Data Manipulation Language
+Lowest Common Multiple
+Peripheral Component Interconnect
+Base Class
+Rendezvous Point
+CheapFake
+Private Data Member
+Silicon Valley
+Bandwidth
+Bag of Features
+Static Method
+Windows Phone Store
+View-Master
+Stateless - neu khong dung Cookies
+Stack
+Counter Strike
+Try Catch
+Recovering
+Methodology
+Data transfer object
+PHP: Hypertext Preprocessor
+Tim Cook
+Code Duplication
+Boyce-Codd Normal Form
+Cross-product
+Datacenter
+Deepfake  Technology
+ACK
+Class Name
+Implementation
+Default Constructor
+International Business Machines
+LulzSec
+Protocol Independent Multicast - PIM
+Breadth First Search
+Business Intelligent
+Local Area Network
+Throw
+Kruskal Algorithm
+R
+Capture The Flag
+Sieve of Eratosthenes
+Uniform Resource Locator
+Ripple-Carry Adder
+Read Only
+Mutual Recursion
+World Cyber Game
+stream cipher
+Global Variable
+Integrated Electronics
+Constraint Programming
+Google Now
+Object Recognition
+Software development kit
+Metaprogramming
+Hue Saturation
+External Storage
+Decryption
+Network flow
+Methodological
+Forensics
+Hamilton Cycle
+Norton Commander
+Project Operator
+Generative Pre-trained Transformer
+circuit
+Lollipop
+Robotics
+Patch
+Inheritance Relationship
+Maximum Transmission Unit
+Forward Error Correction - FEC
+Node
+Boolean
+Sandy Bridge
+Static Constructor
+Humanoid Robot
+Nahalem Architecture
+Aggregation
+Neural Network
+GPS latitude
+Taskbar
+Longest common subsequence
+Index Operator
+Microsoft Visual Studio
+Microsoft SQL Server
+Automaton
+Concatenation
+Average case Complexity
+Kitkat
+Transaction
+Integrated
+Load balancer
+Vertex
+Acer
+Bottom-up
+Ken Thompson
+Global Positioning System
+Picasa
+MySQL
+Big-O
+Big Data
+Fast Recovery
+Optical Disk
+Transistor
+Vietkey
+Cross Site Request Forgery
+instruction register
+Atomicity
+Perl
+Statistic
+Asynchronous Transfer Mode - ATM
+Viettel
+Password
+Single Thread
+Mobile World Congress
+Unikey
+Scope
+Human Computer Interaction
+BTalk
+Link-Layer Controller
+symetric multiprocessing
+Microsoft Surface
+Googleplex
+Internet Group Management Protocol - IGMP
+Memento Pattern
+Concrete subclass
+Entry Date Accessed
+Concurrency pattern
+Integer Programming
+Fibonacci Number
+Transport Layer
+Near Field Communication
+Heuristics
+batch processing
+iTunes
+Application Programming Interface
+UTF-8
+Persistent Connections
+Bayesian Network
+Virtual Reality
+Smartphone
+Stub
+IEnumerable
+Linux Distribution
+File Format
+Atomic
+Linux Kernel
+Microsoft Silverlight
+Buffer overflow
+IPv4
+
