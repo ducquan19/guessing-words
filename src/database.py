@@ -69,46 +69,89 @@ def _ensure_schema(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def load_words() -> pd.DataFrame:
-    try:
-        df = pd.read_csv(DATA_PATH)
-        return _ensure_schema(df)
-    except ParserError:
-        # Fallback for malformed CSV rows where the "word" field contains commas
-        # but is not properly quoted. We recover by splitting from the right:
+def _clean_raw_word_field(value: str) -> str:
+    """Best-effort cleanup for a raw CSV 'word' field.
+
+    This is intentionally conservative: it only removes obviously broken quoting
+    artifacts that can appear when the CSV gets malformed (e.g. stray quotes at
+    the ends, trailing commas).
+    """
+
+    s = str(value).strip().replace("\x00", "")
+
+    # If it looks like a quoted field, drop the outer quotes.
+    if len(s) >= 2 and s[0] == '"' and s[-1] == '"':
+        s = s[1:-1]
+
+    # Collapse doubled quotes that often represent an escaped quote in CSV.
+    # For malformed inputs this at least reduces noise.
+    while '""' in s:
+        s = s.replace('""', '"')
+
+    # Strip any leftover unmatched quote characters at edges.
+    s = s.strip().lstrip('"').rstrip('"').strip()
+
+    # Some malformed rows end up with a trailing comma after de-quoting.
+    s = s.rstrip(", ")
+
+    return s
+
+
+def _load_words_manual(path: Path) -> pd.DataFrame:
+    rows: list[dict[str, object]] = []
+
+    # Use utf-8-sig to tolerate BOM; errors=replace to avoid hard crashes.
+    text = path.read_text(encoding="utf-8-sig", errors="replace")
+    lines = text.splitlines()
+
+    if not lines:
+        return pd.DataFrame(columns=REQUIRED_COLUMNS)
+
+    # Skip header if present.
+    start_idx = 1 if lines[0].strip().lower().startswith("word,") else 0
+
+    for line in lines[start_idx:]:
+        if not line.strip():
+            continue
+
+        # Recover by splitting from the right:
         # word,<count_correct>,<count_appear>,<count_incorrect>
-        rows: list[dict[str, object]] = []
-        with open(DATA_PATH, "r", encoding="utf-8", newline="") as f:
-            reader = f.read().splitlines()
+        parts = line.rsplit(",", 3)
+        if len(parts) != 4:
+            continue
 
-        if not reader:
-            return _ensure_schema(pd.DataFrame(columns=REQUIRED_COLUMNS))
+        word_raw, c_correct, c_appear, c_incorrect = parts
+        word_raw = _clean_raw_word_field(word_raw)
 
-        # Skip header if present.
-        start_idx = 1 if reader[0].strip().lower().startswith("word,") else 0
-        for line in reader[start_idx:]:
-            if not line.strip():
-                continue
+        rows.append(
+            {
+                WORD_COL: word_raw,
+                COUNT_CORRECT_COL: c_correct,
+                COUNT_APPEAR_COL: c_appear,
+                COUNT_INCORRECT_COL: c_incorrect,
+            }
+        )
 
-            parts = line.rsplit(",", 3)
-            if len(parts) != 4:
-                continue
+    return pd.DataFrame(rows)
 
-            word_raw, c_correct, c_appear, c_incorrect = parts
-            word_raw = word_raw.strip()
-            if len(word_raw) >= 2 and word_raw[0] == '"' and word_raw[-1] == '"':
-                word_raw = word_raw[1:-1]
 
-            rows.append(
-                {
-                    WORD_COL: word_raw,
-                    COUNT_CORRECT_COL: c_correct,
-                    COUNT_APPEAR_COL: c_appear,
-                    COUNT_INCORRECT_COL: c_incorrect,
-                }
-            )
+def load_words() -> pd.DataFrame:
+    path = Path(DATA_PATH)
+    if (not path.exists()) or path.stat().st_size == 0:
+        return _ensure_schema(pd.DataFrame(columns=REQUIRED_COLUMNS))
 
-        df = pd.DataFrame(rows)
+    try:
+        df = pd.read_csv(
+            path,
+            keep_default_na=False,
+        )
+        return _ensure_schema(df)
+    except (ParserError, UnicodeDecodeError, ValueError):
+        df = _load_words_manual(path)
+        return _ensure_schema(df)
+    except Exception:
+        # Last-resort safety net for platform/version differences.
+        df = _load_words_manual(path)
         return _ensure_schema(df)
 
 
@@ -120,6 +163,7 @@ def save_words(df: pd.DataFrame) -> None:
         index=False,
         quoting=csv.QUOTE_MINIMAL,
         escapechar="\\",
+        doublequote=True,
     )
 
 
