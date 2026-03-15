@@ -21,6 +21,7 @@ def _reset_game_state() -> None:
         "start_time",
         "duration_sec",
         "appear_logged_indices",
+        "answered_logged_indices",
         "game_correct",
         "game_wrong",
         "game_correct_words",
@@ -37,6 +38,7 @@ if "game_words" not in st.session_state:
     st.session_state.start_time = 0.0
     st.session_state.duration_sec = GAME_SECONDS
     st.session_state.appear_logged_indices = set()
+    st.session_state.answered_logged_indices = set()
     st.session_state.game_correct = 0
     st.session_state.game_wrong = 0
     st.session_state.game_correct_words = []
@@ -73,6 +75,7 @@ if start_clicked:
     st.session_state.start_time = time.time()
     st.session_state.duration_sec = GAME_SECONDS
     st.session_state.appear_logged_indices = set()
+    st.session_state.answered_logged_indices = set()
     st.session_state.game_correct = 0
     st.session_state.game_wrong = 0
     st.session_state.game_correct_words = []
@@ -253,6 +256,12 @@ with btn2:
     )
 
 if correct_clicked or wrong_clicked:
+    # Guard against rare double-processing due to reruns/autorefresh: each index can
+    # only be answered once.
+    if i in st.session_state.get("answered_logged_indices", set()):
+        st.session_state.index = max(int(st.session_state.get("index", i)), i + 1)
+        st.rerun()
+
     # Reload to avoid any stale in-memory df in case of concurrent edits.
     df = load_words()
     if correct_clicked:
@@ -269,6 +278,7 @@ if correct_clicked or wrong_clicked:
         ) + [current_word]
 
     save_words(df)
+    st.session_state.answered_logged_indices.add(i)
     st.session_state.index = i + 1
     st.rerun()
 
