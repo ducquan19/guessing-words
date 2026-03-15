@@ -28,9 +28,7 @@ access network,0,0,0
 access networks,0,0,0
 access paths,0,0,0
 access point,0,0,0
-access points,0,0,0
 access routers,0,0,0
-access-control list,0,0,0
 access-control list (acl),0,0,0
 access:,0,0,0
 accounting management,0,0,0
@@ -41,7 +39,6 @@ acknowledgement number,0,0,0
 acknowledgments,0,0,0
 action script,0,0,0
 activation function,0,0,0
-activation functions,0,0,0
 active optical networks,0,0,0
 active queue management algorithms,0,0,0
 active server pages,0,0,0
@@ -78,7 +75,6 @@ adobe,0,0,0
 adobe flash player,0,0,0
 adsl,0,0,0
 advanced audio coding,0,0,0
-advanced encryption standard,0,0,0
 advanced encryption standard (aes),0,0,0
 advanced micro devices,0,0,0
 advanced research projects agency,0,0,0
@@ -93,7 +89,6 @@ agglomerative clustering,0,0,0
 aggregate functions,0,0,0
 aggregation,0,0,0
 agile,0,0,0
-agile:,0,0,0
 aging time,0,0,0
 aho corasick,0,0,0
 ajax,0,0,0
@@ -110,7 +105,6 @@ all-pairs shortest paths,0,0,0
 allocating memory,0,0,0
 allocators,0,0,0
 aloha,0,0,0
-alpha go,0,0,0
 alphaford,0,0,0
 alphago,0,0,0
 alter table,0,0,0
@@ -180,7 +174,6 @@ array,0,0,0
 array types,0,0,0
 articulation point (cut vertex),0,0,0
 artificial intelligence,0,0,0
-artificial intelligent,0,0,0
 asc expression,0,0,0
 ascii,0,0,0
 assembler,0,0,0
@@ -202,7 +195,6 @@ asynchronous,0,0,0
 asynchronous javascript and xml,0,0,0
 asynchronous procedure calls,0,0,0
 asynchronous thread cancellation,0,0,0
-asynchronous transfer mode,0,0,0
 asynchronous transfer mode - atm,0,0,0
 ati technologies,0,0,0
 atomic,0,0,0
@@ -224,8 +216,7 @@ augmentation rule,0,0,0
 augmented reality,0,0,0
 authentication,0,0,0
 authentication key,0,0,0
-authorization,0,0,0
-authorization  (authz),0,0,0
+authorization (authz),0,0,0
 auto declarations,0,0,0
 automata,0,0,0
 automatic job sequencing,0,0,0
@@ -248,7 +239,6 @@ avg expression,0,0,0
 avl tree,0,0,0
 aws,0,0,0
 b-tree,0,0,0
-b-trees,0,0,0
 back door,0,0,0
 back propagation,0,0,0
 backbone,0,0,0
@@ -291,10 +281,9 @@ batch scaleup,0,0,0
 batch update,0,0,0
 battery,0,0,0
 battlefield,0,0,0
-bayes' theorem,0,0,0
+bayes theorem,0,0,0
 bayesian classifiers,0,0,0
 bayesian network,0,0,0
-bayes’ theorem,0,0,0
 beacon,0,0,0
 beacon frames,0,0,0
 behavior,0,0,0
@@ -311,7 +300,6 @@ bidirectional data transfer,0,0,0
 bidirectional encoder representations from transformers,0,0,0
 bidirectional iterators,0,0,0
 big data,0,0,0
-big endian,0,0,0
 big-bang approach,0,0,0
 big-endian,0,0,0
 big-o,0,0,0
@@ -331,7 +319,6 @@ bing,0,0,0
 binomial tree,0,0,0
 bioinformatics,0,0,0
 biometric,0,0,0
-biometrics,0,0,0
 bipartite graph,0,0,0
 bipartite matching,0,0,0
 bit,0,0,0
@@ -370,7 +357,6 @@ blockchain,0,0,0
 blocking (synchronous) message passing,0,0,0
 blowfish,0,0,0
 bluetooth,0,0,0
-bluetooth (),0,0,0
 bluetooth low energy,0,0,0
 bluray,0,0,0
 bookmark,0,0,0
@@ -397,7 +383,6 @@ boyce-codd normal form,0,0,0
 branch statements,0,0,0
 branching statements,0,0,0
 breadth first search,0,0,0
-breadth-first search,0,0,0
 bridge,0,0,0
 bridge pattern,0,0,0
 broadband,0,0,0
@@ -423,7 +408,6 @@ buffered distributors,0,0,0
 buffering,0,0,0
 buffers,0,0,0
 bug,0,0,0
-bugs,0,0,0
 builder pattern,0,0,0
 built-in class,0,0,0
 built-in data type,0,0,0
@@ -437,11 +421,9 @@ business intelligent,0,0,0
 business logic layer,0,0,0
 business logic services,0,0,0
 business logic tier,0,0,0
-business-logic layer,0,0,0
 busy waiting,0,0,0
 byte stuffing,0,0,0
 byte-code,0,0,0
-bytecode,0,0,0
 c,0,0,0
 c#,0,0,0
 c++,0,0,0
@@ -466,7 +448,6 @@ callable statements,0,0,0
 callbacks,0,0,0
 calling convention,0,0,0
 candidate key,0,0,0
-candidate keys,0,0,0
 candy crush,0,0,0
 canny edge detector,0,0,0
 canonical cover,0,0,0
@@ -495,7 +476,6 @@ catching exceptions,0,0,0
 categories,0,0,0
 cell phones,0,0,0
 cellular network,0,0,0
-cellular networks,0,0,0
 central processing unit,0,0,0
 centralized architectures,0,0,0
 centralized deadlock detection,0,0,0
@@ -518,25 +498,20 @@ cheapfake,0,0,0
 checkpoint log record,0,0,0
 checkpointing,0,0,0
 checksum,0,0,0
-checksum - parity check,0,0,0
-checksums,0,0,0
 child process,0,0,0
-child processes,0,0,0
 chinese remainder theorem,0,0,0
 chmod,0,0,0
 chromebook,0,0,0
 cia triad,0,0,0
 cidr classless  interdomain routing,0,0,0
-cipher block chaining,0,0,0
 cipher-block chaining,0,0,0
 circuit,0,0,0
 circuit switching,0,0,0
-circular distributed hash tables - ky thuat su dung trong torrent,0,0,0
+circular distributed hash tables,0,0,0
 circular linked list,0,0,0
 circular scheduling,0,0,0
 cisco,0,0,0
 cisco system,0,0,0
-cisco systems,0,0,0
 clang,0,0,0
 class,0,0,0
 class declaration,0,0,0
@@ -546,15 +521,11 @@ class name,0,0,0
 class-level member,0,0,0
 class-level method,0,0,0
 classful addressing,0,0,0
-classfull adressing,0,0,0
 classification,0,0,0
 classification hierarchy,0,0,0
 classless inter-domain routing,0,0,0
-classless interdomain routing,0,0,0
-classless interdomain routing :((,0,0,0
 clear to send,0,0,0
 client,0,0,0
-client / server,0,0,0
 client application buffer,0,0,0
 client socket,0,0,0
 client-server application,0,0,0
@@ -578,9 +549,8 @@ cluster remapping,0,0,0
 cluster selection strategy,0,0,0
 clusters,0,0,0
 coaxial cable,0,0,0
-coaxial cable: cáp đồng,0,0,0
 cobol,0,0,0
-cocktail sort: đoán từ sort rồi nói nó là cải tiến của shaker,0,0,0
+cocktail sort,0,0,0
 cocos,0,0,0
 code,0,0,0
 code block,0,0,0
@@ -593,9 +563,9 @@ coefficient,0,0,0
 coldfusion markup language (cfml),0,0,0
 collect function,0,0,0
 collision,0,0,0
+collision avoidance,0,0,0
 collision detection,0,0,0
 collision domain,0,0,0
-collission avoidance,0,0,0
 column-oriented storage,0,0,0
 combinatoric,0,0,0
 combo box,0,0,0
@@ -607,14 +577,13 @@ commit,0,0,0
 commit protocols,0,0,0
 common gateway interface (cgi) standard,0,0,0
 common internet file system,0,0,0
-common language runtime,0,0,0
 common language runtime (clr),0,0,0
 common object request broker architecture (corba),0,0,0
 common runtime language,0,0,0
 common subexpression elimination,0,0,0
+communication,0,0,0
 communication diagram,0,0,0
 communication system calls,0,0,0
-communication: nhiều người nói chuyện với nhau),0,0,0
 communications sessions,0,0,0
 compaq,0,0,0
 compare,0,0,0
@@ -632,7 +601,6 @@ composite number,0,0,0
 composite pattern,0,0,0
 composite structure diagram,0,0,0
 composition,0,0,0
-compositon,0,0,0
 compound statements,0,0,0
 compression ratio,0,0,0
 compression units,0,0,0
@@ -668,10 +636,10 @@ congestion control,0,0,0
 congestion indication bit,0,0,0
 connected component,0,0,0
 connection-establishment request,0,0,0
-connection-oriented  sockets,0,0,0
-connection-oriented (tcp),0,0,0
+connection-oriented,0,0,0
 connection-oriented service,0,0,0
-connectionless (udp),0,0,0
+connection-oriented sockets,0,0,0
+connectionless,0,0,0
 connectionless sockets,0,0,0
 connectivity,0,0,0
 consistency,0,0,0
@@ -680,13 +648,10 @@ const casting,0,0,0
 const member functions,0,0,0
 constant,0,0,0
 constant bit rate,0,0,0
-constant bit rate - thuoc atm - dam bao toc do khong doi,0,0,0
 constant time complexity,0,0,0
 constraint,0,0,0
 constraint programming,0,0,0
-constraints,0,0,0
 constructor,0,0,0
-constructors,0,0,0
 consumer electronics show,0,0,0
 consumers,0,0,0
 container,0,0,0
@@ -725,7 +690,6 @@ coordinates,0,0,0
 coprime,0,0,0
 copy,0,0,0
 copy constructor,0,0,0
-copy constructors,0,0,0
 core dump,0,0,0
 correlated subqueries,0,0,0
 correlation variables,0,0,0
@@ -752,7 +716,6 @@ cross site scripting,0,0,0
 cross-platform software,0,0,0
 cross-product,0,0,0
 cross-site request forgery (xsrf),0,0,0
-cross-site scripting,0,0,0
 cross-site scripting (xss),0,0,0
 crossbar switch,0,0,0
 crowdfunding,0,0,0
@@ -776,7 +739,7 @@ cyber-physical production systems,0,0,0
 cycle,0,0,0
 cycle stealing,0,0,0
 cyclic redundancy check codes,0,0,0
-cygwin (),0,0,0
+cygwin,0,0,0
 cylinder,0,0,0
 cylinder groups,0,0,0
 dalvik virtual machine,0,0,0
@@ -785,7 +748,7 @@ data,0,0,0
 data abstraction,0,0,0
 data access layer,0,0,0
 data access object,0,0,0
-data access sevices,0,0,0
+data access services,0,0,0
 data access tier,0,0,0
 data capability,0,0,0
 data center,0,0,0
@@ -794,7 +757,6 @@ data cleansing,0,0,0
 data control language,0,0,0
 data definition language,0,0,0
 data encryption algorithm,0,0,0
-data encryption standard,0,0,0
 data encryption standard (des),0,0,0
 data execution prevention,0,0,0
 data flow diagram,0,0,0
@@ -818,7 +780,6 @@ data transfer object,0,0,0
 data type,0,0,0
 data type definition,0,0,0
 data warehouse,0,0,0
-data warehouses,0,0,0
 data-definition language (ddl),0,0,0
 data-encryption standard,0,0,0
 data-link layer,0,0,0
@@ -837,7 +798,6 @@ database replica,0,0,0
 database resource management,0,0,0
 database schema,0,0,0
 database schema:,0,0,0
-database schemas,0,0,0
 database security,0,0,0
 database systems,0,0,0
 database task group,0,0,0
@@ -846,7 +806,6 @@ databases administrator (dba),0,0,0
 datacenter,0,0,0
 datagram,0,0,0
 datagram networks,0,0,0
-datagrams,0,0,0
 datagrid control,0,0,0
 datalink layer,0,0,0
 datallegro,0,0,0
@@ -857,10 +816,8 @@ db2,0,0,0
 deadlines,0,0,0
 deadlock,0,0,0
 deadlock-detection coordinator,0,0,0
-deadlocks,0,0,0
 debug,0,0,0
 debugger,0,0,0
-debuggers,0,0,0
 debugging,0,0,0
 decentralized routing algorithm,0,0,0
 decision problem,0,0,0
@@ -881,8 +838,6 @@ deduplication,0,0,0
 deep blue,0,0,0
 deep copy,0,0,0
 deep copying,0,0,0
-deep copying / shallow copying,0,0,0
-deep fake,0,0,0
 deep first search,0,0,0
 deep learning,0,0,0
 deep packet inspection,0,0,0
@@ -933,12 +888,10 @@ destination port numbers,0,0,0
 destination route,0,0,0
 destination vertex,0,0,0
 destructor,0,0,0
-destructors,0,0,0
 detection,0,0,0
 deterministic finite automaton,0,0,0
 deterministic modeling,0,0,0
 device-management system calls,0,0,0
-dhcp : dynamic host configuration protocol,0,0,0
 dial-up,0,0,0
 dial-up access,0,0,0
 diameter,0,0,0
@@ -955,7 +908,6 @@ digital image processing,0,0,0
 digital signal,0,0,0
 digital signal processing,0,0,0
 digital signature,0,0,0
-digital signatures,0,0,0
 digital subscriber line,0,0,0
 digital transformation,0,0,0
 digital twin,0,0,0
@@ -964,8 +916,6 @@ digitalization,0,0,0
 digitization,0,0,0
 digitized,0,0,0
 dijkstra,0,0,0
-dijkstra algorithm,0,0,0
-dijkstra’s least-cost path algorithm,0,0,0
 dimension,0,0,0
 dimensioning best-effort networks,0,0,0
 dining-philosophers problem,0,0,0
@@ -978,7 +928,6 @@ direct virtual memory access,0,0,0
 direct-access storage,0,0,0
 direct-memory-access controller,0,0,0
 directed acyclic graph,0,0,0
-directories,0,0,0
 directory,0,0,0
 directory information tree (dit),0,0,0
 directory service,0,0,0
@@ -1009,7 +958,6 @@ disk-based operating system,0,0,0
 dispatch,0,0,0
 dispatch latency,0,0,0
 displacement vectors,0,0,0
-distance vector algorithm,0,0,0
 distance-vector algorithm,0,0,0
 distance-vector multicast routing protocol,0,0,0
 distant centralized databases,0,0,0
@@ -1019,12 +967,9 @@ distinguished encoding rules,0,0,0
 distinguished name (dn),0,0,0
 distributed applications,0,0,0
 distributed databases,0,0,0
-distributed denial of service,0,0,0
 distributed denial-of-service,0,0,0
 distributed file system,0,0,0
 distributed hash table,0,0,0
-distributed hash tables,0,0,0
-distributed hash tables - ky thuat su dung trong torrent,0,0,0
 distributed interframe space,0,0,0
 distributed ledger,0,0,0
 distributed systems,0,0,0
@@ -1038,7 +983,6 @@ divisive clustering,0,0,0
 django,0,0,0
 dns caching,0,0,0
 docker,0,0,0
-document object model,0,0,0
 document object model (dom),0,0,0
 document type definition (dtd),0,0,0
 domain,0,0,0
@@ -1066,7 +1010,6 @@ drive bay,0,0,0
 driver-manager class,0,0,0
 drop trigger,0,0,0
 dropbox,0,0,0
-dropbox (dịch vụ lưu trữ đám mây),0,0,0
 dual-booted systems,0,0,0
 dual-stack approach,0,0,0
 dumping,0,0,0
@@ -1079,9 +1022,7 @@ dynamic allocation of memory,0,0,0
 dynamic array,0,0,0
 dynamic cast operators,0,0,0
 dynamic casting,0,0,0
-dynamic host configuration protocol,0,0,0
 dynamic host configuration protocol - dhcp,0,0,0
-dynamic link libraries,0,0,0
 dynamic link library,0,0,0
 dynamic memory,0,0,0
 dynamic memory allocation,0,0,0
@@ -1123,7 +1064,6 @@ emacs,0,0,0
 embedded,0,0,0
 embedded sql,0,0,0
 embedded system,0,0,0
-embedded systems,0,0,0
 embedding,0,0,0
 emgucv,0,0,0
 emoji,0,0,0
@@ -1151,19 +1091,14 @@ enigma,0,0,0
 enqueue,0,0,0
 enterprise,0,0,0
 enterprise information,0,0,0
-enterprise resource planning,0,0,0
 enterprise resource planning (erp) systems,0,0,0
 enterprises and access networks,0,0,0
 entity,0,0,0
 entity data model,0,0,0
-entity relationship  model-,0,0,0
 entity relationship diagram,0,0,0
+entity relationship model,0,0,0
 entity set,0,0,0
-entity set :,0,0,0
-entity sets,0,0,0
 entity-relationship,0,0,0
-entity-relationship (e-r) diagram,0,0,0
-entity-relationship (e-r) model,0,0,0
 entropy,0,0,0
 entropy measure,0,0,0
 entry date accessed,0,0,0
@@ -1260,11 +1195,8 @@ feature matching,0,0,0
 fedora,0,0,0
 fermat,0,0,0
 fiber distribute data interface - fddi,0,0,0
-fiber distributed data interface,0,0,0
 fiber distributed data interface protocol,0,0,0
-fiber to the home,0,0,0
 fiber to the home - ftth,0,0,0
-fiber to the home - ftth - ket noi truc tiep nha mang voi ho gia dinh bang cap quang,0,0,0
 fibonacci,0,0,0
 fibonacci heap,0,0,0
 fibonacci number,0,0,0
@@ -1285,7 +1217,6 @@ file signature,0,0,0
 file system,0,0,0
 file transfer,0,0,0
 file transfer protocol,0,0,0
-file trasfer protocol,0,0,0
 file-allocation table,0,0,0
 filename date accessed (mft),0,0,0
 filename date created (mft),0,0,0
@@ -1294,12 +1225,9 @@ files transfer protocol,0,0,0
 final/not final expressions,0,0,0
 fine-granularity parallelism,0,0,0
 fingerprint,0,0,0
-finite state machine,0,0,0
 finite-state-machine - fsm,0,0,0
 firebase,0,0,0
-firebase (),0,0,0
 firewall,0,0,0
-firewalls,0,0,0
 firewire interface,0,0,0
 first come first server,0,0,0
 first committer wins,0,0,0
@@ -1320,7 +1248,6 @@ floating point,0,0,0
 floating-point data type,0,0,0
 floating-point operations per second,0,0,0
 floppy disk,0,0,0
-floppy disks,0,0,0
 flow chart,0,0,0
 flow control,0,0,0
 flow-distinct,0,0,0
@@ -1336,10 +1263,8 @@ force policy,0,0,0
 forced output,0,0,0
 ford-bellman algorithm,0,0,0
 foreground processes,0,0,0
-foreig key,0,0,0
 foreign address,0,0,0
 foreign key,0,0,0
-foreign keys,0,0,0
 forensics,0,0,0
 forking repo,0,0,0
 formal language,0,0,0
@@ -1347,7 +1272,6 @@ formal parameter,0,0,0
 formal variable,0,0,0
 fortran,0,0,0
 forward declaration,0,0,0
-forward error correction,0,0,0
 forward error correction - fec,0,0,0
 forwarding,0,0,0
 forwarding function,0,0,0
@@ -1362,7 +1286,6 @@ fragmentation,0,0,0
 fragmentation of datagrams,0,0,0
 fragmentation offset,0,0,0
 frame,0,0,0
-frames,0,0,0
 framework,0,0,0
 framework application,0,0,0
 free space control record (fscr),0,0,0
@@ -1373,12 +1296,10 @@ frequency-hopping spread spectrum,0,0,0
 friend,0,0,0
 friend class,0,0,0
 friend function,0,0,0
-friend functions,0,0,0
 front-end processors,0,0,0
 froyo,0,0,0
 fsoft,0,0,0
-ftp (file transfer protocal),0,0,0
-ftp/ file transfer protocol,0,0,0
+ftp (file transfer protocol),0,0,0
 full duplex,0,0,0
 full outer joins,0,0,0
 full-duplex service,0,0,0
@@ -1395,7 +1316,6 @@ function prototype scope,0,0,0
 function template,0,0,0
 function wrapper,0,0,0
 function-based indices,0,0,0
-functional dependencies,0,0,0
 functional dependency,0,0,0
 functional overloading,0,0,0
 functional polymorphism,0,0,0
@@ -1434,7 +1354,7 @@ generative adversarial network modeling,0,0,0
 generative pre-trained transformer,0,0,0
 generic code,0,0,0
 generic programming,0,0,0
-generic type (),0,0,0
+generic type,0,0,0
 genetic algorithm,0,0,0
 geographic data,0,0,0
 geographic information system,0,0,0
@@ -1452,7 +1372,6 @@ global company identifier,0,0,0
 global descriptor table,0,0,0
 global namespaces,0,0,0
 global offset table,0,0,0
-global positioning system,0,0,0
 global positioning system (gps),0,0,0
 global product identifier,0,0,0
 global routing algorithm,0,0,0
@@ -1510,7 +1429,6 @@ growing phase,0,0,0
 hack,0,0,0
 hackathon,0,0,0
 hacker,0,0,0
-hackers,0,0,0
 hadoop,0,0,0
 half duplex,0,0,0
 half life,0,0,0
@@ -1518,7 +1436,6 @@ halt problem,0,0,0
 hamilton,0,0,0
 hamilton cycle,0,0,0
 hamming distance,0,0,0
-hand off,0,0,0
 handoff,0,0,0
 handshake,0,0,0
 handshaking,0,0,0
@@ -1537,7 +1454,6 @@ has-a,0,0,0
 hash,0,0,0
 hash cluster access,0,0,0
 hash function,0,0,0
-hash functions,0,0,0
 hash join,0,0,0
 hash table,0,0,0
 hash tree,0,0,0
@@ -1558,8 +1474,6 @@ heap memory,0,0,0
 heap sort,0,0,0
 heartbleed,0,0,0
 heuristic,0,0,0
-heuristic (),0,0,0
-heuristics,0,0,0
 hewlett-packard,0,0,0
 hexadecimal,0,0,0
 hibernate,0,0,0
@@ -1568,13 +1482,13 @@ hidden layer,0,0,0
 hidden markov model,0,0,0
 hidden terminal problem,0,0,0
 hidden terminals,0,0,0
-hierachical structure,0,0,0
 hierarchical architecture,0,0,0
 hierarchical classification,0,0,0
 hierarchical clustering,0,0,0
 hierarchical data model,0,0,0
 hierarchical routing,0,0,0
 hierarchical storage management,0,0,0
+hierarchical structure,0,0,0
 high speed packet access,0,0,0
 high-level data link control,0,0,0
 high-level shader language,0,0,0
@@ -1585,7 +1499,6 @@ histogram,0,0,0
 histogram equalization,0,0,0
 histogram matching,0,0,0
 histogram specification,0,0,0
-histograms,0,0,0
 hologram,0,0,0
 holography,0,0,0
 hololens,0,0,0
@@ -1608,12 +1521,9 @@ householding,0,0,0
 htc,0,0,0
 https,0,0,0
 hub,0,0,0
-hubs,0,0,0
-hue saturation,0,0,0
 huffman,0,0,0
 huffman codes,0,0,0
 huffman coding,0,0,0
-human computer interaction,0,0,0
 human-computer interaction,0,0,0
 humanoid robot,0,0,0
 hungarian notation,0,0,0
@@ -1624,11 +1534,8 @@ hybrid merge join,0,0,0
 hyper-v,0,0,0
 hypercube architecture,0,0,0
 hyperlink,0,0,0
-hyperlinks,0,0,0
 hyperspace,0,0,0
-hypertext markup language,0,0,0
 hypertext markup language (html),0,0,0
-hypertext transfer protocol,0,0,0
 hypertext transfer protocol (http),0,0,0
 hypertext transfer protocol secure,0,0,0
 hypothesis,0,0,0
@@ -1747,11 +1654,9 @@ internet information services,0,0,0
 internet key exchange,0,0,0
 internet mail access protocol,0,0,0
 internet message access protocol (imap),0,0,0
-internet of thing,0,0,0
 internet of things,0,0,0
 internet phone application,0,0,0
 internet protocol,0,0,0
-internet service provider,0,0,0
 internet service provider (isp),0,0,0
 internet service providers,0,0,0
 internet telephony,0,0,0
@@ -1843,9 +1748,7 @@ key,0,0,0
 key generation,0,0,0
 key pair,0,0,0
 keylogger,0,0,0
-keys,0,0,0
 keyword,0,0,0
-keywords,0,0,0
 kickstarter,0,0,0
 kindle,0,0,0
 kindle fire,0,0,0
@@ -2000,7 +1903,6 @@ main-memory database systems,0,0,0
 mainboard,0,0,0
 mainframe,0,0,0
 mainframe computer,0,0,0
-mainframes,0,0,0
 majority protocol,0,0,0
 mako surgical,0,0,0
 malicious packet attacks,0,0,0
@@ -2022,7 +1924,6 @@ markov chain,0,0,0
 markov model,0,0,0
 markov process,0,0,0
 markup language,0,0,0
-markup languages,0,0,0
 marshmallow,0,0,0
 maskable interrupts,0,0,0
 mass-storage management,0,0,0
@@ -2093,7 +1994,6 @@ methodology,0,0,0
 metric learning,0,0,0
 metric space,0,0,0
 metro,0,0,0
-metropolitan ared network,0,0,0
 metropolitan-area networks,0,0,0
 micro computer,0,0,0
 microcomputer,0,0,0
@@ -2172,7 +2072,7 @@ multiple library linking,0,0,0
 multiple thread,0,0,0
 multiple-key access,0,0,0
 multiplexing,0,0,0
-multiplexing -- demultiplexing,0,0,0
+multiplexing - demultiplexing,0,0,0
 multiplexing network-layer protocols,0,0,0
 multiplicative function,0,0,0
 multiprotocol label switching,0,0,0
@@ -2208,7 +2108,6 @@ nanocomputer,0,0,0
 nat: network address translation,0,0,0
 national security agency,0,0,0
 natural join,0,0,0
-natural joins,0,0,0
 natural language processing,0,0,0
 navigate,0,0,0
 navigating files,0,0,0
@@ -2240,7 +2139,6 @@ network cache servers,0,0,0
 network edge,0,0,0
 network flow,0,0,0
 network information service,0,0,0
-network interface card,0,0,0
 network interface card - nic,0,0,0
 network layer,0,0,0
 network news transfer protocol,0,0,0
@@ -2290,8 +2188,6 @@ nonvolatine memory,0,0,0
 nor flash memory,0,0,0
 normal distribution,0,0,0
 normal form,0,0,0
-normal form:,0,0,0
-normal forms,0,0,0
 normalization,0,0,0
 normalize,0,0,0
 norton commander,0,0,0
@@ -2302,7 +2198,6 @@ notification,0,0,0
 novell,0,0,0
 novell ipx,0,0,0
 np complete,0,0,0
-np hard,0,0,0
 np-hard,0,0,0
 nslookup,0,0,0
 ntt data,0,0,0
@@ -2384,10 +2279,8 @@ order by,0,0,0
 order-statistic tree,0,0,0
 ordered pair,0,0,0
 organize by dimensions,0,0,0
-osi,0,0,0
 osi - open systems interconnection model,0,0,0
 out-of-band,0,0,0
-outer join,0,0,0
 outer relation,0,0,0
 outer-join,0,0,0
 outliner,0,0,0
@@ -2396,7 +2289,6 @@ output buffers,0,0,0
 outsourcing,0,0,0
 over the top,0,0,0
 overfitting,0,0,0
-overfitting (),0,0,0
 overflow,0,0,0
 overflow buckets,0,0,0
 overflow resolution,0,0,0
@@ -2448,12 +2340,10 @@ parallel systems,0,0,0
 parallelizable,0,0,0
 parameter,0,0,0
 parameter style general,0,0,0
-parameters,0,0,0
 parametric query optimization,0,0,0
 parent class,0,0,0
 parity,0,0,0
 parity bit,0,0,0
-parity bits,0,0,0
 parity checks,0,0,0
 parser,0,0,0
 parsing,0,0,0
@@ -2466,7 +2356,6 @@ pass by reference,0,0,0
 passing by reference,0,0,0
 passive optical networks,0,0,0
 password,0,0,0
-passwords,0,0,0
 patch,0,0,0
 path,0,0,0
 path compression,0,0,0
@@ -2478,7 +2367,6 @@ payload,0,0,0
 paypal,0,0,0
 pci express,0,0,0
 peak rate,0,0,0
-peer to peer,0,0,0
 peer-to-peer,0,0,0
 peers,0,0,0
 pentium,0,0,0
@@ -2556,7 +2444,7 @@ polynomial codes,0,0,0
 polynomial time,0,0,0
 pooling,0,0,0
 pop,0,0,0
-pop3 - giao thuc truy cap thu don gian,0,0,0
+pop3,0,0,0
 popularity ranking,0,0,0
 port,0,0,0
 port address translation,0,0,0
@@ -2602,7 +2490,6 @@ prewitt operator,0,0,0
 prim algorithm,0,0,0
 primary copy,0,0,0
 primary key,0,0,0
-primary keys,0,0,0
 primary site,0,0,0
 prime,0,0,0
 prime number,0,0,0
@@ -2610,7 +2497,6 @@ primitive,0,0,0
 prim’s algorithm,0,0,0
 principal component analysis,0,0,0
 priority queue,0,0,0
-priority queues,0,0,0
 priority queuing,0,0,0
 privacy,0,0,0
 privacy policy,0,0,0
@@ -2645,7 +2531,6 @@ program portability,0,0,0
 program status word,0,0,0
 programming interface,0,0,0
 programming language,0,0,0
-programming languages,0,0,0
 programming paradigm,0,0,0
 programming tip,0,0,0
 project loon,0,0,0
@@ -2690,7 +2575,6 @@ query,0,0,0
 query cost,0,0,0
 query evaluation engine,0,0,0
 query language,0,0,0
-query languages,0,0,0
 query optimization,0,0,0
 query processing,0,0,0
 query-evaluation plans,0,0,0
@@ -2699,7 +2583,6 @@ query-execution plan,0,0,0
 question answering,0,0,0
 queue,0,0,0
 queueing systems,0,0,0
-quick sort,0,0,0
 quicksort,0,0,0
 quorum consensus protocol,0,0,0
 r,0,0,0
@@ -2768,9 +2651,7 @@ redis,0,0,0
 redo,0,0,0
 reduced instruction set computing,0,0,0
 redundancy,0,0,0
-redundant array of independent disks,0,0,0
 redundant arrays of independent disks (raid),0,0,0
-redundant arrays of inexpensive disks,0,0,0
 reference,0,0,0
 reference parameter,0,0,0
 reference variable,0,0,0
@@ -2813,7 +2694,7 @@ rendezvous point,0,0,0
 repeat loop,0,0,0
 repeatable read,0,0,0
 repeater,0,0,0
-repeater  - router -bridge - switch - hub,0,0,0
+repeater - router -bridge - switch - hub,0,0,0
 replay attach,0,0,0
 replication,0,0,0
 report generators,0,0,0
@@ -2882,12 +2763,10 @@ row triggers,0,0,0
 rsa,0,0,0
 ruby,1,1,0
 ruby on rail,0,0,0
-ruby on rails,0,0,0
 run-length encoding,0,0,0
 runstats,0,0,0
 runtime error,0,0,0
 safari,0,0,0
-safari (),0,0,0
 safe mode,0,0,0
 saigon hi tech park,0,0,0
 samsung gear,0,0,0
@@ -2907,7 +2786,6 @@ scheduling,0,0,0
 schema,0,0,0
 schema definition,0,0,0
 schema diagrams,0,0,0
-schemas,0,0,0
 sciencedirect,0,0,0
 scope,0,0,0
 scope resolution operator,0,0,0
@@ -2980,6 +2858,7 @@ shadow-copy scheme,0,0,0
 shadow-paging,0,0,0
 shaker sort,0,0,0
 shallow copy,0,0,0
+shallow copying,0,0,0
 shared and intention-exclusive (six) mode,0,0,0
 shared library,0,0,0
 shared scans,0,0,0
@@ -3040,7 +2919,7 @@ slammer,0,0,0
 slide master,0,0,0
 small-computer-system interconnect (scsi),0,0,0
 smalltalk,0,0,0
-smart city (),0,0,0
+smart city,0,0,0
 smart contract,0,0,0
 smart home,0,0,0
 smartcar,0,0,0
@@ -3065,7 +2944,6 @@ software engineering,0,0,0
 software interrupt,0,0,0
 software requirement specification,0,0,0
 solaris,0,0,0
-sold-state drives,0,0,0
 solid state drive,0,0,0
 solid state driver,0,0,0
 solid-state disks,0,0,0
@@ -3212,8 +3090,6 @@ sybase,0,0,0
 symbian,0,0,0
 symbol,0,0,0
 symbolic constants,0,0,0
-symetric multiprocessing,0,0,0
-symmectric cryptosystem,0,0,0
 symmetric cryptosystem,0,0,0
 symmetric key,0,0,0
 symmetric multiprocessing,0,0,0
@@ -3239,7 +3115,7 @@ tail recursion,0,0,0
 tape storage,0,0,0
 task flow.,0,0,0
 taskbar,0,0,0
-tcp packet -- udp segment,0,0,0
+tcp packet - udp segment,0,0,0
 tcp transmission control protocol,0,0,0
 tcp/ip,0,0,0
 tdm time division multiplexing,0,0,0
@@ -3296,7 +3172,6 @@ timestep,0,0,0
 timezone,0,0,0
 tinder,0,0,0
 token,0,0,0
-token passing,0,0,0
 token-passing,0,0,0
 tomcat,0,0,0
 toolbox,0,0,0
@@ -3346,12 +3221,10 @@ traveling-salesman problem,0,0,0
 tree,0,0,0
 trie,0,0,0
 trigger,0,0,0
-triggers,0,0,0
 triplet loss,0,0,0
 trivial file transfer protocol,0,0,0
 trojan,0,0,0
 trojan horse,0,0,0
-trojan horses,0,0,0
 true negatives,0,0,0
 true predicate,0,0,0
 true relation,0,0,0
@@ -3382,13 +3255,11 @@ undefined behavior,0,0,0
 underline,0,0,0
 undo pass,0,0,0
 unicast,0,0,0
-unicode,0,0,0
 unicode (ascii),0,0,0
 unified modeling language (uml),0,0,0
 uniform distribution,0,0,0
 uniform memory access,0,0,0
-uniform resource indetifier,0,0,0
-uniform resource locator,0,0,0
+uniform resource identifier,0,0,0
 uniform resource locators (urls),0,0,0
 uniform resource name,0,0,0
 unikey,0,0,0
@@ -3470,12 +3341,10 @@ virtual destructor,0,0,0
 virtual file system,0,0,0
 virtual inheriatance,0,0,0
 virtual local area network - vlan,0,0,0
-virtual local area networks,0,0,0
 virtual machines,0,0,0
 virtual memory,0,0,0
 virtual method,0,0,0
 virtual private network,0,0,0
-virtual private networks,0,0,0
 virtual processor,0,0,0
 virtual reality,0,0,0
 virtual reality markup language (vrml),0,0,0
@@ -3509,8 +3378,7 @@ web exploitation,0,0,0
 web ontology language,0,0,0
 web servers,0,0,0
 web service,0,0,0
-web services,0,0,0
-web services description language (wsdl,0,0,0
+web services description language (wsdl),0,0,0
 webcam,0,0,0
 weblogic,0,0,0
 webobjects,0,0,0
@@ -3527,7 +3395,6 @@ whois,0,0,0
 whols,0,0,0
 wi-fi,0,0,0
 wi-max,0,0,0
-wide area network,0,0,0
 wide character,0,0,0
 wide-area networks (wans),0,0,0
 widget,0,0,0
@@ -3535,9 +3402,6 @@ wii,0,0,0
 wikileaks,0,0,0
 wikipedia,0,0,0
 windows,0,0,0
-windows 3.1,0,0,0
-windows 7,0,0,0
-windows 8,0,0,0
 windows azure,0,0,0
 windows ce,0,0,0
 windows communication foundation,0,0,0
