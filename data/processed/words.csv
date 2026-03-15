@@ -1,5 +1,4 @@
 word,count_correct,count_appear,count_incorrect
-(minimum) spanning tree,0,0,0
 .net framework,0,0,0
 234 tree,0,0,0
 3d printer,0,0,0
@@ -155,7 +154,7 @@ apple watch,0,0,0
 application,0,0,0
 application architecture,0,0,0
 application design,0,0,0
-"application development framework (adf),""",0,0,0
+application development framework (adf),0,0,0
 application gateways,0,0,0
 application layer,0,0,0
 application migration,0,0,0
@@ -175,7 +174,7 @@ argument control,0,0,0
 arithmetic logic unit,0,0,0
 arithmetic operators,0,0,0
 arm,0,0,0
-arp : address resolution protocol,0,0,0
+arp,0,0,0
 arpanet,0,0,0
 array,0,0,0
 array types,0,0,0
@@ -190,7 +189,7 @@ assembly language,0,0,0
 assertions,0,0,0
 assignment,0,0,0
 assignment edge,0,0,0
-"assignment operation,",0,0,0
+assignment operation,0,0,0
 association,0,0,0
 association for computing machinery,0,0,0
 association rule learning,0,0,0
@@ -224,7 +223,6 @@ audit trails,0,0,0
 augmentation rule,0,0,0
 augmented reality,0,0,0
 authentication,0,0,0
-authentication (authn),0,0,0
 authentication key,0,0,0
 authorization,0,0,0
 authorization  (authz),0,0,0
@@ -260,7 +258,7 @@ background processes,0,0,0
 backoff,0,0,0
 backtracking,0,0,0
 backup,0,0,0
-"backup coordinator,",0,0,0
+backup coordinator,0,0,0
 backups,0,0,0
 badbit stream state,0,0,0
 bag of features,0,0,0
@@ -314,7 +312,7 @@ bidirectional encoder representations from transformers,0,0,0
 bidirectional iterators,0,0,0
 big data,0,0,0
 big endian,0,0,0
-"big-bang approach,""""",0,0,0
+big-bang approach,0,0,0
 big-endian,0,0,0
 big-o,0,0,0
 bigtable,0,0,0
@@ -1041,15 +1039,15 @@ django,0,0,0
 dns caching,0,0,0
 docker,0,0,0
 document object model,0,0,0
-"document object model (dom),",0,0,0
-"document type definition (dtd),",0,0,0
+document object model (dom),0,0,0
+document type definition (dtd),0,0,0
 domain,0,0,0
 domain constraints,0,0,0
 domain name,0,0,0
 domain name service (dns),0,0,0
 domain name system,0,0,0
 domain relational calculus,0,0,0
-"domain-key normal form (dknf),",0,0,0
+domain-key normal form (dknf),0,0,0
 donald knuth,0,0,0
 dongatory,0,0,0
 doodles,0,0,0
@@ -1090,7 +1088,7 @@ dynamic memory allocation,0,0,0
 dynamic programming,0,0,0
 dynamic random-access memory,0,0,0
 dynamic routing algorithm,0,0,0
-"dynamic sql,",0,0,0
+dynamic sql,0,0,0
 dynamic storage duration,0,0,0
 dynamic storage-allocation problem,0,0,0
 e-book,0,0,0
@@ -1123,7 +1121,7 @@ elimination rules for routes,0,0,0
 elsevier,0,0,0
 emacs,0,0,0
 embedded,0,0,0
-"embedded sql,",0,0,0
+embedded sql,0,0,0
 embedded system,0,0,0
 embedded systems,0,0,0
 embedding,0,0,0
@@ -1146,7 +1144,7 @@ end-to-end congestion control,0,0,0
 end-to-end delay,0,0,0
 end-to-end principle,0,0,0
 end-to-end throughput,0,0,0
-"end-user information,",0,0,0
+end-user information,0,0,0
 endian,0,0,0
 endianess,0,0,0
 enigma,0,0,0
@@ -1164,7 +1162,7 @@ entity set,0,0,0
 entity set :,0,0,0
 entity sets,0,0,0
 entity-relationship,0,0,0
-"entity-relationship (e-r) diagram,",0,0,0
+entity-relationship (e-r) diagram,0,0,0
 entity-relationship (e-r) model,0,0,0
 entropy,0,0,0
 entropy measure,0,0,0
@@ -1174,7 +1172,7 @@ entry date created,0,0,0
 entry date modified,0,0,0
 enum,0,0,0
 enumerator,0,0,0
-"equi-joins,",0,0,0
+equi-joins,0,0,0
 eric schmidt,0,0,0
 error checking,0,0,0
 error concealment,0,0,0
@@ -1183,7 +1181,6 @@ error detection-correction - edc,0,0,0
 error-correcting code (ecc) organization,0,0,0
 estimate,0,0,0
 ethernet,0,0,0
-"ethernet, loai mang lan thong dung nhat",0,0,0
 euclid,0,0,0
 euclidean algorithm,0,0,0
 euclidean distance,0,0,0
@@ -1233,7 +1230,7 @@ extensible hypertext markup language,0,0,0
 extensible markup language,0,0,0
 extensible stylesheet language transformations,0,0,0
 external fragmentation,0,0,0
-"external language routines,",0,0,0
+external language routines,0,0,0
 external linkage,0,0,0
 external sort-merge algorithm,0,0,0
 external storage,0,0,0
@@ -1272,15 +1269,15 @@ fibonacci,0,0,0
 fibonacci heap,0,0,0
 fibonacci number,0,0,0
 fibonacci sequence,0,0,0
-"fibre channel interface,",0,0,0
+fibre channel interface,0,0,0
 fifo,0,0,0
 file,0,0,0
 file allocation table,0,0,0
 file extensions,0,0,0
 file format,0,0,0
-"file header,",0,0,0
+file header,0,0,0
 file magic number,0,0,0
-"file manager,",0,0,0
+file manager,0,0,0
 file organization,0,0,0
 file scan,0,0,0
 file sharing,0,0,0
@@ -1324,7 +1321,6 @@ floating-point data type,0,0,0
 floating-point operations per second,0,0,0
 floppy disk,0,0,0
 floppy disks,0,0,0
-"floppy disks,",0,0,0
 flow chart,0,0,0
 flow control,0,0,0
 flow-distinct,0,0,0
@@ -1406,7 +1402,7 @@ functional polymorphism,0,0,0
 functional programming,0,0,0
 functionally determined attributes,0,0,0
 functors,0,0,0
-"fuzzy checkpoints,",0,0,0
+fuzzy checkpoints,0,0,0
 gadget,0,0,0
 galaxy 4s,0,0,0
 galaxy fold,0,0,0
@@ -1427,9 +1423,9 @@ gaussian elimination,0,0,0
 general data protection regulation,0,0,0
 general public license,0,0,0
 generalization,0,0,0
-"generalized inverted index (gin),",0,0,0
+generalized inverted index (gin),0,0,0
 generalized packet radio service,0,0,0
-"generalized search tree (gist),",0,0,0
+generalized search tree (gist),0,0,0
 generalized-projection,0,0,0
 generating function,0,0,0
 generative,0,0,0
@@ -1440,7 +1436,7 @@ generic code,0,0,0
 generic programming,0,0,0
 generic type (),0,0,0
 genetic algorithm,0,0,0
-"geographic data,",0,0,0
+geographic data,0,0,0
 geographic information system,0,0,0
 get method,0,0,0
 gigabit ethernet,0,0,0
@@ -1451,13 +1447,13 @@ git fork,0,0,0
 github,0,0,0
 glassfish,0,0,0
 glitches,0,0,0
-"global class identifier,",0,0,0
-"global company identifier,",0,0,0
+global class identifier,0,0,0
+global company identifier,0,0,0
 global descriptor table,0,0,0
 global namespaces,0,0,0
 global offset table,0,0,0
 global positioning system,0,0,0
-"global positioning system (gps),",0,0,0
+global positioning system (gps),0,0,0
 global product identifier,0,0,0
 global routing algorithm,0,0,0
 global system for mobile,0,0,0
@@ -1467,7 +1463,6 @@ global wait-for graph,0,0,0
 glonass,0,0,0
 gnome,0,0,0
 go-back n,0,0,0
-"go-back n - giao thuc quay lui, ben gui duoc phep gui nhieu goi tin ma khong can cho bao nhan",0,0,0
 go-back-n protocol,0,0,0
 google api,0,0,0
 google app engine,0,0,0
@@ -1540,10 +1535,9 @@ hardware-abstraction layer,0,0,0
 harmonic mean,0,0,0
 has-a,0,0,0
 hash,0,0,0
-"hash cluster access,",0,0,0
+hash cluster access,0,0,0
 hash function,0,0,0
 hash functions,0,0,0
-"hash functions,",0,0,0
 hash join,0,0,0
 hash table,0,0,0
 hash tree,0,0,0
@@ -1569,14 +1563,14 @@ heuristics,0,0,0
 hewlett-packard,0,0,0
 hexadecimal,0,0,0
 hibernate,0,0,0
-"hibernate system,",0,0,0
+hibernate system,0,0,0
 hidden layer,0,0,0
 hidden markov model,0,0,0
 hidden terminal problem,0,0,0
 hidden terminals,0,0,0
 hierachical structure,0,0,0
 hierarchical architecture,0,0,0
-"hierarchical classification,",0,0,0
+hierarchical classification,0,0,0
 hierarchical clustering,0,0,0
 hierarchical data model,0,0,0
 hierarchical routing,0,0,0
@@ -1607,7 +1601,7 @@ host aliasing,0,0,0
 host-attached storage,0,0,0
 host-to-host,0,0,0
 hostnames,0,0,0
-"hot-spare configuration,",0,0,0
+hot-spare configuration,0,0,0
 hotspot,0,0,0
 householding,0,0,0
 "hsv - hue, saturation, lightness",0,0,0
@@ -1625,7 +1619,7 @@ humanoid robot,0,0,0
 hungarian notation,0,0,0
 hybrid disk drives,0,0,0
 hybrid fiber coax,0,0,0
-"hybrid hash join,",0,0,0
+hybrid hash join,0,0,0
 hybrid merge join,0,0,0
 hyper-v,0,0,0
 hypercube architecture,0,0,0
@@ -1650,7 +1644,7 @@ imac,0,0,0
 image processing,0,0,0
 image segmentation,0,0,0
 imagine cup,0,0,0
-"imap - giao thuc truy cap thu, xin hon pop3",0,0,0
+imap,0,0,0
 immediate-modification technique,0,0,0
 immuatable,0,0,0
 imperative programming,0,0,0
@@ -1665,12 +1659,12 @@ incognito,0,0,0
 inconsistent state,0,0,0
 independent component analysis,0,0,0
 independent parallelism,0,0,0
-"index entry,",0,0,0
+index entry,0,0,0
 index operator,0,0,0
 index record,0,0,0
 index-organized tables (iots),0,0,0
 indexed nested-loop join,0,0,0
-"indexing strings,",0,0,0
+indexing strings,0,0,0
 indirect routing,0,0,0
 induction,0,0,0
 infix notation,0,0,0
@@ -1692,16 +1686,16 @@ initialization vector,0,0,0
 initializing,0,0,0
 initially deferred integrity constraints,0,0,0
 inline functions,0,0,0
-"inner joins,",0,0,0
+inner joins,0,0,0
 inner relation,0,0,0
 inode,0,0,0
 input,0,0,0
 input device,0,0,0
 input textbox,0,0,0
 insert into,0,0,0
+insertion,0,0,0
 insertion operator,0,0,0
 insertion sort,0,0,0
-"insertion,",0,0,0
 instagram,0,0,0
 instance,0,0,0
 instances,0,0,0
@@ -1713,14 +1707,10 @@ integer factorization,0,0,0
 integer programming,0,0,0
 integrated,0,0,0
 integrated circuit,0,0,0
-integrated development enviroment,0,0,0
 integrated development environment,0,0,0
-"integrated development environment (ide),",0,0,0
-integrated development environments,0,0,0
 integrated electronics,0,0,0
 integrity,0,0,0
 integrity constraint,0,0,0
-integrity constraints,0,0,0
 integrity manager,0,0,0
 intel 4004,0,0,0
 intel x86,0,0,0
@@ -1730,20 +1720,19 @@ intellij idea,0,0,0
 intention-exclusive (ix) mode,0,0,0
 intention-shard (is) mode,0,0,0
 interchange sort,0,0,0
-"interconnection networks,",0,0,0
+interconnection networks,0,0,0
 interesting sort order,0,0,0
 interface,0,0,0
-"interface description language (idl),",0,0,0
+interface description language (idl),0,0,0
 interfaces,0,0,0
 interference,0,0,0
 intergrity,0,0,0
 interlock,0,0,0
 internal manipulator,0,0,0
-"internal nodes,",0,0,0
+internal nodes,0,0,0
 international business machines,0,0,0
 international collegiate programming contest,0,0,0
 international organization for standardization,0,0,0
-"international organization for standardization (iso),",0,0,0
 international standards organization,0,0,0
 international telecommunication union,0,1,1
 internet,0,0,0
@@ -1754,7 +1743,6 @@ internet engineering task force,0,0,0
 internet exchange points,0,0,0
 internet explorer,0,0,0
 internet group management protocol,0,0,0
-internet group management protocol - igmp,0,0,0
 internet information services,0,0,0
 internet key exchange,0,0,0
 internet mail access protocol,0,0,0
@@ -1778,23 +1766,22 @@ interrupt,0,0,0
 interrupt-request line,0,0,0
 interrupts,0,0,0
 intersect,0,0,0
-"intersection set,",0,0,0
+intersection set,0,0,0
 intervals,0,0,0
 intializers,0,0,0
 intraoperation parallelism,0,0,0
 intraquery parallelism,0,0,0
-intro sort (hàm sort trong c++).,0,0,0
+intro sort,0,0,0
 intrusion detection system,0,0,0
-intrusion detection systems,0,0,0
 invalidation reports,0,0,0
-"inverse document frequency (idf),",0,0,0
+inverse document frequency (idf),0,0,0
 invertible matrix,0,0,0
 ip address,0,1,1
 ip spoofing,0,0,0
 ip: internet protocol,0,0,0
 ipad air,0,0,0
 ipconfig,0,0,0
-"ipsec, giao thuc bao mat ip",0,0,0
+ipsec,0,0,0
 ipv4,0,0,0
 ipv6,0,0,0
 is-a,0,0,0
@@ -1810,7 +1797,7 @@ itunes,0,0,0
 ivy bridge,0,0,0
 jakarta projec,0,0,0
 java,0,0,0
-"java 2 enterprise edition (j2ee),",0,0,0
+java 2 enterprise edition (j2ee),0,0,0
 java applet,0,0,0
 java database connectivity,0,0,0
 java database objects (jdo),0,0,0
@@ -1827,11 +1814,11 @@ javascript object notation,0,0,0
 javascript object notation (json),0,0,0
 javaserver faces (jsf) framework,0,0,0
 jboss,0,0,0
-"jdbc (java database connectivity),",0,0,0
+jdbc (java database connectivity),0,0,0
 jeff bezos,0,0,0
 jelly bean,0,0,0
 jeopardy,0,0,0
-jitter - dam bao nguong toi da su sai khac,0,0,0
+jitter,0,0,0
 john von neumann,0,0,0
 join dependencies,0,0,0
 joomla,0,0,0
@@ -1849,7 +1836,7 @@ kaspersky,0,0,0
 ken thompson,0,0,0
 keras,0,0,0
 kernel,0,0,0
-"kernel functions,",0,0,0
+kernel functions,0,0,0
 kernel mode,0,0,0
 kernel threads,0,0,0
 key,0,0,0
@@ -1889,14 +1876,13 @@ larry ellison,0,0,0
 larry page,0,0,0
 laser printer,0,0,0
 last in first out,0,0,0
-"last-in, first-out",0,0,0
 latex,0,0,0
 layered architecture,0,0,0
 layout,0,0,0
 lazy loading,0,0,0
 lazy propagation,0,0,0
 lazywriter,0,0,0
-"ldap data interchange format (ldif),",0,0,0
+ldap data interchange format (ldif),0,0,0
 league of legend,0,0,0
 leaky bucket mechanism,0,0,0
 leap motion,0,0,0
@@ -1922,9 +1908,7 @@ linear equations,0,0,0
 linear programming,0,0,0
 linear recursion,0,0,0
 linear regression,0,0,0
-"linear regression,",0,0,0
 linear search,0,0,0
-"linear search,",0,0,0
 linear time,0,0,0
 link layer,0,0,0
 link state algorithm,0,0,0
@@ -1947,23 +1931,18 @@ little-endian,0,0,0
 llc: logical link control,0,0,0
 load balancer,0,0,0
 local area network,0,0,0
-local area network - lan - te^n lo't em,0,0,0
-local area networks,0,0,0
-local aread network,0,0,0
 local features,0,0,0
 local host,0,0,0
 local replacement algorithm,0,0,0
 local variable,0,0,0
-local variables,0,0,0
 local wait-for graph,0,0,0
 local-area networks,0,0,0
-local-area networks (lans),0,0,0
 localization,0,0,0
 localtimestamp,0,0,0
 location,0,0,0
 location-dependent queries,0,0,0
 lock manager,0,0,0
-"locking protocols,",0,0,0
+locking protocols,0,0,0
 log disk,0,0,0
 log files,0,0,0
 log likelihood,0,0,0
@@ -1979,13 +1958,11 @@ logical operator,0,0,0
 logical undo operation,0,0,0
 login,0,0,0
 logistic regression,0,0,0
-"logistic regression,",0,0,0
 lollipop,0,0,0
 long short term memory,0,0,0
 long-duration transactions,0,0,0
 long-term evolution,0,0,0
 longest common subsequence,0,0,0
-longest common subsequences,0,0,0
 lookup,0,0,0
 loop,0,0,0
 loop invariant,0,0,0
@@ -1995,7 +1972,7 @@ loss-tolerant,0,0,0
 lossless compression,0,0,0
 lossless-join decomposition,0,0,0
 lossy compression,0,0,0
-"lossy decomposition,",0,0,0
+lossy decomposition,0,0,0
 lotus software,0,0,0
 lowest common ancestor,0,0,0
 lowest common multiple,0,0,0
@@ -2009,10 +1986,8 @@ macbook air,0,0,0
 macbook pro,0,0,0
 machine language,0,0,0
 machine learning,0,0,0
-"machine learning,",0,0,0
 macintosh,0,0,0
 macro,0,0,0
-macro: cụ thể của directive,0,0,0
 magic leap,0,0,0
 magic number,0,0,0
 magnetic disks,0,0,0
@@ -2057,7 +2032,7 @@ master key,0,0,0
 master table,0,0,0
 master-slave relationship,0,0,0
 master-slave replication,0,0,0
-"materialized query tables (mqts),",0,0,0
+materialized query tables (mqts),0,0,0
 materialized views,0,0,0
 mathematica,0,0,0
 matlab,0,0,0
@@ -2066,18 +2041,15 @@ max flow min cost,0,0,0
 maximum flow problem,0,0,0
 maximum likelihood estimation,0,0,0
 maximum segment size,0,0,0
-maximum transmission unit,0,0,0
 maximum transmission unit - mtu,0,0,0
-"mean time to failure (mttf),",0,0,0
+mean time to failure (mttf),0,0,0
 media,0,0,0
-media access control,0,0,0
 media access control (mac),0,0,0
-media access control - mac,0,0,0
 media access control address,0,0,0
 media players,0,0,0
 mediafire,0,0,0
 mediator pattern,0,0,0
-"mediators,",0,0,0
+mediators,0,0,0
 megaupload,0,0,0
 member-wise copy,0,0,0
 memberwise copying,0,0,0
@@ -2127,14 +2099,14 @@ micro computer,0,0,0
 microcomputer,0,0,0
 microprocessor,0,0,0
 microsoft,0,0,0
-"microsoft active server pages (asp),",0,0,0
+microsoft active server pages (asp),0,0,0
 microsoft build,0,0,0
 microsoft cortana,0,0,0
-"microsoft database tuning assistant,",0,0,0
+microsoft database tuning assistant,0,0,0
 microsoft developer network,0,0,0
 microsoft distributed transaction coordinator (ms dtc),0,0,0
 microsoft foundation class,0,0,0
-"microsoft office,",0,0,0
+microsoft office,0,0,0
 microsoft silverlight,0,0,0
 microsoft sql,0,0,0
 microsoft sql server,0,0,0
@@ -2155,11 +2127,9 @@ mobile world congress,0,0,0
 mobius function,0,0,0
 mode of operation,0,0,0
 model view controller,0,0,0
-model view view model,0,0,0
 model view viewmodel,0,0,0
 model-view-control design,0,0,0
 modeling,0,0,0
-modem (thiết bị kết nối mạng internet),0,0,0
 modem = modulate and demodulate,0,0,0
 moderm,0,0,0
 modular data centers,0,0,0
@@ -2169,7 +2139,7 @@ mongodb,0,0,0
 monitor,0,0,0
 moodle,0,0,0
 moore law,0,0,0
-"most recently used (mru) scheme,",0,0,0
+most recently used (mru) scheme,0,0,0
 most significant bit,0,0,0
 most-specific type,0,0,0
 motherboard,0,0,0
@@ -2178,7 +2148,7 @@ mounting,0,0,0
 mouse,0,0,0
 mozila firefox,0,0,0
 mozila thunderbird,0,0,0
-"mpeg (moving picture experts group),",0,0,0
+mpeg (moving picture experts group),0,0,0
 mss maximum segment size,0,0,0
 mtu maximum transmission unit,0,0,0
 multi-hop,0,0,0
@@ -2211,7 +2181,7 @@ multiquery optimization,0,0,0
 multiset,0,0,0
 multiset relational algebra,0,0,0
 multiset types,0,0,0
-"multisystem applications,",0,0,0
+multisystem applications,0,0,0
 multitable cluster file organization,0,0,0
 multitasking,0,0,0
 multithreading,0,0,0
@@ -2231,7 +2201,7 @@ n-way merge,0,0,0
 nahalem architecture,0,0,0
 naive algorithm,0,0,0
 naive bayes,0,0,0
-"name servers,",0,0,0
+name servers,0,0,0
 namespace,0,0,0
 naming conventions,0,0,0
 nanocomputer,0,0,0
@@ -2240,15 +2210,13 @@ national security agency,0,0,0
 natural join,0,0,0
 natural joins,0,0,0
 natural language processing,0,0,0
-natural language processing (),0,0,0
 navigate,0,0,0
 navigating files,0,0,0
 na¨ıve bayesian classifiers,0,0,0
-na¨ıve user,0,0,0
 naïve bayes,0,0,0
+naıve user,0,0,0
 near field communication,0,0,0
-near-field communication,0,0,0
-"nearest-neighbor query,",0,0,0
+nearest-neighbor query,0,0,0
 need for speed,0,0,0
 negative acknowledgments,0,0,0
 negative cycle,0,0,0
@@ -2256,13 +2224,12 @@ neighbor-to-neighbor communication,0,0,0
 nested classes,0,0,0
 nested recursion,0,0,0
 nested subqueries,0,0,0
-"nested-loop join,",0,0,0
+nested-loop join,0,0,0
 netbean,0,0,0
 netbeans,0,0,0
 netezza,0,0,0
 netflix,0,0,0
 netscape,0,0,0
-netscape - nha phat trien javascript,0,0,0
 netscape communications corporation,0,0,0
 network,0,0,0
 network access point,0,0,0
@@ -2307,10 +2274,10 @@ nonacceptable termination states,0,0,0
 nonclustering,0,0,0
 nondeclarative actions,0,0,0
 nondeterministic finite automaton,0,0,0
-nondeterministic polynomial (viết tắt của np trong bài toán np hoặc np hard).,0,0,0
+nondeterministic polynomial,0,0,0
 nondeterministic polynomial time,0,0,0
 nonpreemptive scheduling,0,0,0
-nonprocedural languagesexport/import/search,0,0,0
+nonprocedural,0,0,0
 nonrepeatable read,0,0,0
 nonrepudiation,0,0,0
 nonunique search keys,0,0,0
@@ -2341,7 +2308,7 @@ nslookup,0,0,0
 ntt data,0,0,0
 null bitmap,0,0,0
 null pointers,0,0,0
-"null values,",0,0,0
+null values,0,0,0
 numeric operations,0,0,0
 numpy,0,0,0
 nvarchar,0,0,0
@@ -2352,7 +2319,7 @@ object database management group (odmg),0,0,0
 object oriented programming,0,0,0
 object recognition,0,0,0
 object-based databases,0,0,0
-"object-oriented data model,",0,0,0
+object-oriented data model,0,0,0
 object-oriented databases,0,0,0
 object-oriented programming,0,0,0
 object-relational data model,0,0,0
@@ -2363,9 +2330,9 @@ observer,0,0,0
 observer pattern,0,0,0
 octave,0,0,0
 oculusvr,0,0,0
-"odbc (open database connectivity),",0,0,0
+odbc (open database connectivity),0,0,0
 offset,0,0,0
-"olap (online analytical processing),",0,0,0
+olap (online analytical processing),0,0,0
 oltp (online transaction processing),0,0,0
 one-to-many mapping,0,0,0
 one-to-one mapping,0,0,0
@@ -2374,8 +2341,7 @@ onine analytical processing,0,0,0
 online analytical processing,0,0,0
 online transaction processing,0,0,0
 open document format (odf),0,0,0
-open sesame’,0,0,0
-"open shortest path first, dinh tuyen noi vung",0,0,0
+open sesame,0,0,0
 open shortest path first.,0,0,0
 open statement,0,0,0
 open system interconnection,0,0,0
@@ -2412,8 +2378,7 @@ optimization problem,0,0,0
 optimizers,0,0,0
 optimus,0,0,0
 oracle,0,0,0
-oracle (),0,0,0
-"oracle enterprise manager (oem),",0,0,0
+oracle enterprise manager (oem),0,0,0
 oracle tuxedo,0,0,0
 order by,0,0,0
 order-statistic tree,0,0,0
@@ -2435,9 +2400,9 @@ overfitting (),0,0,0
 overflow,0,0,0
 overflow buckets,0,0,0
 overflow resolution,0,0,0
-"overlapping entity sets,",0,0,0
+overlapping entity sets,0,0,0
 overlapping fragments,0,0,0
-"overlapping specialization,",0,0,0
+overlapping specialization,0,0,0
 overlay network,0,0,0
 overload,0,0,0
 overload resolution,0,0,0
@@ -2458,10 +2423,10 @@ packet-switched network,0,0,0
 padding,0,0,0
 padding oracle attack,0,0,0
 page allocator,0,0,0
-"page cache,",0,0,0
+page cache,0,0,0
 page offset,0,0,0
 page replacement,0,0,0
-"page shipping,",0,0,0
+page shipping,0,0,0
 page-buffering algorithms,0,0,0
 page-directory entries,0,0,0
 page-fault rate,0,0,0
@@ -2534,7 +2499,6 @@ persistent programming,0,0,0
 person-in-the-middle attacks,0,0,0
 personal area networks,0,0,0
 personal home page,0,0,0
-"personal home page""""""""",0,0,0
 personal identification number,0,0,0
 peterson,0,0,0
 phantom phenomenon,0,0,0
@@ -2614,9 +2578,9 @@ power on self test,0,0,0
 powerpoint,0,0,0
 pragma,0,0,0
 pre-master secret,0,0,0
+precedence,0,0,0
 precedence graph,0,0,0
-precedence: quyền ưu tiên,0,0,0
-predicates: mệnh đề,0,0,0
+predicates,0,0,0
 prediction,0,0,0
 predictive analytics,0,0,0
 preemptive,0,0,0
@@ -2638,7 +2602,7 @@ prewitt operator,0,0,0
 prim algorithm,0,0,0
 primary copy,0,0,0
 primary key,0,0,0
-"primary keys,",0,0,0
+primary keys,0,0,0
 primary site,0,0,0
 prime,0,0,0
 prime number,0,0,0
@@ -2660,13 +2624,12 @@ privilege escalation,0,0,0
 privileges,0,0,0
 probability,0,0,0
 probability distribution,0,0,0
-"procedural languages,",0,0,0
+procedural languages,0,0,0
 procedural programming,0,0,0
 procedure,0,0,0
 procedure linkage table,0,0,0
 procedures,0,0,0
 process,0,0,0
-process control block,0,0,0
 process control block - pcb,0,0,0
 process manager,0,0,0
 process mapping,0,0,0
@@ -2695,7 +2658,6 @@ prolog,0,0,0
 propogating cipher block chaining,0,0,0
 protocol,0,0,0
 protocol independent multicast - pim,0,0,0
-protocol-independent multicast,0,0,0
 prototype,0,0,0
 prototype pattern,0,0,0
 proxy,0,0,0
@@ -2707,7 +2669,7 @@ pseudotransitivity rule,0,0,0
 public exponent,0,0,0
 public key,0,0,0
 public-key encryption,0,0,0
-"pulling data,",0,0,0
+pulling data,0,0,0
 pulse code modulation,0,0,0
 pure virtual method,0,0,0
 pureview,0,0,0
@@ -2715,9 +2677,9 @@ purity,0,0,0
 push,0,0,0
 pycharm,0,0,0
 python,0,0,0
-"quadratic split,",0,0,0
+quadratic split,0,0,0
 quadratic time,0,0,0
-"quadtrees,",0,0,0
+quadtrees,0,0,0
 quality assurance,0,0,0
 quality control,0,0,0
 quality-of-service,0,0,0
@@ -2732,11 +2694,11 @@ query languages,0,0,0
 query optimization,0,0,0
 query processing,0,0,0
 query-evaluation plans,0,0,0
-"query-execution engine,",0,0,0
+query-execution engine,0,0,0
 query-execution plan,0,0,0
-"question answering,",0,0,0
+question answering,0,0,0
 queue,0,0,0
-"queueing systems,",0,0,0
+queueing systems,0,0,0
 quick sort,0,0,0
 quicksort,0,0,0
 quorum consensus protocol,0,0,0
@@ -2754,7 +2716,7 @@ random access,0,0,0
 random access protocols,0,0,0
 random early detection algorithm,0,0,0
 random forest,0,0,0
-"random samples,",0,0,0
+random samples,0,0,0
 random walk model,0,0,0
 random-access memory,0,0,0
 range tree,0,0,0
@@ -2763,9 +2725,9 @@ range-partitioning vector,0,0,0
 rapid application development (rad),0,0,0
 rarest first,0,0,0
 raspberry pi,0,0,0
-"raster data,",0,0,0
+raster data,0,0,0
 rate adaptation,0,0,0
-"rational rose,",0,0,0
+rational rose,0,0,0
 rational unified process,0,0,0
 raw data,0,0,0
 rdf site summary,0,0,0
@@ -2776,13 +2738,11 @@ read quorum,0,0,0
 read uncommitted,0,0,0
 read-only memory,0,0,0
 read-write contention,0,0,0
-"real, double precision",0,0,0
 real-time applications,0,0,0
 real-time embedded systems,0,0,0
 real-time interactive applications,0,0,0
 real-time transaction systems,0,0,0
 really simple syndication,0,0,0
-"really simple syndication""""""""",0,0,0
 realtime,0,0,0
 recall,0,0,0
 receiver,0,0,0
@@ -2817,7 +2777,7 @@ reference variable,0,0,0
 referencing relation,0,0,0
 referential integrity,0,0,0
 referrals,0,0,0
-reflection (),0,0,0
+reflection,0,0,0
 reflexivity rule,0,0,0
 region quadtrees,0,0,0
 register,0,0,0
@@ -2836,9 +2796,7 @@ relational algebra,0,0,0
 relational calculus,0,0,0
 relational database,0,0,0
 relational database design,0,0,0
-relational databases,0,0,0
 relational tables,0,0,0
-relationship set: hinh thoi,0,0,0
 relationship sets,0,0,0
 relative distinguished names (rdns),0,0,0
 relevance,0,0,0
@@ -2912,9 +2870,7 @@ rony abovitz,0,0,0
 root class,0,0,0
 rooted trees,0,0,0
 rosettanet,0,0,0
-round trip time,0,0,0
 round trip time - rtt,0,0,0
-round trip time - rtt - thoi gian ngan nhat goi tin tien trinh khach -> chu,0,0,0
 round-robin queuing,0,0,0
 round-robin scheduling algorithm,0,0,0
 round-trip time,0,0,0
@@ -2924,7 +2880,6 @@ routing control platform,0,0,0
 routing information protocol,0,0,0
 row triggers,0,0,0
 rsa,0,0,0
-rtt (round trip time) :,0,0,0
 ruby,1,1,0
 ruby on rail,0,0,0
 ruby on rails,0,0,0
@@ -2938,7 +2893,7 @@ saigon hi tech park,0,0,0
 samsung gear,0,0,0
 sandy bridge,0,0,0
 sarbanes-oxley act,0,0,0
-"sas (serial attached scsi),",0,0,0
+sas (serial attached scsi),0,0,0
 sata,0,0,0
 satellite links,0,0,0
 savepoints,0,0,0
@@ -2951,12 +2906,12 @@ scanner,0,0,0
 scheduling,0,0,0
 schema,0,0,0
 schema definition,0,0,0
-"schema diagrams,",0,0,0
+schema diagrams,0,0,0
 schemas,0,0,0
 sciencedirect,0,0,0
 scope,0,0,0
-scope resolution operator: toán tử ::,0,0,0
-"scoped enumerations,",0,0,0
+scope resolution operator,0,0,0
+scoped enumerations,0,0,0
 scrash,0,0,0
 scripting language,0,0,0
 scripting languages,0,0,0
@@ -2968,20 +2923,18 @@ search engine,0,0,0
 search engine optimization,0,0,0
 search engine spamming,0,0,0
 search keys,0,0,0
-"second normal form,",0,0,0
+second normal form,0,0,0
 second-chance,0,0,0
-"secondary site,",0,0,0
+secondary site,0,0,0
 secrecy,0,0,0
 secret key,0,0,0
 sector,0,0,0
 secure communication,0,0,0
-"secure electronic transaction (set) protocol,",0,0,0
+secure electronic transaction (set) protocol,0,0,0
 secure hash algorithm,0,0,0
 secure network programming,0,0,0
 secure shell,0,0,0
-secure socket layer,0,0,0
 secure socket layer - ssl,0,0,0
-secure sockets layer,0,0,0
 security,0,0,0
 security assertion markup language (saml),0,0,0
 security association database,0,0,0
@@ -3021,7 +2974,7 @@ service level agreements,0,0,0
 session hijacking,0,0,0
 session initiation protocol,0,0,0
 session layer,0,0,0
-"set transactions isolation level serializable,",0,0,0
+set transactions isolation level serializable,0,0,0
 sha,0,0,0
 shadow-copy scheme,0,0,0
 shadow-paging,0,0,0
@@ -3029,7 +2982,7 @@ shaker sort,0,0,0
 shallow copy,0,0,0
 shared and intention-exclusive (six) mode,0,0,0
 shared library,0,0,0
-"shared scans,",0,0,0
+shared scans,0,0,0
 shared-disk architecture,0,0,0
 shared-memory architecture,0,0,0
 shared-memory model,0,0,0
@@ -3057,20 +3010,20 @@ signal to noise ratio - snr,0,0,0
 signature,0,0,0
 silicon valley,0,0,0
 silverlight,0,0,0
-"similarity-based retrieval,",0,0,0
+similarity-based retrieval,0,0,0
 simple cycle,0,0,0
 simple gateway monitoring protocol,0,0,0
 simple graph,0,0,0
 simple mail transfer protocol,0,0,0
 simple mail transfer protocol - smtp,0,0,0
-"simple object access protocol (soap),",0,0,0
+simple object access protocol (soap),0,0,0
 single linked list,0,0,0
 single lock-manager,0,0,0
 single page application,0,0,0
 single sign-on,0,0,0
 single thread,0,0,0
 single-hop,0,0,0
-"single-server model,",0,0,0
+single-server model,0,0,0
 single-valued attributes,0,0,0
 singleton pattern,0,0,0
 singly connected graph,0,0,0
@@ -3085,7 +3038,7 @@ skydrive,0,0,0
 skype,0,0,0
 slammer,0,0,0
 slide master,0,0,0
-"small-computer-system interconnect (scsi),",0,0,0
+small-computer-system interconnect (scsi),0,0,0
 smalltalk,0,0,0
 smart city (),0,0,0
 smart contract,0,0,0
@@ -3111,7 +3064,6 @@ software engineer,0,0,0
 software engineering,0,0,0
 software interrupt,0,0,0
 software requirement specification,0,0,0
-software requirements specification,0,0,0
 solaris,0,0,0
 sold-state drives,0,0,0
 solid state drive,0,0,0
@@ -3137,7 +3089,7 @@ spatial data,0,0,0
 specialization,0,0,0
 specialty databases,0,0,0
 specification,0,0,0
-"specification of functional requirements,",0,0,0
+specification of functional requirements,0,0,0
 speech recognition,0,0,0
 spiral model,0,0,0
 spooling,0,0,0
@@ -3148,7 +3100,7 @@ spyware,0,0,0
 sql (structured query language),0,0,0
 sql injection,0,0,0
 sql injection payload,0,0,0
-"sql server reporting services (ssrs),",0,0,0
+sql server reporting services (ssrs),0,0,0
 sqlite,0,0,0
 square-root decomposition,0,0,0
 srand,0,0,0
@@ -3165,15 +3117,14 @@ standard template library,0,0,0
 standardized,0,0,0
 starburst,0,0,0
 starcraft,0,0,0
-"start-up costs,",0,0,0
+start-up costs,0,0,0
 startup,0,0,0
 starvation,0,0,0
 state pattern,0,0,0
-"state transition,",0,0,0
+state transition,0,0,0
 state value,0,0,0
-"stateful - luu giu trang thai, vi du dung cookies",0,0,0
-stateless - neu khong dung cookies,0,0,0
-stateless - stateful ->,0,0,0
+stateful,0,0,0
+stateless,0,0,0
 statement,0,0,0
 statement object,0,0,0
 statement triggers,0,0,0
@@ -3266,14 +3217,14 @@ symmectric cryptosystem,0,0,0
 symmetric cryptosystem,0,0,0
 symmetric key,0,0,0
 symmetric multiprocessing,0,0,0
-"symmetric multiprocessors (smps),",0,0,0
+symmetric multiprocessors (smps),0,0,0
 sync,0,0,0
 syntax error,0,0,0
 system architecture,0,0,0
 system boot,0,0,0
 system calls,0,0,0
 system catalogs,0,0,0
-"system change number (scn),",0,0,0
+system change number (scn),0,0,0
 system disk,0,0,0
 system error,0,0,0
 system r,0,0,0
@@ -3303,10 +3254,10 @@ temporal data,0,0,0
 temporal relation,0,0,0
 tensorflow,0,0,0
 teradata purpose-built platform family,0,0,0
-"term frequency (tf),",0,0,0
+term frequency (tf),0,0,0
 terminal,0,0,0
 terminate,0,0,0
-"termination states,",0,0,0
+termination states,0,0,0
 ternary content address memories,1,1,0
 ternary search,0,0,0
 terrain,0,0,0
@@ -3340,9 +3291,7 @@ time to completion,0,0,0
 time with time zone,0,0,0
 time-division multiplexing,0,0,0
 time-to-live,0,0,0
-"time-to-live, dam bao packet data trong mang khong lap vo tan",0,0,0
 timestamp,0,0,0
-timestamps,0,0,0
 timestep,0,0,0
 timezone,0,0,0
 tinder,0,0,0
@@ -3352,7 +3301,6 @@ token-passing,0,0,0
 tomcat,0,0,0
 toolbox,0,0,0
 top down,0,0,0
-top-down,0,0,0
 top-down design,0,0,0
 top-k optimization,0,0,0
 top-level domain,0,0,0
@@ -3377,16 +3325,15 @@ transaction-processing monitors,0,0,0
 transaction-server systems,0,0,0
 transactional replication,0,0,0
 transactions per second (tps),0,0,0
-"transactions-consistent snapshot,",0,0,0
-"transfer of control,",0,0,0
-"transfer of prestige,",0,0,0
+transactions-consistent snapshot,0,0,0
+transfer of control,0,0,0
+transfer of prestige,0,0,0
 transformations,0,0,0
 transistor,0,0,0
 transition tables,0,0,0
 transitive closure,0,0,0
 transitivity rule,0,0,0
 translation look-aside buffer,0,0,0
-transmission control protocol,0,0,0
 transmission control protocol - tcp,0,0,0
 transmission rate,0,0,0
 transparent data encryption,0,0,0
@@ -3406,21 +3353,18 @@ trojan,0,0,0
 trojan horse,0,0,0
 trojan horses,0,0,0
 true negatives,0,0,0
-"true predicate,",0,0,0
+true predicate,0,0,0
 true relation,0,0,0
 try catch,0,0,0
-ttl: time to live,0,0,0
 tumblr,0,0,0
 tuning hyperparameters,0,0,0
 tuple,0,0,0
-tuple (hang),0,0,0
 tuple relational calculus,0,0,0
 turing award,0,0,0
 turing machine,0,0,0
 turing test,0,0,0
 turnaround time,0,0,0
 tweet,0,0,0
-twisted pair copper wire,0,0,0
 twisted-pair copper wire,0,0,0
 twitter,0,0,0
 two-factor authentication,0,0,0
@@ -3440,8 +3384,7 @@ undo pass,0,0,0
 unicast,0,0,0
 unicode,0,0,0
 unicode (ascii),0,0,0
-unified modeling language,0,0,0
-"unified modeling language (uml),",0,0,0
+unified modeling language (uml),0,0,0
 uniform distribution,0,0,0
 uniform memory access,0,0,0
 uniform resource indetifier,0,0,0
@@ -3452,7 +3395,6 @@ unikey,0,0,0
 union,0,0,0
 union compatibility,0,0,0
 union rule,0,0,0
-unions,0,0,0
 unique,0,0,0
 uniquifier,0,0,0
 unity,0,0,0
@@ -3473,13 +3415,12 @@ unshielded twisted pair,0,0,0
 unsupervised,0,0,0
 unsupervised learning,0,0,0
 upcasting,0,0,0
-"updatable result sets,",0,0,0
+updatable result sets,0,0,0
 update-anywhere replication,0,0,0
 upper case,0,0,0
 uppercase manipulator,0,0,0
 usb type c,0,0,0
 use-case diagram,0,0,0
-user datagram protocol,0,0,0
 user datagram protocol - udp,0,0,0
 user identity,0,0,0
 user interfaces,0,0,0
@@ -3493,7 +3434,7 @@ username,0,0,0
 utf-8,0,0,0
 utilization,0,0,0
 vacuum,0,0,0
-"valid time,",0,0,0
+valid time,0,0,0
 validation,1,1,0
 vanishing gradient,0,0,0
 varchar,0,0,0
@@ -3502,7 +3443,7 @@ variable declaration,0,0,0
 vbscript,0,0,0
 vector containers,0,0,0
 vector data,0,0,0
-"vector space model,",0,0,0
+vector space model,0,0,0
 venn diagram,0,0,0
 verbose instruction,0,0,0
 versatility,0,0,0
@@ -3510,7 +3451,7 @@ version,0,0,0
 version-numbering schemas,0,0,0
 version-vector scheme,0,0,0
 vertex,0,0,0
-"vertical fragmentation,",0,0,0
+vertical fragmentation,0,0,0
 very large-scale integration,0,0,0
 viber,0,0,0
 video card,0,0,0
@@ -3526,7 +3467,6 @@ view-master,0,0,0
 vigenere cipher,0,0,0
 vim,0,0,0
 virtual destructor,0,0,0
-virtual destructors,0,0,0
 virtual file system,0,0,0
 virtual inheriatance,0,0,0
 virtual local area network - vlan,0,0,0
@@ -3542,7 +3482,6 @@ virtual reality markup language (vrml),0,0,0
 virtualbox,0,0,0
 visitor pattern,0,0,0
 visual basic,0,0,0
-"visual basic,",0,0,0
 visualization,0,0,0
 visualweb,0,0,0
 viterbi algorithm,0,0,0
@@ -3584,14 +3523,13 @@ weighted-union heuristic,0,0,0
 weights,0,0,0
 what you see is what you get,0,0,0
 whatsapp,0,0,0
-whatsapp (phần mềm liên lạc phổ biến ở nước ngoài *china),0,0,0
 whois,0,0,0
 whols,0,0,0
 wi-fi,0,0,0
-"wi-max,",0,0,0
+wi-max,0,0,0
 wide area network,0,0,0
 wide character,0,0,0
-"wide-area networks (wans),",0,0,0
+wide-area networks (wans),0,0,0
 widget,0,0,0
 wii,0,0,0
 wikileaks,0,0,0
@@ -3614,7 +3552,7 @@ windows xp,0,0,0
 wired equivalent privacy,0,0,0
 wireless,0,0,0
 wireless access point,0,0,0
-"wireless application protocol (wap),",0,0,0
+wireless application protocol (wap),0,0,0
 wireless communications,0,0,0
 wireless mouse,0,0,0
 wireless networks,0,0,0
@@ -3634,26 +3572,25 @@ workstations,0,0,0
 world cyber game,0,0,0
 world of warcraft,0,0,0
 world wide web,0,0,0
-"world wide web consortium (w3c),",0,0,0
+world wide web consortium (w3c),0,0,0
 worm,0,0,0
 worst case complexity,0,0,0
 wrapping,0,0,0
 "write once, read-many (worm)",0,0,0
 write quorum,0,0,0
-"write-ahead logging (wal),",0,0,0
+write-ahead logging (wal),0,0,0
 write-write contention,0,0,0
 xbox,0,0,0
 xbox 360,0,0,0
 xbox one,0,0,0
 xcode,0,0,0
-"xml (extensible markup language),",0,0,0
+xml (extensible markup language),0,0,0
 xor operation,0,0,0
 xpath,0,0,0
 xquery,0,0,0
 y2k bug,0,0,0
 yahoo,0,0,0
 yahoo messenger,0,0,0
-"yahoo,",0,0,0
 yanlecun*,0,0,0
 youtube,0,0,0
 yum,0,0,0
