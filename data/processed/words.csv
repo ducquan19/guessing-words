@@ -42,7 +42,7 @@ activation function,0,0,0
 active optical networks,0,0,0
 active queue management algorithms,0,0,0
 active server pages,0,0,0
-activity diagram,1,1,0
+activity diagram,0,0,0
 actual argument,0,0,0
 actual arguments,0,0,0
 acyclic graph,0,0,0
@@ -589,7 +589,7 @@ compaq,0,0,0
 compare,0,0,0
 compatibility function,0,0,0
 compensation log records (clrs),0,0,0
-compiler,0,1,1
+compiler,0,0,0
 completely automated public turing test to tell computers and humans apart,0,0,0
 complex data types,0,0,0
 complex instruction set computing,0,0,0
@@ -1188,7 +1188,7 @@ false cycles,0,0,0
 fast fourier transform,0,0,0
 fast recovery,0,0,0
 fat,0,0,0
-fatal error,1,1,0
+fatal error,0,0,0
 fault management,0,0,0
 fdm frequency division multiplexing,0,0,0
 feature matching,0,0,0
@@ -1641,7 +1641,7 @@ international business machines,0,0,0
 international collegiate programming contest,0,0,0
 international organization for standardization,0,0,0
 international standards organization,0,0,0
-international telecommunication union,0,1,1
+international telecommunication union,0,0,0
 internet,0,0,0
 internet checksum,0,0,0
 internet control message protocol,0,0,0
@@ -1681,7 +1681,7 @@ intrusion detection system,0,0,0
 invalidation reports,0,0,0
 inverse document frequency (idf),0,0,0
 invertible matrix,0,0,0
-ip address,0,1,1
+ip address,0,0,0
 ip spoofing,0,0,0
 ip: internet protocol,0,0,0
 ipad air,0,0,0
@@ -1970,7 +1970,7 @@ memory stick,0,0,0
 memory transactions,0,0,0
 memory-address register,0,0,0
 memory-mapped,0,0,0
-merge sort,0,1,1
+merge sort,0,0,0
 merge-join,0,0,0
 merge-purge operation,0,0,0
 mesh system,0,0,0
@@ -2761,7 +2761,7 @@ routing control platform,0,0,0
 routing information protocol,0,0,0
 row triggers,0,0,0
 rsa,0,0,0
-ruby,1,1,0
+ruby,0,0,0
 ruby on rail,0,0,0
 run-length encoding,0,0,0
 runstats,0,0,0
@@ -3085,7 +3085,7 @@ swap space,0,0,0
 sweep line,0,0,0
 swift,0,0,0
 swing,0,0,0
-switch,0,1,1
+switch,0,0,0
 sybase,0,0,0
 symbian,0,0,0
 symbol,0,0,0
@@ -3134,7 +3134,7 @@ term frequency (tf),0,0,0
 terminal,0,0,0
 terminate,0,0,0
 termination states,0,0,0
-ternary content address memories,1,1,0
+ternary content address memories,0,0,0
 ternary search,0,0,0
 terrain,0,0,0
 tertiary storage,0,0,0
@@ -3306,7 +3306,7 @@ utf-8,0,0,0
 utilization,0,0,0
 vacuum,0,0,0
 valid time,0,0,0
-validation,1,1,0
+validation,0,0,0
 vanishing gradient,0,0,0
 varchar,0,0,0
 variable,0,0,0
