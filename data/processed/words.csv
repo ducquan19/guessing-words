@@ -12,11 +12,11 @@ abstract,0,0,0
 abstract base classes,0,0,0
 abstract class,0,0,0
 abstract data type,0,0,0
-abstract data types,0,0,0
 abstract factory pattern,0,0,0
 abstract method,0,0,0
 abstract syntax notation one,0,0,0
 abstract window toolkit,0,0,0
+access,0,0,0
 access control,0,0,0
 access control lists,0,0,0
 access delay,0,0,0
@@ -30,7 +30,6 @@ access paths,0,0,0
 access point,0,0,0
 access routers,0,0,0
 access-control list (acl),0,0,0
-access:,0,0,0
 accounting management,0,0,0
 accreditation,0,0,0
 acer,0,0,0
@@ -1235,7 +1234,6 @@ first in first out,0,0,0
 first updater wins,0,0,0
 first-come first-served scheduling algorithm,0,0,0
 first-come-first-served scheduling,0,0,0
-first-in-first-out,0,0,0
 fixed playout delay,0,0,0
 fixed-length labels,0,0,0
 flag field,0,0,0
@@ -1256,7 +1254,6 @@ flushing,0,0,0
 flushing buffers,0,0,0
 flyweight pattern,0,0,0
 folder,0,0,0
-folders,0,0,0
 font size,0,0,0
 font word,0,0,0
 force policy,0,0,0
@@ -1337,7 +1334,6 @@ garena,0,0,0
 gateway,0,0,0
 gateway mobile services switching center,0,0,0
 gateway routers,0,0,0
-gateways,0,0,0
 gaussian,0,0,0
 gaussian elimination,0,0,0
 general data protection regulation,0,0,0
@@ -1461,7 +1457,6 @@ hash-table overflow,0,0,0
 hashed page tables,0,0,0
 hashtag,0,0,0
 haskell,0,0,0
-haswell,0,0,0
 having,0,0,0
 hdd,0,0,0
 head puppetry,0,0,0
@@ -1605,7 +1600,6 @@ insertion operator,0,0,0
 insertion sort,0,0,0
 instagram,0,0,0
 instance,0,0,0
-instances,0,0,0
 instant messaging,0,0,0
 institute of electrical and electronics engineers,0,0,0
 instruction pointer,0,0,0
@@ -1631,9 +1625,7 @@ interconnection networks,0,0,0
 interesting sort order,0,0,0
 interface,0,0,0
 interface description language (idl),0,0,0
-interfaces,0,0,0
 interference,0,0,0
-intergrity,0,0,0
 interlock,0,0,0
 internal manipulator,0,0,0
 internal nodes,0,0,0
@@ -1657,8 +1649,7 @@ internet message access protocol (imap),0,0,0
 internet of things,0,0,0
 internet phone application,0,0,0
 internet protocol,0,0,0
-internet service provider (isp),0,0,0
-internet service providers,0,0,0
+internet service providers (isp),0,0,0
 internet telephony,0,0,0
 internet-standard management framework,0,0,0
 interoperation parallelism,0,0,0
@@ -1715,7 +1706,6 @@ java server pages (jsp),0,0,0
 java virtual machine,0,0,0
 javafx,0,0,0
 javascript,0,0,0
-javascript object notation,0,0,0
 javascript object notation (json),0,0,0
 javaserver faces (jsf) framework,0,0,0
 jboss,0,0,0
@@ -1735,7 +1725,6 @@ julia,0,0,0
 just-in-time (jit) compiler,0,0,0
 k-d trees,0,0,0
 k-means clustering,0,0,0
-k-nearest neighbor,0,0,0
 k-nearest neighbors,0,0,0
 kaspersky,0,0,0
 ken thompson,0,0,0
@@ -1883,7 +1872,6 @@ lspci,0,0,0
 lua,0,0,0
 lulzsec,0,0,0
 mac os,0,0,0
-mac: media access control,0,0,0
 macbook,0,0,0
 macbook air,0,0,0
 macbook pro,0,0,0
@@ -1964,7 +1952,6 @@ memory card,0,0,0
 memory dumping,0,0,0
 memory fragment,0,0,0
 memory leak,0,0,0
-memory leaks,0,0,0
 memory mapping,0,0,0
 memory stick,0,0,0
 memory transactions,0,0,0
@@ -1974,15 +1961,12 @@ merge sort,0,0,0
 merge-join,0,0,0
 merge-purge operation,0,0,0
 mesh system,0,0,0
-message authentication code,0,0,0
 message delivery process,0,0,0
 message digest,0,0,0
-message digest 5,0,0,0
 message digest algorithms,0,0,0
 message modification,0,0,0
 message-authentication code,0,0,0
 messages,0,0,0
-meta-data,0,0,0
 metadata,0,0,0
 metaprogramming,0,0,0
 metering function,0,0,0
@@ -2031,7 +2015,6 @@ model view viewmodel,0,0,0
 model-view-control design,0,0,0
 modeling,0,0,0
 modem = modulate and demodulate,0,0,0
-moderm,0,0,0
 modular data centers,0,0,0
 modular exponentiation,0,0,0
 modulus operator,0,0,0
@@ -2075,7 +2058,6 @@ multiplexing,0,0,0
 multiplexing - demultiplexing,0,0,0
 multiplexing network-layer protocols,0,0,0
 multiplicative function,0,0,0
-multiprotocol label switching,0,0,0
 multiprotocol label switching - mpls,0,0,0
 multiquery optimization,0,0,0
 multiset,0,0,0
@@ -2101,6 +2083,8 @@ n-way merge,0,0,0
 nahalem architecture,0,0,0
 naive algorithm,0,0,0
 naive bayes,0,0,0
+naive bayesian classifiers,0,0,0
+naive user,0,0,0
 name servers,0,0,0
 namespace,0,0,0
 naming conventions,0,0,0
@@ -2111,9 +2095,6 @@ natural join,0,0,0
 natural language processing,0,0,0
 navigate,0,0,0
 navigating files,0,0,0
-na¨ıve bayesian classifiers,0,0,0
-naïve bayes,0,0,0
-naıve user,0,0,0
 near field communication,0,0,0
 nearest-neighbor query,0,0,0
 need for speed,0,0,0
@@ -2166,7 +2147,7 @@ nokia city lens,0,0,0
 nokia lumia,0,0,0
 non fungible token,0,0,0
 non-persistent connections,0,0,0
-non-preemptive  != preemptive,0,0,0
+non-preemptive,0,0,0
 non-repudiation,0,0,0
 nonacceptable termination states,0,0,0
 nonclustering,0,0,0
@@ -2211,7 +2192,6 @@ nvidia,0,0,0
 obfuscation,0,0,0
 object,0,0,0
 object database management group (odmg),0,0,0
-object oriented programming,0,0,0
 object recognition,0,0,0
 object-based databases,0,0,0
 object-oriented data model,0,0,0
@@ -2232,7 +2212,6 @@ oltp (online transaction processing),0,0,0
 one-to-many mapping,0,0,0
 one-to-one mapping,0,0,0
 onedrive,0,0,0
-onine analytical processing,0,0,0
 online analytical processing,0,0,0
 online transaction processing,0,0,0
 open document format (odf),0,0,0
@@ -2425,7 +2404,6 @@ point-to-point protocol,0,0,0
 pointcloud,0,0,0
 pointer,0,0,0
 pointer variable,0,0,0
-pointers,0,0,0
 points of presence,0,0,0
 poisoning attack,0,0,0
 poisson,0,0,0
@@ -2455,7 +2433,6 @@ portable network graphic,0,0,0
 portable operating system interface,0,0,0
 ports,0,0,0
 positive acknowledgments,0,0,0
-post office protocol,0,0,0
 post office protocol (pop),0,0,0
 postfix notation,0,0,0
 postgresql,0,0,0
@@ -2507,7 +2484,6 @@ private inheritance,0,0,0
 private key,0,0,0
 privilege,0,0,0
 privilege escalation,0,0,0
-privileges,0,0,0
 probability,0,0,0
 probability distribution,0,0,0
 procedural languages,0,0,0
@@ -2546,8 +2522,7 @@ protocol independent multicast - pim,0,0,0
 prototype,0,0,0
 prototype pattern,0,0,0
 proxy,0,0,0
-proxy patern,0,0,0
-pseudo code,0,0,0
+proxy pattern,0,0,0
 pseudocode,0,0,0
 pseudorandom numbers,0,0,0
 pseudotransitivity rule,0,0,0
@@ -2637,7 +2612,6 @@ recovery interval,0,0,0
 recovery time,0,0,0
 rectified linear unit,0,0,0
 recurrent neural network,0,0,0
-recurrent neural networks,0,0,0
 recursion,0,0,0
 recursive queries,0,0,0
 recursive relationship sets,0,0,0
@@ -2792,7 +2766,6 @@ scope resolution operator,0,0,0
 scoped enumerations,0,0,0
 scrash,0,0,0
 scripting language,0,0,0
-scripting languages,0,0,0
 scrolling,0,0,0
 scrum,0,0,0
 scrum master,0,0,0
@@ -2818,7 +2791,6 @@ security assertion markup language (saml),0,0,0
 security association database,0,0,0
 seek times,0,0,0
 segment,0,0,0
-segment - goi tin,0,0,0
 segmentation,0,0,0
 select,0,0,0
 selection sort,0,0,0
@@ -2858,7 +2830,6 @@ shadow-copy scheme,0,0,0
 shadow-paging,0,0,0
 shaker sort,0,0,0
 shallow copy,0,0,0
-shallow copying,0,0,0
 shared and intention-exclusive (six) mode,0,0,0
 shared library,0,0,0
 shared scans,0,0,0
@@ -2893,7 +2864,6 @@ similarity-based retrieval,0,0,0
 simple cycle,0,0,0
 simple gateway monitoring protocol,0,0,0
 simple graph,0,0,0
-simple mail transfer protocol,0,0,0
 simple mail transfer protocol - smtp,0,0,0
 simple object access protocol (soap),0,0,0
 single linked list,0,0,0
@@ -2933,7 +2903,6 @@ snippet,0,0,0
 sobel operator,0,0,0
 socket,0,0,0
 socket interface,0,0,0
-sockets,0,0,0
 softmax,0,0,0
 software architecture,0,0,0
 software as a service,0,0,0
@@ -3023,7 +2992,7 @@ steam,0,0,0
 steganography,0,0,0
 stereoscopic 3d,0,0,0
 steve ballmer,0,0,0
-steve job*,0,0,0
+steve jobs,0,0,0
 storage,0,0,0
 storage area network (san),0,0,0
 storage definition language,0,0,0
@@ -3116,7 +3085,6 @@ tape storage,0,0,0
 task flow.,0,0,0
 taskbar,0,0,0
 tcp packet - udp segment,0,0,0
-tcp transmission control protocol,0,0,0
 tcp/ip,0,0,0
 tdm time division multiplexing,0,0,0
 team foundation,0,0,0
@@ -3156,7 +3124,6 @@ threat modeling,0,0,0
 three-phase commit (3pc) protocol,0,0,0
 three-tier architecture,0,0,0
 throughput,0,0,0
-throughput - tho^ng luo.ng,0,0,0
 throw,0,0,0
 tiktok,0,0,0
 tim berners-lee,0,0,0
@@ -3246,7 +3213,6 @@ two-tier architecture,0,0,0
 typedef,0,0,0
 ubuntu,0,0,0
 udemy,0,0,0
-udp user datagram protocol,0,0,0
 ultrium format,0,0,0
 unbound template friend functions,0,0,0
 uncaught exceptions,0,0,0
@@ -3269,12 +3235,10 @@ union rule,0,0,0
 unique,0,0,0
 uniquifier,0,0,0
 unity,0,0,0
-universal coordinated time,0,0,0
 universal coordinated time (utc),0,0,0
 "universal description, discovery, and integration (uddi)",0,0,0
 universal mobile telecommunications service,0,0,0
 universal resource locator,0,0,0
-universal serial bus,0,0,0
 universal serial bus (usb),0,0,0
 universal turing machine,0,0,0
 unix,0,0,0
@@ -3371,7 +3335,7 @@ weak entity,0,0,0
 wearable device,0,0,0
 web applications,0,0,0
 web browser,0,0,0
-web cache = proxy server,0,0,0
+web cache,0,0,0
 web config,0,0,0
 web crawler,0,0,0
 web exploitation,0,0,0
@@ -3389,7 +3353,6 @@ weighted bipartite,0,0,0
 weighted fair queuing,0,0,0
 weighted-union heuristic,0,0,0
 weights,0,0,0
-what you see is what you get,0,0,0
 whatsapp,0,0,0
 whois,0,0,0
 whols,0,0,0
@@ -3432,7 +3395,6 @@ workflows,0,0,0
 workload compression,0,0,0
 worksheet,0,0,0
 workstation,0,0,0
-workstations,0,0,0
 world cyber game,0,0,0
 world of warcraft,0,0,0
 world wide web,0,0,0
