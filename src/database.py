@@ -3,6 +3,7 @@ from __future__ import annotations
 import csv
 from pathlib import Path
 from datetime import datetime, timezone
+from datetime import timedelta
 
 import pandas as pd
 from pandas.errors import ParserError
@@ -26,7 +27,6 @@ REQUIRED_COLUMNS: list[str] = [
 
 HISTORY_COLUMNS: list[str] = [
     "timestamp_utc",
-    "ended_reason",
     "n_words",
     "duration_sec",
     "elapsed_sec",
@@ -37,6 +37,42 @@ HISTORY_COLUMNS: list[str] = [
     "correct_words",
     "wrong_words",
 ]
+
+
+def _migrate_history_csv_if_needed(path: Path) -> None:
+    """Drop legacy columns from history.csv (currently: ended_reason).
+
+    This is a one-time best-effort migration to keep the file appendable with the
+    new schema. If migration fails, we leave the file untouched.
+    """
+
+    if (not path.exists()) or path.stat().st_size == 0:
+        return
+
+    try:
+        df = pd.read_csv(path)
+    except Exception:
+        return
+
+    if len(df) == 0:
+        return
+
+    if "ended_reason" not in df.columns:
+        return
+
+    df = df.drop(columns=["ended_reason"], errors="ignore")
+
+    for col in HISTORY_COLUMNS:
+        if col not in df.columns:
+            df[col] = ""
+
+    df = df[HISTORY_COLUMNS]
+    df.to_csv(
+        path,
+        index=False,
+        quoting=csv.QUOTE_MINIMAL,
+        escapechar="\\",
+    )
 
 
 def _ensure_schema(df: pd.DataFrame) -> pd.DataFrame:
@@ -155,8 +191,19 @@ def load_words() -> pd.DataFrame:
         return _ensure_schema(df)
 
 
-def save_words(df: pd.DataFrame) -> None:
-    df2 = _ensure_schema(df)
+def save_words(df: pd.DataFrame, *, ensure_schema: bool = True) -> None:
+    """Persist words dataframe to data/processed/words.csv.
+
+    Args:
+        df: Words dataframe.
+        ensure_schema: When True (default), normalizes/cleans schema and
+            de-duplicates words before writing. When False, writes the dataframe
+            as-is. Use False only if the caller guarantees the schema is already
+            valid and the 'word' column contains unique cleaned words.
+    """
+
+    df2 = _ensure_schema(df) if ensure_schema else df.copy()
+
     # Ensure words containing commas are quoted properly.
     df2.to_csv(
         DATA_PATH,
@@ -167,26 +214,84 @@ def save_words(df: pd.DataFrame) -> None:
     )
 
 
-def load_history() -> pd.DataFrame:
+def load_history(*, include_row_id: bool = False) -> pd.DataFrame:
     """Load score history from data/raw/history.csv.
 
     Returns an empty dataframe with expected columns if the file is missing/empty.
     """
     path = Path(HISTORY_PATH)
     if not path.exists() or path.stat().st_size == 0:
-        return pd.DataFrame(columns=HISTORY_COLUMNS)
+        df0 = pd.DataFrame(columns=HISTORY_COLUMNS)
+        if include_row_id:
+            df0["_row_id"] = []
+        return df0
 
-    df = pd.read_csv(path)
+    try:
+        df = pd.read_csv(path)
+    except Exception:
+        df0 = pd.DataFrame(columns=HISTORY_COLUMNS)
+        if include_row_id:
+            df0["_row_id"] = []
+        return df0
+
+    # Drop legacy columns.
+    if "ended_reason" in df.columns:
+        df = df.drop(columns=["ended_reason"], errors="ignore")
+        # Best-effort rewrite to keep the file appendable with the new schema.
+        try:
+            _migrate_history_csv_if_needed(path)
+        except Exception:
+            pass
+
     # Ensure columns exist (tolerate older files).
     for col in HISTORY_COLUMNS:
         if col not in df.columns:
             df[col] = ""
-    return df[HISTORY_COLUMNS]
+
+    df = df[HISTORY_COLUMNS]
+    if include_row_id:
+        df = df.copy()
+        df["_row_id"] = list(range(len(df)))
+    return df
+
+
+def delete_history_row(*, row_id: int) -> bool:
+    """Delete one history row by its original row index.
+
+    Args:
+        row_id: 0-based row number in the CSV file.
+
+    Returns:
+        True if a row was deleted.
+    """
+    path = Path(HISTORY_PATH)
+    if not path.exists() or path.stat().st_size == 0:
+        return False
+
+    try:
+        df = pd.read_csv(path)
+    except Exception:
+        return False
+
+    if len(df) == 0:
+        return False
+
+    rid = int(row_id)
+    if rid < 0 or rid >= len(df):
+        return False
+
+    df = df.drop(index=rid).reset_index(drop=True)
+    df.to_csv(
+        path,
+        index=False,
+        quoting=csv.QUOTE_MINIMAL,
+        escapechar="\\",
+    )
+    return True
 
 
 def append_history(
     *,
-    ended_reason: str,
     n_words: int,
     duration_sec: int,
     elapsed_sec: int,
@@ -199,15 +304,18 @@ def append_history(
     path = Path(HISTORY_PATH)
     path.parent.mkdir(parents=True, exist_ok=True)
 
+    _migrate_history_csv_if_needed(path)
+
     correct_words = correct_words or []
     wrong_words = wrong_words or []
 
     answered = int(correct) + int(wrong)
     accuracy = round((correct / answered) if answered > 0 else 0.0, 4)
 
+    tz_gmt7 = timezone(timedelta(hours=7))
+
     record = {
-        "timestamp_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "ended_reason": str(ended_reason),
+        "timestamp_utc": datetime.now(tz_gmt7).isoformat(timespec="seconds"),
         "n_words": int(n_words),
         "duration_sec": int(duration_sec),
         "elapsed_sec": int(elapsed_sec),

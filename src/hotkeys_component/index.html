@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotkeys</title>
+    <style>
+      /* Keep the iframe visually empty */
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 1px;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+
+  <body>
+    <input
+      id="hk"
+      autocomplete="off"
+      autocapitalize="off"
+      spellcheck="false"
+      aria-hidden="true"
+      style="
+        position: fixed;
+        opacity: 0;
+        width: 1px;
+        height: 1px;
+        left: -10px;
+        top: -10px;
+      "
+    />
+    <script>
+      // Minimal Streamlit component protocol (avoids relying on external CDN).
+      // Reference: Streamlit Components postMessage API.
+      const Streamlit = {
+        RENDER_EVENT: "streamlit:render",
+        events: {
+          addEventListener: (eventType, callback) => {
+            window.addEventListener("message", (event) => {
+              const data = event && event.data;
+              if (!data) return;
+              // Streamlit sends the render message WITHOUT isStreamlitMessage.
+              if (data.type !== eventType) return;
+              callback({ detail: data });
+            });
+          },
+        },
+        _send: (type, extra) => {
+          const payload = Object.assign(
+            { isStreamlitMessage: true, type: type },
+            extra || {},
+          );
+          window.parent.postMessage(payload, "*");
+        },
+        setComponentReady: () => {
+          Streamlit._send("streamlit:componentReady", { apiVersion: 1 });
+        },
+        setFrameHeight: (height) => {
+          Streamlit._send("streamlit:setFrameHeight", { height: height });
+        },
+        setComponentValue: (value) => {
+          Streamlit._send("streamlit:setComponentValue", {
+            value: value,
+            dataType: "json",
+          });
+        },
+      };
+
+      let allowedKeys = new Set();
+      const hiddenInput = document.getElementById("hk");
+
+      function ensureFocusable() {
+        // Make sure the iframe can receive key events.
+        try {
+          hiddenInput.tabIndex = 0;
+          hiddenInput.focus({ preventScroll: true });
+        } catch (e) {
+          // Fallback.
+          document.body.tabIndex = 0;
+          document.body.focus();
+        }
+      }
+
+      function onRender(event) {
+        const data = event.detail;
+        const keys = (data && data.args && data.args.keys) || [];
+        allowedKeys = new Set(keys.map(String));
+        ensureFocusable();
+        Streamlit.setFrameHeight(1);
+      }
+
+      function onKeyDown(e) {
+        const key = String(e.key || "");
+        if (!allowedKeys.has(key)) return;
+
+        // Prevent browser from scrolling on arrow keys.
+        e.preventDefault();
+        e.stopPropagation();
+
+        Streamlit.setComponentValue({ key, ts: Date.now() });
+      }
+
+      // Streamlit component lifecycle.
+      Streamlit.events.addEventListener(Streamlit.RENDER_EVENT, onRender);
+      Streamlit.setComponentReady();
+      Streamlit.setFrameHeight(1);
+
+      function tryAddListener(doc) {
+        if (!doc) return;
+        try {
+          doc.addEventListener("keydown", onKeyDown, { capture: true });
+        } catch (e) {
+          // Ignore.
+        }
+      }
+
+      // Capture keys.
+      // Try parent/top documents so it works even when focus isn't in the iframe.
+      tryAddListener(document);
+      tryAddListener(window.parent && window.parent.document);
+      tryAddListener(window.top && window.top.document);
+
+      window.addEventListener("click", ensureFocusable);
+      ensureFocusable();
+    </script>
+  </body>
+</html>
