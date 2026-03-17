@@ -94,7 +94,6 @@ algorithm implementation,0,0,0
 algorithmic complexity,0,0,0
 alias,0,0,0
 alias hostname,0,0,0
-aliases,0,0,0
 all-pairs shortest paths,0,0,0
 allocating memory,0,0,0
 allocators,0,0,0
@@ -133,7 +132,6 @@ apache,0,0,0
 apache subversion,0,0,0
 apache tomcat,0,0,0
 apache web server,0,0,0
-aparnet,0,0,0
 apple,0,0,0
 apple app store,0,0,0
 apple computers,0,0,0
@@ -161,7 +159,6 @@ argument control,0,0,0
 arithmetic logic unit,0,0,0
 arithmetic operators,0,0,0
 arm,0,0,0
-arp,0,0,0
 arpanet,0,0,0
 array,0,0,0
 array types,0,0,0
@@ -203,7 +200,6 @@ attention,0,0,0
 attribute,0,0,0
 attribute inheritance,0,0,0
 attribute-value skew,0,0,0
-attributes,0,0,0
 audit trails,0,0,0
 augmentation rule,0,0,0
 augmented reality,0,0,0
@@ -241,7 +237,6 @@ backoff,0,0,0
 backtracking,0,0,0
 backup,0,0,0
 backup coordinator,0,0,0
-backups,0,0,0
 badbit stream state,0,0,0
 bag of features,0,0,0
 bag of words,0,0,0
@@ -360,7 +355,7 @@ bootstrap,0,0,0
 bootstrap programs,0,0,0
 bootstrapping,0,0,0
 border gateway protocol,0,0,0
-boruvska algorithm,0,0,0
+boruvka's algorithm,0,0,0
 botnet,0,0,0
 bottleneck link,0,0,0
 bottlenecks,0,0,0
@@ -465,9 +460,7 @@ centralized architectures,0,0,0
 centralized deadlock detection,0,0,0
 centroid decomposition,0,0,0
 certificate,0,0,0
-certificate authorities,0,0,0
 certificate authority,0,0,0
-certification authority,0,0,0
 chain of responsibility pattern,0,0,0
 challenge-response system,0,0,0
 change isolation level,0,0,0
@@ -487,7 +480,7 @@ chinese remainder theorem,0,0,0
 chmod,0,0,0
 chromebook,0,0,0
 cia triad,0,0,0
-cidr classless  interdomain routing,0,0,0
+cidr classless interdomain routing,0,0,0
 cipher-block chaining,0,0,0
 circuit,0,0,0
 circuit switching,0,0,0
@@ -563,7 +556,7 @@ common internet file system,0,0,0
 common language runtime (clr),0,0,0
 common object request broker architecture (corba),0,0,0
 common runtime language,0,0,0
-common subexpression elimination,0,0,0
+common sub expression elimination,0,0,0
 communication,0,0,0
 communication diagram,0,0,0
 communication system calls,0,0,0
@@ -573,7 +566,6 @@ compare,0,0,0
 compatibility function,0,0,0
 compensation log records (clrs),0,0,0
 compiler,0,0,0
-completely automated public turing test to tell computers and humans apart,0,0,0
 complex data types,0,0,0
 complex instruction set computing,0,0,0
 complexity,0,0,0
@@ -692,10 +684,7 @@ critical-section problem,0,0,0
 cross entropy,0,0,0
 cross platform,0,0,0
 cross product,0,0,0
-cross site request forgery,0,0,0
-cross site scripting,0,0,0
 cross-platform software,0,0,0
-cross-product,0,0,0
 cross-site request forgery (xsrf),0,0,0
 cross-site scripting (xss),0,0,0
 crossbar switch,0,0,0
@@ -1291,10 +1280,10 @@ function template,0,0,0
 function wrapper,0,0,0
 function-based indices,0,0,0
 functional dependency,0,0,0
+functional determined attributes,0,0,0
 functional overloading,0,0,0
 functional polymorphism,0,0,0
 functional programming,0,0,0
-functionally determined attributes,0,0,0
 functors,0,0,0
 fuzzy checkpoints,0,0,0
 gadget,0,0,0
@@ -1349,7 +1338,6 @@ global positioning system (gps),0,0,0
 global product identifier,0,0,0
 global routing algorithm,0,0,0
 global system for mobile,0,0,0
-global system for mobile communications,0,0,0
 global variable,0,0,0
 global wait-for graph,0,0,0
 glonass,0,0,0
@@ -1390,9 +1378,7 @@ graph api,0,0,0
 graph coloring,0,0,0
 graph-based protocols,0,0,0
 graphic card,0,0,0
-graphic user interface,0,0,0
-graphical user interfaces,0,0,0
-graphics device interface,0,0,0
+graphical user interface,0,0,0
 greatest common divisor,0,0,0
 greedy algorithm,0,0,0
 greenplum,0,0,0
@@ -1411,7 +1397,6 @@ hamilton cycle,0,0,0
 hamming distance,0,0,0
 handoff,0,0,0
 handshake,0,0,0
-handshaking,0,0,0
 hanoi tower,0,0,0
 hard coding,0,0,0
 hard disk drive,0,0,0
@@ -1494,7 +1479,6 @@ htc,0,0,0
 https,0,0,0
 hub,0,0,0
 huffman,0,0,0
-huffman codes,0,0,0
 huffman coding,0,0,0
 human-computer interaction,0,0,0
 humanoid robot,0,0,0
@@ -1513,7 +1497,7 @@ hypertext transfer protocol secure,0,0,0
 hypothesis,0,0,0
 i/o parallelism,0,0,0
 icloud,0,0,0
-icmp : internet control message protocol,0,0,0
+icmp: internet control message protocol,0,0,0
 icon,0,0,0
 ide,0,0,0
 idle threads,0,0,0
@@ -1547,7 +1531,6 @@ indexing strings,0,0,0
 indirect routing,0,0,0
 induction,0,0,0
 infix notation,0,0,0
-infomation security,0,0,0
 information gain,0,0,0
 information leak,0,0,0
 information retrieval,0,0,0
@@ -3372,7 +3355,7 @@ xquery,0,0,0
 y2k bug,0,0,0
 yahoo,0,0,0
 yahoo messenger,0,0,0
-yanlecun*,0,0,0
+yanlecun,0,0,0
 youtube,0,0,0
 yum,0,0,0
 z function,0,0,0
