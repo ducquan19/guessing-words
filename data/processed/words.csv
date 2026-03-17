@@ -18,7 +18,6 @@ abstract syntax notation one,0,0,0
 abstract window toolkit,0,0,0
 access,0,0,0
 access control,0,0,0
-access control lists,0,0,0
 access delay,0,0,0
 access latency,0,0,0
 access lists,0,0,0
@@ -43,14 +42,12 @@ active queue management algorithms,0,0,0
 active server pages,0,0,0
 activity diagram,0,0,0
 actual argument,0,0,0
-actual arguments,0,0,0
 acyclic graph,0,0,0
 acyclic-graph directories,0,0,0
 ad hoc networks,0,0,0
 ada,0,0,0
 adapter,0,0,0
 adapter pattern,0,0,0
-adapters,0,0,0
 adaptive congestion control,0,0,0
 adaptive mutex,0,0,0
 adaptive playout delay,0,0,0
@@ -60,7 +57,6 @@ address aggregation,0,0,0
 address bar,0,0,0
 address binding,0,0,0
 address indirection,0,0,0
-address resolution protocol,0,0,0
 address resolution protocol - arp,0,0,0
 address space layout randomization,0,0,0
 address-space identifiers,0,0,0
@@ -96,7 +92,6 @@ alexa,0,0,0
 algorithm,0,0,0
 algorithm implementation,0,0,0
 algorithmic complexity,0,0,0
-algorithms,0,0,0
 alias,0,0,0
 alias hostname,0,0,0
 aliases,0,0,0
@@ -151,7 +146,6 @@ application development framework (adf),0,0,0
 application gateways,0,0,0
 application layer,0,0,0
 application migration,0,0,0
-application program interface,0,0,0
 application programming interface,0,0,0
 application-layer messages,0,0,0
 application-layer protocols,0,0,0
@@ -238,7 +232,6 @@ avg expression,0,0,0
 avl tree,0,0,0
 aws,0,0,0
 b-tree,0,0,0
-back door,0,0,0
 back propagation,0,0,0
 backbone,0,0,0
 backbone area,0,0,0
@@ -252,7 +245,6 @@ backups,0,0,0
 badbit stream state,0,0,0
 bag of features,0,0,0
 bag of words,0,0,0
-balance tree,0,0,0
 balanced binary search tree,0,0,0
 balanced range-partitioning,0,0,0
 balanced tree,0,0,0
@@ -272,7 +264,6 @@ bash,0,0,0
 basic data type,0,0,0
 basic encoding rules,0,0,0
 basic input output system,0,0,0
-basic service set,0,0,0
 basic service set - bss,0,0,0
 batch,0,0,0
 batch processing,0,0,0
@@ -335,7 +326,6 @@ bitmap header,0,0,0
 bitmap indices,0,0,0
 bitmask,0,0,0
 bitnet,0,0,0
-bits,0,0,0
 bitstream file,0,0,0
 bittorrent,0,0,0
 bitwise copy,0,0,0
@@ -347,7 +337,6 @@ blind writes,0,0,0
 blob detection,0,0,0
 block,0,0,0
 block cipher,0,0,0
-block ciphers,0,0,0
 block nested-loop join,0,0,0
 block-interleaved distributed parity,0,0,0
 block-interleaved parity organization,0,0,0
@@ -405,7 +394,6 @@ buffer pools,0,0,0
 buffer-overflow attacks,0,0,0
 buffered distributors,0,0,0
 buffering,0,0,0
-buffers,0,0,0
 bug,0,0,0
 builder pattern,0,0,0
 built-in class,0,0,0
@@ -444,7 +432,6 @@ call level interface (cli) standards,0,0,0
 call of duty,0,0,0
 call setup protocol,0,0,0
 callable statements,0,0,0
-callbacks,0,0,0
 calling convention,0,0,0
 candidate key,0,0,0
 candy crush,0,0,0
@@ -459,7 +446,6 @@ car-to-car communication,0,0,0
 card,0,0,0
 carrier sense multiple access - csma,0,0,0
 cartesian product,0,0,0
-cartesian products,0,0,0
 cascadeless schedules,0,0,0
 cascading style sheets,0,0,0
 cascading stylesheet (css) standard,0,0,0
@@ -470,7 +456,6 @@ case study,0,0,0
 casting,0,0,0
 casting data types,0,0,0
 catalog,0,0,0
-catalogs,0,0,0
 catching exceptions,0,0,0
 categories,0,0,0
 cell phones,0,0,0
@@ -546,7 +531,6 @@ cluster,0,0,0
 cluster index,0,0,0
 cluster remapping,0,0,0
 cluster selection strategy,0,0,0
-clusters,0,0,0
 coaxial cable,0,0,0
 cobol,0,0,0
 cocktail sort,0,0,0
@@ -594,7 +578,6 @@ complex data types,0,0,0
 complex instruction set computing,0,0,0
 complexity,0,0,0
 component,0,0,0
-component object model,0,0,0
 component object model (com),0,0,0
 composite number,0,0,0
 composite pattern,0,0,0
@@ -681,7 +664,6 @@ converter,0,0,0
 converting data types,0,0,0
 convex hull,0,0,0
 convolution,0,0,0
-cookie,0,0,0
 cookies,0,0,0
 cooling fan,0,0,0
 cooperating processes,0,0,0
@@ -786,17 +768,14 @@ data-manipulation language (dml),0,0,0
 data-over-cable service interface specifications,0,0,0
 data-transfer rate,0,0,0
 database,0,0,0
-database administrator,0,0,0
 database designer,0,0,0
 database graph,0,0,0
 database instance,0,0,0
-database instance:,0,0,0
 database management system,0,0,0
 database programer,0,0,0
 database replica,0,0,0
 database resource management,0,0,0
 database schema,0,0,0
-database schema:,0,0,0
 database security,0,0,0
 database systems,0,0,0
 database task group,0,0,0
@@ -847,7 +826,6 @@ deepfake detection,0,0,0
 deepfake technology,0,0,0
 default arguments,0,0,0
 default constructor,0,0,0
-default constructors,0,0,0
 default gateway,0,0,0
 default name server,0,0,0
 default router,0,0,0
@@ -1156,13 +1134,13 @@ exponential weighted moving average,0,0,0
 extended euclidean algorithm,0,0,0
 extended finite-state machine,0,0,0
 extended reality,0,0,0
-extends -> extension,0,0,0
 extensibility contracts,0,0,0
 extensible application markup language,0,0,0
 extensible authentication protocol,0,0,0
 extensible hypertext markup language,0,0,0
 extensible markup language,0,0,0
 extensible stylesheet language transformations,0,0,0
+extension,0,0,0
 external fragmentation,0,0,0
 external language routines,0,0,0
 external linkage,0,0,0
@@ -1232,7 +1210,6 @@ first come first server,0,0,0
 first committer wins,0,0,0
 first in first out,0,0,0
 first updater wins,0,0,0
-first-come first-served scheduling algorithm,0,0,0
 first-come-first-served scheduling,0,0,0
 fixed playout delay,0,0,0
 fixed-length labels,0,0,0
@@ -1404,7 +1381,7 @@ googlecode,0,0,0
 googleplex,0,0,0
 gordon moore,0,0,0
 gps latitude,0,0,0
-gps longtitude,0,0,0
+gps longitude,0,0,0
 gradient,0,0,0
 gradient descent,0,0,0
 grant,0,0,0
@@ -1660,7 +1637,6 @@ interprocess communication,0,0,0
 interquery parallelism,0,0,0
 interrupt,0,0,0
 interrupt-request line,0,0,0
-interrupts,0,0,0
 intersect,0,0,0
 intersection set,0,0,0
 intervals,0,0,0
@@ -1684,7 +1660,6 @@ is-a,0,0,0
 isolated vertex,0,0,0
 isolation,0,0,0
 isolation level,0,0,0
-isolation vertex,0,0,0
 isomorphic graphs,0,0,0
 iteration,0,0,0
 iterator,0,0,0
@@ -1759,8 +1734,7 @@ lambda expression,0,0,0
 lambda functions,0,0,0
 landmark recognition,0,0,0
 language constructs,0,0,0
-language integrated querying (linq),0,0,0
-language-integrated query,0,0,0
+language-integrated query (linq),0,0,0
 laplacian,0,0,0
 laptop,0,0,0
 large-object types,0,0,0
@@ -1781,7 +1755,6 @@ leap motion,0,0,0
 learning rate,0,0,0
 least recent used,0,0,0
 least recently used (lru) scheme,0,0,0
-least significant bit,0,0,0
 least-cost path,0,0,0
 least-significant bit,0,0,0
 left outer join,0,0,0
@@ -1885,7 +1858,6 @@ magnetic disks,0,0,0
 magnifier,0,0,0
 mail access protocols,0,0,0
 mail box,0,0,0
-mailboxes,0,0,0
 main-in-the-middle attack,0,0,0
 main-memory database systems,0,0,0
 mainboard,0,0,0
@@ -1979,7 +1951,6 @@ metric learning,0,0,0
 metric space,0,0,0
 metro,0,0,0
 metropolitan-area networks,0,0,0
-micro computer,0,0,0
 microcomputer,0,0,0
 microprocessor,0,0,0
 microsoft,0,0,0
@@ -2105,7 +2076,6 @@ nested classes,0,0,0
 nested recursion,0,0,0
 nested subqueries,0,0,0
 nested-loop join,0,0,0
-netbean,0,0,0
 netbeans,0,0,0
 netezza,0,0,0
 netflix,0,0,0
@@ -2231,7 +2201,6 @@ openoffice,0,0,0
 openssl,0,0,0
 opera,0,0,0
 operand,0,0,0
-operands,0,0,0
 operating system,0,0,0
 operator,0,0,0
 operator operand,0,0,0
@@ -2275,7 +2244,6 @@ overlapping entity sets,0,0,0
 overlapping fragments,0,0,0
 overlapping specialization,0,0,0
 overlay network,0,0,0
-overload,0,0,0
 overload resolution,0,0,0
 overloading,0,0,0
 overriding,0,0,0
@@ -2332,7 +2300,6 @@ partitions,0,0,0
 partner interface processes (pips),0,0,0
 pascal,0,0,0
 pass by reference,0,0,0
-passing by reference,0,0,0
 passive optical networks,0,0,0
 password,0,0,0
 patch,0,0,0
@@ -2490,7 +2457,6 @@ procedural languages,0,0,0
 procedural programming,0,0,0
 procedure,0,0,0
 procedure linkage table,0,0,0
-procedures,0,0,0
 process,0,0,0
 process control block - pcb,0,0,0
 process manager,0,0,0
@@ -2645,7 +2611,7 @@ reinforcement learning,0,0,0
 reinterprest casting,0,0,0
 relation,0,0,0
 relation instance,0,0,0
-relation model:,0,0,0
+relation model,0,0,0
 relation scheme,0,0,0
 relational algebra,0,0,0
 relational calculus,0,0,0
@@ -2668,7 +2634,6 @@ rendezvous point,0,0,0
 repeat loop,0,0,0
 repeatable read,0,0,0
 repeater,0,0,0
-repeater - router -bridge - switch - hub,0,0,0
 replay attach,0,0,0
 replication,0,0,0
 report generators,0,0,0
@@ -2728,8 +2693,6 @@ rosettanet,0,0,0
 round trip time - rtt,0,0,0
 round-robin queuing,0,0,0
 round-robin scheduling algorithm,0,0,0
-round-trip time,0,0,0
-rounded robin,0,0,0
 router,0,0,0
 routing control platform,0,0,0
 routing information protocol,0,0,0
@@ -2908,13 +2871,11 @@ software architecture,0,0,0
 software as a service,0,0,0
 software defined networking,0,0,0
 software development kit,0,0,0
-software engineer,0,0,0
 software engineering,0,0,0
 software interrupt,0,0,0
 software requirement specification,0,0,0
 solaris,0,0,0
 solid state drive,0,0,0
-solid state driver,0,0,0
 solid-state disks,0,0,0
 sony picture,0,0,0
 sort,0,0,0
@@ -3015,7 +2976,6 @@ structural pattern,0,0,0
 structure initialization,0,0,0
 structure of management information,0,0,0
 structured data,0,0,0
-structured language query,0,0,0
 structured query language,0,0,0
 structured types,0,0,0
 stub,0,0,0
@@ -3042,12 +3002,10 @@ super key,0,0,0
 superclass,0,0,0
 superclass-subclass relationship,0,0,0
 supercomputer,0,0,0
-superkeys,0,0,0
 superuser,0,0,0
 supervised,0,0,0
 supervised learning,0,0,0
 supplementary specification,0,0,0
-support vector machine,0,0,0
 support vector machine (svm),0,0,0
 support vector regression,0,0,0
 swap space,0,0,0
@@ -3061,8 +3019,7 @@ symbol,0,0,0
 symbolic constants,0,0,0
 symmetric cryptosystem,0,0,0
 symmetric key,0,0,0
-symmetric multiprocessing,0,0,0
-symmetric multiprocessors (smps),0,0,0
+symmetric multiprocessing (smps),0,0,0
 sync,0,0,0
 syntax error,0,0,0
 system architecture,0,0,0
@@ -3117,7 +3074,6 @@ thinkpad,0,0,0
 third normal form (3nf),0,0,0
 thomas’ write rule,0,0,0
 thrashing,0,0,0
-thrasing,0,0,0
 thread,0,0,0
 thread-yield,0,0,0
 threat modeling,0,0,0
@@ -3399,7 +3355,6 @@ world cyber game,0,0,0
 world of warcraft,0,0,0
 world wide web,0,0,0
 world wide web consortium (w3c),0,0,0
-worm,0,0,0
 worst case complexity,0,0,0
 wrapping,0,0,0
 "write once, read-many (worm)",0,0,0
