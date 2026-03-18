@@ -7,13 +7,45 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from src.database import delete_history_row, load_history
+from src.database import (
+    delete_history_row,
+    remove_deleted_words,
+    load_deleted_words,
+    load_history,
+    load_words,
+    save_words,
+)
 from src.utils import add_activity_log
 
 from datetime import datetime, timedelta, timezone
 
 
 st.title("📜 History")
+
+
+def _parse_ts(value: object) -> datetime | None:
+    s = "" if value is None else str(value).strip()
+    if not s:
+        return None
+    # Handle common 'Z' suffix.
+    if s.endswith("Z"):
+        s = s[:-1] + "+00:00"
+    try:
+        return datetime.fromisoformat(s)
+    except Exception:
+        return None
+
+
+def _fmt_ts_gmt7(value: object) -> str:
+    dt = _parse_ts(value)
+    if dt is None:
+        return "" if value is None else str(value)
+    tz7 = timezone(timedelta(hours=7))
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    dt7 = dt.astimezone(tz7)
+    return dt7.strftime("%Y-%m-%d %H:%M:%S")
+
 
 with st.expander("⚠️ Danger zone", expanded=False):
     confirm_clear = st.checkbox(
@@ -36,6 +68,121 @@ with st.expander("⚠️ Danger zone", expanded=False):
         st.rerun()
 
 history = load_history(include_row_id=True)
+
+st.subheader("🗑️ Deleted words")
+deleted_words = load_deleted_words(include_row_id=False)
+if len(deleted_words) == 0:
+    st.caption("No deleted words recorded yet.")
+else:
+    dw = deleted_words.copy()
+    dw["_ts"] = dw["timestamp_utc"].map(_parse_ts)
+    dw = dw.sort_values("_ts", ascending=False, na_position="last")
+    view = dw.drop(columns=["_ts"], errors="ignore").head(300).reset_index(drop=True)
+    if "timestamp_utc" in view.columns:
+        view = view.copy()
+        view["timestamp_utc"] = view["timestamp_utc"].map(_fmt_ts_gmt7)
+
+    restore_view = view.copy()
+    restore_view.insert(0, "restore", False)
+    edited_dw = st.data_editor(
+        restore_view,
+        hide_index=True,
+        use_container_width=True,
+        key="restore_deleted_words_editor",
+        column_config={
+            "restore": st.column_config.CheckboxColumn(
+                "Restore",
+                help="Tick to restore this word back into the word list",
+                default=False,
+            )
+        },
+        disabled=[c for c in restore_view.columns if c != "restore"],
+    )
+
+    to_restore_df = (
+        edited_dw.loc[edited_dw["restore"] == True].copy()  # noqa: E712
+        if (
+            edited_dw is not None
+            and len(edited_dw) > 0
+            and "restore" in edited_dw.columns
+        )
+        else None
+    )
+
+    n_restore = 0 if to_restore_df is None else int(len(to_restore_df))
+    confirm_restore = st.checkbox(
+        f"I understand this will restore {n_restore} item(s)",
+        value=False,
+        key="confirm_restore_deleted_words",
+    )
+
+    if st.button(
+        "Restore selected words",
+        type="primary",
+        use_container_width=True,
+        disabled=(not confirm_restore)
+        or (to_restore_df is None)
+        or (len(to_restore_df) == 0),
+    ):
+        # Keep only the latest selected entry per word.
+        tmp = to_restore_df.copy()
+        tmp["_ts"] = tmp["timestamp_utc"].map(_parse_ts)
+        tmp = tmp.sort_values("_ts", ascending=False, na_position="last")
+        tmp = tmp.drop_duplicates(subset=["word"], keep="first")
+
+        current = load_words()
+        existing = set(current["word"].astype(str).tolist())
+        restored_words: list[str] = []
+        rows: list[dict[str, object]] = []
+        stats_map: dict[str, dict[str, int]] = {}
+
+        for _, r in tmp.iterrows():
+            w = "" if r.get("word") is None else str(r.get("word")).strip().lower()
+            if not w or w in existing:
+                continue
+
+            def _to_int(v: object) -> int:
+                try:
+                    return int(float(v))
+                except Exception:
+                    return 0
+
+            cc = _to_int(r.get("count_correct", 0))
+            ca = _to_int(r.get("count_appear", 0))
+            ci = _to_int(r.get("count_incorrect", 0))
+
+            rows.append(
+                {
+                    "word": w,
+                    "count_correct": cc,
+                    "count_appear": ca,
+                    "count_incorrect": ci,
+                }
+            )
+            stats_map[w] = {
+                "count_correct": cc,
+                "count_appear": ca,
+                "count_incorrect": ci,
+            }
+            restored_words.append(w)
+
+        if rows:
+            import pandas as pd
+
+            df_new = pd.DataFrame(rows)
+            combined = pd.concat([current, df_new], ignore_index=True)
+            save_words(combined)
+            remove_deleted_words(restored_words)
+            add_activity_log(
+                f"Đã hoàn tác {len(restored_words)} từ đã xóa.", level="success"
+            )
+            st.success(f"Restored {len(restored_words)} word(s).")
+        else:
+            st.warning("Nothing to restore (already exists or invalid selection).")
+
+        st.rerun()
+
+st.divider()
 
 if len(history) == 0:
     st.info("No games recorded yet. Play a game to generate history.")
@@ -66,30 +213,6 @@ def _split_words(value: object) -> list[str]:
     if not s.strip():
         return []
     return [w for w in s.split("|") if w]
-
-
-def _parse_ts(value: object) -> datetime | None:
-    s = "" if value is None else str(value).strip()
-    if not s:
-        return None
-    # Handle common 'Z' suffix.
-    if s.endswith("Z"):
-        s = s[:-1] + "+00:00"
-    try:
-        return datetime.fromisoformat(s)
-    except Exception:
-        return None
-
-
-def _fmt_ts_gmt7(value: object) -> str:
-    dt = _parse_ts(value)
-    if dt is None:
-        return "" if value is None else str(value)
-    tz7 = timezone(timedelta(hours=7))
-    if dt.tzinfo is None:
-        dt = dt.replace(tzinfo=timezone.utc)
-    dt7 = dt.astimezone(tz7)
-    return dt7.strftime("%Y-%m-%d %H:%M:%S")
 
 
 history2 = history.copy()

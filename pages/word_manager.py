@@ -10,6 +10,8 @@ if str(PROJECT_ROOT) not in sys.path:
 from src.database import (
     add_word,
     delete_word,
+    delete_words,
+    append_deleted_words,
     load_words,
     normalize_appear_counts,
     reset_counters,
@@ -53,6 +55,84 @@ if len(df) == 0:
     st.info("No words yet.")
     st.stop()
 
+st.markdown("### 🗑️ Bulk delete")
+st.caption("Tick the words you want to delete, then click the button.")
+
+bulk_view = df[["word", "count_correct", "count_appear", "count_incorrect"]].copy()
+bulk_view.insert(0, "delete", False)
+
+edited = st.data_editor(
+    bulk_view,
+    hide_index=True,
+    use_container_width=True,
+    key="bulk_delete_editor",
+    column_config={
+        "delete": st.column_config.CheckboxColumn(
+            "Delete",
+            help="Tick to mark this word for deletion",
+            default=False,
+        )
+    },
+    disabled=["word", "count_correct", "count_appear", "count_incorrect"],
+)
+
+selected_words = (
+    edited.loc[edited["delete"] == True, "word"].astype(str).tolist()  # noqa: E712
+    if (edited is not None and len(edited) > 0 and "delete" in edited.columns)
+    else []
+)
+
+confirm_bulk = st.checkbox(
+    f"I understand this will delete {len(selected_words)} word(s)",
+    value=False,
+    key="confirm_bulk_delete",
+)
+
+bulk_disabled = (not confirm_bulk) or (len(selected_words) == 0)
+if st.button(
+    "Delete selected words",
+    type="primary",
+    use_container_width=True,
+    disabled=bulk_disabled,
+):
+    # Capture current counters for logging/restore before deleting.
+    _targets = [clean_word(w) for w in selected_words]
+    _targets = [w for w in _targets if w]
+    stats_map: dict[str, dict[str, int]] = {}
+    if _targets:
+        try:
+            subset = df[df["word"].isin(_targets)][
+                ["word", "count_correct", "count_appear", "count_incorrect"]
+            ]
+            for r in subset.to_dict("records"):
+                w = str(r.get("word", ""))
+                if not w:
+                    continue
+                stats_map[w] = {
+                    "count_correct": int(r.get("count_correct", 0)),
+                    "count_appear": int(r.get("count_appear", 0)),
+                    "count_incorrect": int(r.get("count_incorrect", 0)),
+                }
+        except Exception:
+            stats_map = {}
+
+    df2, deleted_words = delete_words(df, selected_words)
+    if deleted_words:
+        save_words(df2)
+        append_deleted_words(deleted_words, stats=stats_map)
+        st.success(f"Deleted {len(deleted_words)} word(s).")
+        preview = ", ".join(deleted_words[:20])
+        more = "…" if len(deleted_words) > 20 else ""
+        add_activity_log(
+            f"Đã xóa {len(deleted_words)} từ: {preview}{more}", level="success"
+        )
+        st.rerun()
+    else:
+        st.warning("Nothing deleted.")
+
+st.divider()
+st.markdown("### ✏️ Single edit / delete")
+
 selected_word = st.selectbox("Select a word", df["word"].tolist())
 if selected_word is None:
     st.stop()
@@ -80,10 +160,26 @@ if rename_submit:
         st.warning("Nothing changed (check the new name).")
 
 if delete_submit:
+    # Capture counters for restore before deleting.
+    stats_map: dict[str, dict[str, int]] = {}
+    try:
+        w0 = clean_word(selected_word)
+        row = df.loc[df["word"] == w0].head(1)
+        if len(row) > 0:
+            r = row.iloc[0].to_dict()
+            stats_map[w0] = {
+                "count_correct": int(r.get("count_correct", 0)),
+                "count_appear": int(r.get("count_appear", 0)),
+                "count_incorrect": int(r.get("count_incorrect", 0)),
+            }
+    except Exception:
+        stats_map = {}
+
     df2, deleted = delete_word(df, selected_word)
     if deleted:
         deleted_word = clean_word(selected_word)
         save_words(df2)
+        append_deleted_words([deleted_word], stats=stats_map)
         st.success("Word deleted.")
         add_activity_log(f"Đã xóa từ: {deleted_word}", level="success")
         st.rerun()
