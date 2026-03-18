@@ -12,6 +12,7 @@ from src.utils import clean_word
 
 DATA_PATH = "data/processed/words.csv"
 HISTORY_PATH = "data/raw/history.csv"
+DELETED_WORDS_PATH = "data/raw/deleted_words.csv"
 
 WORD_COL = "word"
 COUNT_CORRECT_COL = "count_correct"
@@ -36,6 +37,16 @@ HISTORY_COLUMNS: list[str] = [
     "accuracy",
     "correct_words",
     "wrong_words",
+]
+
+
+DELETED_WORDS_COLUMNS: list[str] = [
+    "timestamp_utc",
+    "action",
+    "word",
+    COUNT_CORRECT_COL,
+    COUNT_APPEAR_COL,
+    COUNT_INCORRECT_COL,
 ]
 
 
@@ -339,6 +350,153 @@ def append_history(
     )
 
 
+def load_deleted_words(*, include_row_id: bool = False) -> pd.DataFrame:
+    """Load deleted-words history from data/raw/deleted_words.csv."""
+    path = Path(DELETED_WORDS_PATH)
+    if not path.exists() or path.stat().st_size == 0:
+        df0 = pd.DataFrame(columns=DELETED_WORDS_COLUMNS)
+        if include_row_id:
+            df0["_row_id"] = []
+        return df0
+
+    try:
+        df = pd.read_csv(path)
+    except Exception:
+        df0 = pd.DataFrame(columns=DELETED_WORDS_COLUMNS)
+        if include_row_id:
+            df0["_row_id"] = []
+        return df0
+
+    for col in DELETED_WORDS_COLUMNS:
+        if col not in df.columns:
+            df[col] = ""
+
+    df = df[DELETED_WORDS_COLUMNS]
+
+    # Backward compatible behavior:
+    # If older versions wrote both 'delete' and 'restore' actions, keep only the
+    # words whose latest action is 'delete' (i.e., currently deleted words).
+    try:
+        df2 = df.copy()
+        df2["word"] = df2["word"].astype(str).map(clean_word)
+        df2["_ts"] = pd.to_datetime(df2["timestamp_utc"], errors="coerce")
+        df2 = df2.sort_values(["word", "_ts"], ascending=[True, True])
+        latest = df2.groupby("word", as_index=False).tail(1)
+        latest = latest[latest["action"].astype(str).str.lower().eq("delete")]
+        df = latest.drop(columns=["_ts"], errors="ignore")
+    except Exception:
+        # If parsing fails, return raw data.
+        pass
+
+    if include_row_id:
+        df = df.copy()
+        df["_row_id"] = list(range(len(df)))
+    return df
+
+
+def remove_deleted_words(words: list[str]) -> bool:
+    """Remove words from deleted_words.csv (used after restoring words)."""
+    targets = [clean_word(w) for w in (words or [])]
+    targets = [w for w in targets if w]
+    if not targets:
+        return False
+
+    path = Path(DELETED_WORDS_PATH)
+    if not path.exists() or path.stat().st_size == 0:
+        return False
+
+    try:
+        df = pd.read_csv(path)
+    except Exception:
+        return False
+
+    if len(df) == 0:
+        return False
+
+    # Ensure missing columns don't crash filtering.
+    if "word" not in df.columns:
+        return False
+
+    df2 = df.copy()
+    df2["word"] = df2["word"].astype(str).map(clean_word)
+    df2 = df2[~df2["word"].isin(set(targets))]
+
+    # If empty, truncate the file.
+    if len(df2) == 0:
+        try:
+            path.write_text("", encoding="utf-8")
+        except Exception:
+            # Fall back to overwriting with header only.
+            pd.DataFrame(columns=DELETED_WORDS_COLUMNS).to_csv(
+                path,
+                index=False,
+                quoting=csv.QUOTE_MINIMAL,
+                escapechar="\\",
+            )
+        return True
+
+    df2.to_csv(
+        path,
+        index=False,
+        quoting=csv.QUOTE_MINIMAL,
+        escapechar="\\",
+    )
+    return True
+
+
+def append_deleted_words(
+    words: list[str],
+    *,
+    action: str = "delete",
+    stats: dict[str, dict[str, int]] | None = None,
+) -> None:
+    """Append deleted/restore words into data/raw/deleted_words.csv.
+
+    Args:
+        words: List of words.
+        action: "delete" or "restore".
+        stats: Optional mapping: word -> {count_correct, count_appear, count_incorrect}.
+            If omitted, counters default to 0.
+    """
+
+    cleaned = [clean_word(w) for w in (words or [])]
+    cleaned = [w for w in cleaned if w]
+    if not cleaned:
+        return
+
+    path = Path(DELETED_WORDS_PATH)
+    path.parent.mkdir(parents=True, exist_ok=True)
+
+    tz_gmt7 = timezone(timedelta(hours=7))
+    ts = datetime.now(tz_gmt7).isoformat(timespec="seconds")
+
+    stats = stats or {}
+    rows: list[dict[str, object]] = []
+    for w in cleaned:
+        s = stats.get(w, {})
+        rows.append(
+            {
+                "timestamp_utc": ts,
+                "action": str(action),
+                "word": w,
+                COUNT_CORRECT_COL: int(s.get(COUNT_CORRECT_COL, 0)),
+                COUNT_APPEAR_COL: int(s.get(COUNT_APPEAR_COL, 0)),
+                COUNT_INCORRECT_COL: int(s.get(COUNT_INCORRECT_COL, 0)),
+            }
+        )
+
+    df = pd.DataFrame(rows, columns=DELETED_WORDS_COLUMNS)
+    write_header = (not path.exists()) or (path.stat().st_size == 0)
+    df.to_csv(
+        path,
+        mode="a",
+        header=write_header,
+        index=False,
+        quoting=csv.QUOTE_MINIMAL,
+        escapechar="\\",
+    )
+
+
 def add_word(df: pd.DataFrame, word: str) -> tuple[pd.DataFrame, bool]:
     """Add a word if it doesn't exist. Returns (df, added)."""
     df = _ensure_schema(df)
@@ -403,6 +561,21 @@ def delete_word(df: pd.DataFrame, word: str) -> tuple[pd.DataFrame, bool]:
     before = len(df)
     df = df[df[WORD_COL] != w]
     return _ensure_schema(df), len(df) != before
+
+
+def delete_words(df: pd.DataFrame, words: list[str]) -> tuple[pd.DataFrame, list[str]]:
+    """Delete multiple words. Returns (df, deleted_words)."""
+    df = _ensure_schema(df)
+    targets = [clean_word(w) for w in (words or [])]
+    targets = [w for w in targets if w]
+    if not targets:
+        return df, []
+
+    target_set = set(targets)
+    mask = df[WORD_COL].isin(target_set)
+    deleted = df.loc[mask, WORD_COL].astype(str).tolist()
+    df2 = df.loc[~mask]
+    return _ensure_schema(df2), sorted(set(deleted))
 
 
 def normalize_appear_counts(df: pd.DataFrame) -> pd.DataFrame:
