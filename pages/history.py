@@ -9,13 +9,46 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from src.database import (
     delete_history_row,
-    remove_deleted_words,
     load_deleted_words,
     load_history,
     load_words,
     save_words,
 )
 from src.utils import add_activity_log
+
+try:
+    # Newer versions provide this helper.
+    from src.database import remove_deleted_words  # type: ignore
+except Exception:
+
+    def remove_deleted_words(words: list[str]) -> bool:  # type: ignore
+        """Fallback for older deployments that don't have remove_deleted_words()."""
+        targets = [str(w).strip().lower() for w in (words or [])]
+        targets = [w for w in targets if w]
+        if not targets:
+            return False
+
+        path = Path("data/raw/deleted_words.csv")
+        if (not path.exists()) or path.stat().st_size == 0:
+            return False
+
+        try:
+            import pandas as pd
+
+            df = pd.read_csv(path)
+            if "word" not in df.columns:
+                return False
+            df2 = df.copy()
+            df2["word"] = df2["word"].astype(str).str.strip().str.lower()
+            df2 = df2[~df2["word"].isin(set(targets))]
+            if len(df2) == 0:
+                path.write_text("", encoding="utf-8")
+                return True
+            df2.to_csv(path, index=False)
+            return True
+        except Exception:
+            return False
+
 
 from datetime import datetime, timedelta, timezone
 
